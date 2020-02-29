@@ -220,7 +220,7 @@ sup {
    * Add the correct display in IE 10.
    */[hidden] {
   display: none;
-}/* COLORS *//*BREAKPOINTS*/.container_logo {
+}/* COLORS *//* FONTS *//*BREAKPOINTS*/.container_logo {
   background: #f9f4dc;
   width: 100%;
   padding: 95px 35px 35px 35px;
@@ -234,6 +234,16 @@ sup {
 
 .container_logo .logo {
   width: 250px;
+}
+
+.container_logoCards {
+  width: 100%;
+  height: 111px;
+  background: #ffffff;
+}
+
+.container_logoCards .logoCards {
+  width: 201px;
 }
 
 @media all and (min-width: 768px) {
