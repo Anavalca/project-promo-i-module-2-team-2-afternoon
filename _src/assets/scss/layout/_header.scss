@@ -1,0 +1,21 @@
+.container_logo { 
+    background: $lightColor;
+    width: 100%;
+    padding: 95px 35px 35px 35px;
+    display: flex;
+    justify-content: center;
+
+    @include forTablet {
+        padding: 350px 174px 31px 175px;
+    }
+    
+    .logo {
+        width: 250px;  
+        
+        @include forTablet {
+            width: 419px;
+        }
+        
+    }
+    
+}

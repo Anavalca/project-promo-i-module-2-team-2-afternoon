@@ -1,0 +1,12 @@
+@mixin titleSection {
+    Font-family: $primaryBoldFont;
+    Font-size: 18px;
+    color:$metalColor;
+}
+
+@mixin forTablet {
+    @media all and (min-width: $tablet) { @content; }
+}
+
+
+
