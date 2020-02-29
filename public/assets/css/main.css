@@ -240,6 +240,16 @@ sup {
   width: 100%;
   height: 111px;
   background: #ffffff;
+  padding: 31px 79px 30px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+  -ms-flex-pack: left;
+  justify-content: left;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .container_logoCards .logoCards {
