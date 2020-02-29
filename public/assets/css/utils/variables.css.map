@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"variables.css","sourcesContent":[]}
+{"version":3,"sources":["utils/variables.scss"],"names":[],"mappings":"AAAA,WAAA,CAAY,cAAA","file":"variables.css","sourcesContent":["/* COLORS */\r\n$mainColor: #000000;\r\n$headerColor: #114E4E;\r\n$bottonColor: #438792; \r\n$secondaryColor:#a2deaf; \r\n$lightColor:#f9f4dc; \r\n$whiteColor:#ffffff;\r\n$primaryColor:#e17334; \r\n$metalColor: #54585A;\r\n\r\n/*BREAKPOINTS*/\r\n$tablet:768px;\r\n$pc:1200px;\r\n\r\n\r\n\r\n"]}

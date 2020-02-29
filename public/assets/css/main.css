@@ -220,6 +220,30 @@ sup {
    * Add the correct display in IE 10.
    */[hidden] {
   display: none;
+}/* COLORS *//*BREAKPOINTS*/.container_logo {
+  background: #f9f4dc;
+  width: 100%;
+  padding: 95px 35px 35px 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.container_logo .logo {
+  width: 250px;
+}
+
+@media all and (min-width: 768px) {
+  .container_logo {
+    padding: 350px 174px 31px 175px;
+  }
+
+  .container_logo .logo {
+    width: 419px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
