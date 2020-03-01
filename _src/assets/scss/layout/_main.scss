@@ -1,13 +1,19 @@
+#colorBlindSVG {
+  display: none;
+}
 .landing__container {
   width: 100%;
   height: calc(100vh - 110px);
   background: #f5f5f5;
+  
 }
 .main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-left: 26px;
+  margin-right: 26px;
 
   .main__title {
     width: 223px;
@@ -21,6 +27,11 @@
     letter-spacing: normal;
     text-align: center;
     color: $primaryColor;
+    @include forTablet {
+      font-size: 24px;
+      width: 278px;
+      height: 31px;
+    }
   }
 
   .main__content {
@@ -37,6 +48,11 @@
     color: $headerColor;
     padding: 0px;
     margin: 0px;
+    @include forTablet {
+      width: 331px;
+      height: 48px;
+      font-size: 16px;
+    }
   }
 
   .main__icons {
@@ -50,13 +66,24 @@
     height: 73.8px;
     margin-top: 17.8px;
 
-    & i {
-      color: #e17334;
-      height: 25px;
-      width: 32px;
-      font-size: 1.4rem;
-      text-align: center;
-      margin-top: 15px;
+    @include forTablet {
+      grid-template-columns: 108px 108px 108px;
+      grid-template-rows: 86px;
+      width: 325px;
+      height: 86px;
+    }
+  }
+  & i {
+    color: #e17334;
+    height: 26px;
+    width: 32px;
+    size: 22.4px;
+    text-align: center;
+    margin-top: 15px;
+
+    @include forTablet {
+      height: 29px;
+      size: 28px;
     }
   }
 
@@ -65,11 +92,15 @@
     font-family: $primaryFont, sans-serif;
     color: $metalColor;
     text-align: center;
-    margin-top: 0px;
+    margin-top: -10px;
+    @include forTablet {
+      font-size: 16px;
+    }
   }
 
   & p {
     display: block;
+    padding-top: 2px;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -82,7 +113,11 @@
   height: 42px;
   border-radius: 21px;
   background-color: $bottonColor;
+  margin-top: 40px;
+  @include forTablet {
 
+    margin-top: 150px;
+  }
 
   & a {
     display: block;
@@ -103,10 +138,7 @@
     text-decoration-line: none;
     text-transform: uppercase;
   }
-
 }
-  
-
 
 .container_logo {
   background: #f5f5f5;
@@ -114,16 +146,25 @@
   padding: 95px 35px 35px 35px;
   display: flex;
   justify-content: center;
+  
+
+    // @include forTablet {
+    //  padding-top: 250px;
+    // }
+}
+
+.logo {
+  width: 250px;
 
   @include forTablet {
-    padding: 350px 174px 31px 175px;
+    width: 419px;
   }
+}
 
-  .logo {
-    width: 250px;
-
-    @include forTablet {
-      width: 419px;
-    }
+@include forTablet {
+  .landing__container {
+    width: 100%;
+    height: calc(100vh - 60px);
+    background: #f5f5f5;
   }
 }

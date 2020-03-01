@@ -220,23 +220,7 @@ sup {
    * Add the correct display in IE 10.
    */[hidden] {
   display: none;
-}/* COLORS *//* FONTS *//*BREAKPOINTS*/.container_logo {
-  background: #f9f4dc;
-  width: 100%;
-  padding: 95px 35px 35px 35px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.container_logo .logo {
-  width: 250px;
-}
-
-.container_logoCards {
+}/* COLORS *//* FONTS *//*BREAKPOINTS*/.container_logoCards {
   width: 100%;
   height: 111px;
   background: #ffffff;
@@ -254,6 +238,10 @@ sup {
 
 .container_logoCards .logoCards {
   width: 201px;
+}
+
+#colorBlindSVG {
+  display: none;
 }
 
 .landing__container {
@@ -276,6 +264,8 @@ sup {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  margin-left: 26px;
+  margin-right: 26px;
 }
 
 .main .main__title {
@@ -320,11 +310,11 @@ sup {
   margin-top: 17.8px;
 }
 
-.main .main__icons i {
+.main i {
   color: #e17334;
-  height: 25px;
+  height: 26px;
   width: 32px;
-  font-size: 1.4rem;
+  size: 22.4px;
   text-align: center;
   margin-top: 15px;
 }
@@ -334,11 +324,12 @@ sup {
   font-family: "Open Sans", sans-serif;
   color: #54585A;
   text-align: center;
-  margin-top: 0px;
+  margin-top: -10px;
 }
 
 .main p {
   display: block;
+  padding-top: 2px;
   -webkit-margin-before: 1em;
   margin-block-start: 1em;
   -webkit-margin-after: 1em;
@@ -354,6 +345,7 @@ sup {
   height: 42px;
   border-radius: 21px;
   background-color: #438792;
+  margin-top: 40px;
 }
 
 .main__button a {
@@ -393,25 +385,51 @@ sup {
   justify-content: center;
 }
 
-.container_logo .logo {
+.logo {
   width: 250px;
 }
 
 @media all and (min-width: 768px) {
-  .container_logo {
-    padding: 350px 174px 31px 175px;
+  .main .main__title {
+    font-size: 24px;
+    width: 278px;
+    height: 31px;
   }
 
-  .container_logo .logo {
+  .main .main__content {
+    width: 331px;
+    height: 48px;
+    font-size: 16px;
+  }
+
+  .main .main__icons {
+    grid-template-columns: 108px 108px 108px;
+    grid-template-rows: 86px;
+    width: 325px;
+    height: 86px;
+  }
+
+  .main i {
+    height: 29px;
+    size: 28px;
+  }
+
+  .main .main__text--icons {
+    font-size: 16px;
+  }
+
+  .main__button {
+    margin-top: 150px;
+  }
+
+  .logo {
     width: 419px;
   }
 
-  .container_logo {
-    padding: 350px 174px 31px 175px;
-  }
-
-  .container_logo .logo {
-    width: 419px;
+  .landing__container {
+    width: 100%;
+    height: calc(100vh - 60px);
+    background: #f5f5f5;
   }
 }
 
