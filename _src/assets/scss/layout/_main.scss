@@ -1,10 +1,18 @@
 #colorBlindSVG {
   display: none;
 }
+
+h1{
+  margin: 0px;
+  padding: 0px;
+}
 .landing__container {
   width: 100%;
-  height: calc(100vh - 110px);
+  
+  // height: calc(100vh - 110px);
   background: #f5f5f5;
+ 
+
   
 }
 .main {
@@ -116,7 +124,9 @@
   margin-top: 40px;
   @include forTablet {
 
-    margin-top: 150px;
+    margin-top: 186px;
+    margin-bottom: 59px;
+
   }
 
   & a {
@@ -148,9 +158,9 @@
   justify-content: center;
   
 
-    // @include forTablet {
-    //  padding-top: 250px;
-    // }
+    @include forTablet {
+     padding: 250px 174px 31px 175px;
+    }
 }
 
 .logo {
@@ -161,10 +171,10 @@
   }
 }
 
-@include forTablet {
-  .landing__container {
-    width: 100%;
-    height: calc(100vh - 60px);
-    background: #f5f5f5;
-  }
-}
+// @include forTablet {
+//   .landing__container {
+//     width: 100%;
+//     height: calc(100vh - 60px);
+//     background: #f5f5f5;
+//   }
+// }
