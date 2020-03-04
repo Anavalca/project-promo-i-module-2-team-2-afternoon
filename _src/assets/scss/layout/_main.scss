@@ -70,6 +70,7 @@ h1 {
     width: 268px;
     height: 73.8px;
     margin-top: 17.8px;
+ 
 
     @include forTablet {
       grid-template-columns: 108px 108px 108px;
@@ -107,6 +108,7 @@ h1 {
     display: block;
     padding: 0px;
     margin:0px;
+   
   }
 }
 
@@ -138,7 +140,7 @@ h1 {
     font-size: 16px;
     font-weight: 600;
     color: #fff;
-    text-decoration-line: none;
+    text-decoration: none;
     text-transform: uppercase;
   }
 }
