@@ -42,7 +42,7 @@ h1 {
   .main__content {
     width: 264.8px;
     height: 38.4px;
-    font-family: $primaryBoldFont;
+    @include primaryBoldFont;
     font-size: 12.8px;
     font-weight: normal;
     font-stretch: normal;

@@ -4,6 +4,16 @@
     color:$metalColor;
 }
 
+@mixin primaryBoldFont {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+@mixin cardBoldFont {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
 @mixin forTablet {
     @media all and (min-width: $tablet) { @content;}
   }
