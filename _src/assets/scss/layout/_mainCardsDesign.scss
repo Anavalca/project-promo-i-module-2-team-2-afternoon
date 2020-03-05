@@ -1,0 +1,581 @@
+// PARTE DISEÑA //
+.containerSectionStyles{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: start;
+    width: 320px;
+    border-left: solid 1px;
+    border-left-color: #d8d8d8 ;
+    border-right: solid 1px;
+    border-right-color: #d8d8d8;
+    border-bottom: solid 1px;
+    border-bottom-color: #d8d8d8;
+    padding-left: 20px;
+    padding-bottom: 30px;
+
+    .separationDesign{
+        width: 280px;
+        
+    }
+   .containerDesign{
+       display: flex;
+       
+       flex-direction: row;
+       
+       font-family: $primaryFont;
+       
+       color: $metalColor;
+       font-size: 18px;
+       
+       .icon{
+           display: inline;
+           color: $primaryColor;
+           font-size: 18px;
+           width: 21px;
+           height: 18px;
+           
+       }
+     
+       .textDesign{
+           display: inline;
+           
+           padding-left: 10px;
+           font-size: 18px;
+           width: 21px;
+           height: 18px;
+       }
+    
+       .iconDirection{
+           .buttonDesign{
+              text-align: end;
+              border-color: #ffffff;
+              
+              .iconDirection1{
+                
+                color: $metalColor;
+                  
+              }
+              .colorDesign{
+                  padding-top: 22px;
+                  display: grid;
+                  grid-template-columns: 1fr 1fr 1fr;
+                  grid-template-rows: auto auto auto;
+                  
+                  .textColorsDesign{
+                    font-family: $primaryFont;
+                    color: $metalColor;
+                    font-size: 14px;
+                    grid-column: 1 / 2;
+                    grid-row: 1 / 2;
+                    
+                      
+                  }
+                  .colorsCard1{
+                    grid-column: 2 / 3;
+                    grid-row: 1 / 2;
+                    padding-bottom: 20px; 
+                    .check{
+                        width: 17px;
+                        height: 17px;
+                    } 
+                  }
+                  .colorPalette1{
+                      grid-column: 3 / 4;
+                      grid-row: 1 / 2;
+                      padding-bottom: 20px;
+                        .containerColorPalette1{
+                            display: inline-block;
+                            background-color: #114e4e;
+                            width: 15px;
+                            height: 15px;
+                            
+                            
+                        }
+                        .containerColorPalette2{
+                            display: inline-block;
+                            background-color: #438792;
+                            width: 15px;
+                            height: 15px;
+                            
+                        }
+                        .containerColorPalette3{
+                            display: inline-block;
+                            background-color: #a2deaf;
+                            width: 15px;
+                            height: 15px;
+                            
+                        }
+                      
+                  }
+                  .colorsCard2{
+                      grid-column: 2 / 3;
+                      grid-row: 2 / 3;
+                      padding-bottom: 20px; 
+                      .check{
+                          width: 17px;
+                          height: 17px;
+                      }
+                  }
+                  .colorPalette2{
+                      grid-column: 3 / 4;
+                      grid-row: 2 / 3;
+                      padding-bottom: 20px; 
+                      .containerColorPalette4{
+                        display: inline-block;
+                        background-color: #420101;
+                        width: 15px;
+                        height: 15px;
+                        
+                    }
+                    .containerColorPalette5{
+                        display: inline-block;
+                        background-color: #bd1010;
+                        width: 15px;
+                        height: 15px;
+                        
+                    }
+                    .containerColorPalette6{
+                        display: inline-block;
+                        background-color: #e95626;
+                        width: 15px;
+                        height: 15px;
+                        
+                    }
+                  }
+                  .colorsCard3{
+                      grid-column: 2 / 3;
+                      grid-row: 3 / 4;
+                      padding-bottom: 30px; 
+                      .check{
+                        width: 17px;
+                        height: 17px;
+                    }
+                  }
+                  .colorPalette3{
+                      grid-column: 3 / 4;
+                      grid-row: 3 / 4;
+                      padding-bottom: 30px; 
+                      .containerColorPalette7{
+                        display: inline-block;
+                        background-color: #3e5b65;
+                        width: 15px;
+                        height: 15px;
+                        
+                    }
+                    .containerColorPalette8{
+                        display: inline-block;
+                        background-color: #eab052;
+                        width: 15px;
+                        height: 15px;
+                        
+                    }
+                    .containerColorPalette9{
+                        display: inline-block;
+                        background-color: #a0c0cf;
+                        width: 15px;
+                        height: 15px;
+                        
+                    }
+                  }
+              }
+          }
+       }
+   }
+
+
+   .containerFillIn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: $primaryFont;
+    color: $metalColor;
+    font-size: 18px;
+    width: 100%;
+    .subContainerFillIn{
+        display: flex;
+        flex-direction: row;
+        font-family: $primaryFont;
+        color: $metalColor;
+        font-size: 18px;
+        .icon{
+            color: $primaryColor;
+            font-size: 18px;
+            width: 21px;
+            height: 18px;
+        }
+        .textDesign{
+            padding-left: 10px;
+        }
+    }
+    .subContainer2FillIn{
+       
+        .iconDirection{
+         padding-right: 20px;
+        }
+    }
+    
+    }  
+
+    .containerShare{
+        display: flex;
+        flex-direction: row;
+        font-family: $primaryFont;
+        color: $metalColor;
+        font-size: 18px;
+        width: 100%;
+        .subContainerShare{
+            .icon{
+                color: $primaryColor;
+                padding-left: 3px;
+                font-size: 18px;
+                width: 21px;
+                height: 18px;
+            }
+            .textDesign{
+                padding-left: 10px;
+            }
+        }
+    
+    }
+// PARTE RELLENA //
+.formCard{
+    .nameCard{
+        display: flex;
+        flex-direction: column;
+        .name{
+            font-family: $primaryFont;
+            font-size: 14px;
+            line-height: 20px;
+            color: #114e4e;
+            padding-bottom: 7px;
+            padding-top: 25px;
+        }
+        .name-input{
+            width: 281px;
+            height: 30px;
+            border: solid 1px;
+            border-color: #a2deaf;
+        }
+        *::-webkit-input-placeholder {
+            /* Google Chrome y Safari */
+            font-family: $primaryFont;
+            font-size: 14px;
+            line-height: 20px;
+            color: #c5c5c5;
+        }
+        *:-moz-placeholder {
+            /* Firefox anterior a 19 */
+            font-family: $primaryFont;
+            font-size: 14px;
+            line-height: 20px;
+            color: #c5c5c5;
+        }
+        *::-moz-placeholder {
+            /* Firefox 19 y superior */
+            font-family: $primaryFont;
+            font-size: 14px;
+            line-height: 20px;
+            color: #c5c5c5;
+        }
+        *:-ms-input-placeholder {
+            /* Internet Explorer 10 y superior */
+            font-family: $primaryFont;
+            font-size: 14px;
+            line-height: 20px;
+            color: #c5c5c5;
+        }
+    }
+    .professionCard{
+        display: flex;
+        flex-direction: column;
+        .profession{
+            font-family: $primaryFont;
+            font-size: 14px;
+            line-height: 20px;
+            color: #114e4e;
+            padding-bottom: 7px;
+            padding-top: 20px;
+        }
+        .profession-input{
+            width: 281px;
+            height: 30px;
+            border: solid 1px;
+            border-color: #a2deaf;
+        }
+        *::-webkit-input-placeholder {
+            /* Google Chrome y Safari */
+            font-family: $primaryFont;
+            font-size: 14px;
+            line-height: 20px;
+            color: #c5c5c5;
+        }
+        *:-moz-placeholder {
+            /* Firefox anterior a 19 */
+            font-family: $primaryFont;
+            font-size: 14px;
+            line-height: 20px;
+            color: #c5c5c5;
+        }
+        *::-moz-placeholder {
+            /* Firefox 19 y superior */
+            font-family: $primaryFont;
+            font-size: 14px;
+            line-height: 20px;
+            color: #c5c5c5;
+        }
+        *:-ms-input-placeholder {
+            /* Internet Explorer 10 y superior */
+            font-family: $primaryFont;
+            font-size: 14px;
+            line-height: 20px;
+            color: #c5c5c5;
+        }
+    }
+    .emailCard{
+        display: flex;
+        flex-direction: column; 
+        .email{
+            font-family: $primaryFont;
+            font-size: 14px;
+            line-height: 20px;
+            color: #114e4e;
+            padding-bottom: 7px;
+            padding-top: 20px;
+        }
+        .email-input{
+            width: 281px;
+            height: 30px;
+            border: solid 1px;
+            border-color: #a2deaf;
+        }
+        *::-webkit-input-placeholder {
+            /* Google Chrome y Safari */
+            font-family: $primaryFont;
+            font-size: 14px;
+            line-height: 20px;
+            color: #c5c5c5;
+        }
+        *:-moz-placeholder {
+            /* Firefox anterior a 19 */
+            font-family: $primaryFont;
+            font-size: 14px;
+            line-height: 20px;
+            color: #c5c5c5;
+        }
+        *::-moz-placeholder {
+            /* Firefox 19 y superior */
+            font-family: $primaryFont;
+            font-size: 14px;
+            line-height: 20px;
+            color: #c5c5c5;
+        }
+        *:-ms-input-placeholder {
+            /* Internet Explorer 10 y superior */
+            font-family: $primaryFont;
+            font-size: 14px;
+            line-height: 20px;
+            color: #c5c5c5;
+        }
+    }
+    .phoneCard{
+        display: flex;
+        flex-direction: column; 
+        .phone{
+            font-family: $primaryFont;
+            font-size: 14px;
+            line-height: 20px;
+            color: #114e4e;
+            padding-bottom: 7px;
+            padding-top: 20px;
+        } 
+        .phone-input{
+            width: 281px;
+            height: 30px;
+            border: solid 1px;
+            border-color: #a2deaf;
+        }
+        *::-webkit-input-placeholder {
+            /* Google Chrome y Safari */
+            font-family: $primaryFont;
+            font-size: 14px;
+            line-height: 20px;
+            color: #c5c5c5;
+        }
+        *:-moz-placeholder {
+            /* Firefox anterior a 19 */
+            font-family: $primaryFont;
+            font-size: 14px;
+            line-height: 20px;
+            color: #c5c5c5;
+        }
+        *::-moz-placeholder {
+            /* Firefox 19 y superior */
+            font-family: $primaryFont;
+            font-size: 14px;
+            line-height: 20px;
+            color: #c5c5c5;
+        }
+        *:-ms-input-placeholder {
+            /* Internet Explorer 10 y superior */
+            font-family: $primaryFont;
+            font-size: 14px;
+            line-height: 20px;
+            color: #c5c5c5;
+        }
+    }
+    .linkedinCard{
+        display: flex;
+        flex-direction: column; 
+        .linkedin{
+            font-family: $primaryFont;
+            font-size: 14px;
+            line-height: 20px;
+            color: #114e4e;
+            padding-bottom: 7px;
+            padding-top: 20px;
+        }
+        .linkedin-input{
+            width: 281px;
+            height: 30px;
+            border: solid 1px;
+            border-color: #a2deaf;
+        }
+        *::-webkit-input-placeholder {
+            /* Google Chrome y Safari */
+            font-family: $primaryFont;
+            font-size: 14px;
+            line-height: 20px;
+            color: #c5c5c5;
+        }
+        *:-moz-placeholder {
+            /* Firefox anterior a 19 */
+            font-family: $primaryFont;
+            font-size: 14px;
+            line-height: 20px;
+            color: #c5c5c5;
+        }
+        *::-moz-placeholder {
+            /* Firefox 19 y superior */
+            font-family: $primaryFont;
+            font-size: 14px;
+            line-height: 20px;
+            color: #c5c5c5;
+        }
+        *:-ms-input-placeholder {
+            /* Internet Explorer 10 y superior */
+            font-family: $primaryFont;
+            font-size: 14px;
+            line-height: 20px;
+            color: #c5c5c5;
+        }
+    }
+    .githubCard{
+        display: flex;
+        flex-direction: column; 
+        padding-bottom: 30px;
+        .github{
+            font-family: $primaryFont;
+            font-size: 14px;
+            line-height: 20px;
+            color: #114e4e;
+            padding-bottom: 7px;
+            padding-top: 20px;
+        }
+        .github-input{
+            width: 281px;
+            height: 30px;
+            border: solid 1px;
+            border-color: #a2deaf;
+        }
+        *::-webkit-input-placeholder {
+            /* Google Chrome y Safari */
+            font-family: $primaryFont;
+            font-size: 14px;
+            line-height: 20px;
+            color: #c5c5c5;
+        }
+        *:-moz-placeholder {
+            /* Firefox anterior a 19 */
+            font-family: $primaryFont;
+            font-size: 14px;
+            line-height: 20px;
+            color: #c5c5c5;
+        }
+        *::-moz-placeholder {
+            /* Firefox 19 y superior */
+            font-family: $primaryFont;
+            font-size: 14px;
+            line-height: 20px;
+            color: #c5c5c5;
+        }
+        *:-ms-input-placeholder {
+            /* Internet Explorer 10 y superior */
+            font-family: $primaryFont;
+            font-size: 14px;
+            line-height: 20px;
+            color: #c5c5c5;
+        }
+    }
+}
+
+// COMPARTE //
+.containerShare{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: $primaryFont;
+    color: $metalColor;
+    font-size: 18px;
+    width: 100%;
+    .subContainerShare{
+        display: flex;
+        flex-direction: row;
+        font-family: $primaryFont;
+        color: $metalColor;
+        font-size: 18px;
+        .icon{
+            padding-top: 10px;
+        }
+        .textDesign{
+            padding-top: 10px;
+        }
+    }
+    .subContainer2Share{
+        .iconDirection{
+            padding-top: 10px;
+            padding-right: 20px;
+        }
+    }
+   
+}
+.Center{
+   margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    .send{
+        
+        background-color: #e17334;
+        border-radius: 12px;
+        width: 199px;
+        height: 50px;
+        .iconSend{
+            width: 22px;
+            height: 25px;
+            color: white;
+            
+        }
+        .textButton{
+            font-family: $primaryFont;
+            font-size: 18px;
+            color: white;
+            padding-left: 9px;
+        }
+        
+    }
+}
+
+}
+
+
