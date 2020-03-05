@@ -1,16 +1,45 @@
+.page {
+  height: 100vh;
+  font-size: 16px;
+}
+
 #colorBlindSVG {
   display: none;
 }
+.container_logo {
+  background: #f5f5f5;
+  width: 100%;
+  padding: 95px 35px 35px 35px;
+  display: flex;
+  justify-content: center;
 
+  @include forTablet {
+    padding: 250px 174px 31px 175px;
+  }
+  
+  @include forPc {
+    padding: 180px 174px 31px 175px;
+  }
+
+  .logo {
+    width: 250px;
+
+    @include forTablet {
+      width: 419px;
+    }
+  }
+}
 h1 {
   margin: 0px;
   padding: 0px;
 }
 .landing__container {
   width: 100%;
-
-  // height: calc(100vh - 110px);
+  height: 85%;
   background: #f5f5f5;
+  @include forTablet {
+    height: 90%;
+  }
 }
 .main {
   display: flex;
@@ -120,8 +149,8 @@ h1 {
   margin-top: 40px;
   margin-bottom: 30px;
   @include forTablet {
-    margin-top: 186px;
-    margin-bottom: 59px;
+    margin-top: 11.63rem;
+    margin-bottom:3.68rem ;
   }
 
   & a {
@@ -145,23 +174,26 @@ h1 {
   }
 }
 
-.container_logo {
-  background: #f5f5f5;
-  width: 100%;
-  padding: 95px 35px 35px 35px;
-  display: flex;
-  justify-content: center;
+// .container_logo {
+//   background: #f5f5f5;
+//   width: 100%;
+//   padding: 95px 35px 35px 35px;
+//   display: flex;
+//   justify-content: center;
 
-  @include forTablet {
-    padding: 250px 174px 31px 175px;
-  }
-}
+//   @include forTablet {
+//     padding: 250px 174px 31px 175px;
+//   }
+//   @include forPc {
+//     padding: 180px 174px 31px 175px;
+//   }
 
-.logo {
-  width: 250px;
+//   .logo {
+//     width: 250px;
 
-  @include forTablet {
-    width: 419px;
-  }
-}
+//     @include forTablet {
+//       width: 419px;
+//     }
+//   }
+// }
 
