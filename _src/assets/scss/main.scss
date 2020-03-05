@@ -1,8 +1,9 @@
 @import "base/reset";
-@import "utils/_variables.scss";
-@import "utils/_mixins.scss";
-@import "layout/headerCards";
+@import "utils/variables";
+@import "utils/mixins";
+@import "layout/structure";
 @import "layout/main";
-@import "layout/mainCards";
-@import "layout/mainCardsDesign";
 @import "layout/footer";
+@import "layout/headerCards";
+@import "layout/mainCardsDesign";
+@import "layout/mainCards";
