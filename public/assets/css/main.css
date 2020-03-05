@@ -1324,6 +1324,23 @@ footer .footer-wrapper .img-container img {
     margin-bottom: 3.68rem;
   }
 
+  .cardWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0 40px;
+    background-color: lightgoldenrodyellow;
+    padding-top: 20px;
+    border: 2px solid red;
+  }
+
   footer .footer-wrapper {
     height: 10%;
     padding: 10px 40px;

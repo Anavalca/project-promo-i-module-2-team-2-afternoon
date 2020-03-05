@@ -1,15 +1,15 @@
-// .cardWrapper {
-//     @include forTablet{
-//     display: flex;
-//     flex-direction: row-reverse;
-//     justify-content: center;
-//     // align-items: baseline;
-//     padding: 0 40px;
-//     background-color: lightgoldenrodyellow;
-//     padding©-top: 20px;
-//     border: 2px solid red;
-//     }
-//   }
+.cardWrapper {
+    @include forTablet{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    // align-items: baseline;
+    padding: 0 40px;
+    background-color: lightgoldenrodyellow;
+    padding-top: 20px;
+    border: 2px solid red;
+    }
+  }
   
   .preview {
     background: url("../images/shiny.jpg") top center no-repeat;
