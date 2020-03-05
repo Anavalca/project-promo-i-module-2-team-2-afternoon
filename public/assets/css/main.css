@@ -396,6 +396,161 @@ h1 {
   text-transform: uppercase;
 }
 
+.preview {
+  background: url("../images/shiny.jpg") top center no-repeat;
+  background-size: cover;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.preview .reset {
+  width: 75px;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-transform: translateX(-85px);
+  transform: translateX(-85px);
+  border: solid 1px #ffffff;
+  border-radius: 15px;
+  background-color: transparent;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  line-height: 1.67;
+  color: #54585a;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.preview .reset:hover {
+  border: 2px solid #114E4E;
+}
+
+.preview .card {
+  height: 400px;
+  width: 270px;
+  border-radius: 2px;
+  background-color: rgba(17, 78, 78, 0.8);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 20px 30px 40px 30px;
+  background-color: #ffffff;
+  width: 240px;
+  height: 329px;
+}
+
+.preview .card .headline {
+  border-left: 5px solid #114E4E;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  margin-top: 23px;
+  margin-bottom: 10px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.preview .card .headline .name {
+  text-transform: capitalize;
+  font-family: "Montserrat", sans-serif;
+  font-weight: "Montserrat", sans-serif;
+  font-size: 1.125rem;
+  line-height: 20px;
+  color: #114E4E;
+  padding-left: 20px;
+  margin-top: 0px;
+  margin-bottom: 2px;
+}
+
+.preview .card .headline .role {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #54585A;
+  padding-left: 20px;
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+
+.preview .card .image {
+  background: url("../images/queen.gif") top center no-repeat;
+  background-size: cover;
+  width: 240px;
+  height: 200px;
+}
+
+.socialKit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 4px;
+  height: 50px;
+  width: 100%;
+  padding-right: 62px;
+  padding-left: 20px;
+  margin-top: 7px;
+}
+
+.socialKit .list {
+  height: 32px;
+  opacity: 0.6;
+  list-style: none;
+}
+
+.socialKit .list .btn {
+  border: solid 2px green;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  margin: 0px 5px 15px 5px;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 footer {
   font-size: 16px;
 }
