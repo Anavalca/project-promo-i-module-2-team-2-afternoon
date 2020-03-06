@@ -1290,7 +1290,7 @@ footer .footer-wrapper .img-container img {
   }
 
   .landing__container .container_logo {
-    padding: 350px 174px 31px 175px;
+    padding: 80px 174px 31px 175px;
   }
 
   .landing__container .container_logo .logo {
@@ -1367,11 +1367,6 @@ footer .footer-wrapper .img-container img {
 @media all and (min-width: 1200px) {
   .landing__container .container_logo {
     padding-top: 80px;
-  }
-
-  .landing__container .main__button {
-    margin-top: 10px;
-    margin-bottom: 10px;
   }
 }
 
