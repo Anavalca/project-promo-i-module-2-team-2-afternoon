@@ -422,7 +422,11 @@ footer .footer-wrapper .img-container {
   margin: 0.75rem;
 }
 
-footer .footer-wrapper .img-container img {
+footer .footer-wrapper .img-container a {
+  padding: 10px;
+}
+
+footer .footer-wrapper .img-container a img {
   height: 100%;
 }
 
@@ -1331,7 +1335,7 @@ footer .footer-wrapper .img-container img {
   }
 
   footer .footer-wrapper {
-    height: 10%;
+    height: 60px;
     padding: 10px 40px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;

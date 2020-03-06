@@ -11,7 +11,7 @@ footer {
         justify-content: center;
         align-items: center;
         @include forTablet {
-            height: 10%;
+            height: 60px;
             padding: 10px 40px;
             flex-direction: row;
             justify-content: space-between;
@@ -32,8 +32,11 @@ footer {
         .img-container {
             height: 2.5rem;
             margin: 0.75rem;
-            img {
-                height: 100%;
+            a {
+                padding: 10px;
+                img {
+                    height: 100%;
+                }
             }
         }
     }
