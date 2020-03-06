@@ -5,183 +5,198 @@
     margin: auto;
     align-items: start;
     width: 320px;
-    border-left: solid 1px;
-    border-left-color: #d8d8d8 ;
-    border-right: solid 1px;
-    border-right-color: #d8d8d8;
-    border-bottom: solid 1px;
-    border-bottom-color: #d8d8d8;
+  
     padding-left: 20px;
     padding-bottom: 30px;
+    .containerDesign{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-family: $primaryFont;
+        color: $metalColor;
+        font-size: 18px;
+        width: 100%;
 
+        .subContainerDesign{
+            padding-top: 27px;
+            display: flex;
+            flex-direction: row;
+            font-family: $primaryFont;
+            color: $metalColor;
+            font-size: 18px; 
+            .icon{
+                display: inline;
+                color: $primaryColor;
+                font-size: 18px;
+                width: 21px;
+                height: 18px;
+                
+            }
+          
+            .textDesign{
+                display: inline;
+                
+                padding-left: 10px;
+                font-size: 18px;
+                width: 21px;
+                height: 18px;
+            }  
+        }
+        .subContainer2Design{
+            padding-top: 27px;
+            display: flex;
+            flex-direction: row;
+            font-family: $primaryFont;
+            color: $metalColor;
+            font-size: 18px; 
+            .iconDirection{
+                padding-right: 20px;
+            }
+        }
+    }   
+     
+     
+        
+    .containerGrid{
+        
+        .colorDesign{
+            padding-top: 22px;
+            display: grid;
+            grid-template-columns: 65% 38% 70%;
+            grid-template-rows: auto auto auto;
+            
+            
+            .textColorsDesign{
+              font-family: $primaryFont;
+              color: $metalColor;
+              font-size: 14px;
+              grid-column: 1 / 2;
+              grid-row: 1 / 2;
+              
+              
+                
+            }
+            .colorsCard1{
+              grid-column: 2 / 3;
+              grid-row: 1 / 2;
+              padding-bottom: 20px; 
+              
+              .check{
+                  width: 17px;
+                  height: 17px;
+              } 
+            }
+            .colorPalette1{
+                grid-column: 3 / 4;
+                grid-row: 1 / 2;
+                padding-bottom: 20px;
+                  .containerColorPalette1{
+                      display: inline-block;
+                      background-color: #114e4e;
+                      width: 30px;
+                      height: 25px;
+                      
+                      
+                  }
+                  .containerColorPalette2{
+                      display: inline-block;
+                      background-color: #438792;
+                      width: 30px;
+                      height: 25px;
+                      
+                  }
+                  .containerColorPalette3{
+                      display: inline-block;
+                      background-color: #a2deaf;
+                      width: 30px;
+                      height: 25px;
+                      
+                      
+                  }
+                
+            }
+            .colorsCard2{
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+                padding-bottom: 20px; 
+                .check{
+                    width: 17px;
+                    height: 17px;
+                }
+            }
+            .colorPalette2{
+                grid-column: 3 / 4;
+                grid-row: 2 / 3;
+                padding-bottom: 20px; 
+                .containerColorPalette4{
+                  display: inline-block;
+                  background-color: #420101;
+                  width: 30px;
+                  height: 25px;
+                  
+              }
+              .containerColorPalette5{
+                  display: inline-block;
+                  background-color: #bd1010;
+                  width: 30px;
+                  height: 25px;
+                  
+              }
+              .containerColorPalette6{
+                  display: inline-block;
+                  background-color: #e95626;
+                  width: 30px;
+                  height: 25px;
+                  
+              }
+            }
+            .colorsCard3{
+                grid-column: 2 / 3;
+                grid-row: 3 / 4;
+                padding-bottom: 30px; 
+                .check{
+                  width: 17px;
+                  height: 17px;
+              }
+            }
+            .colorPalette3{
+                grid-column: 3 / 4;
+                grid-row: 3 / 4;
+                padding-bottom: 30px; 
+                .containerColorPalette7{
+                  display: inline-block;
+                  background-color: #3e5b65;
+                  width: 30px;
+                  height: 25px;
+                  
+              }
+              .containerColorPalette8{
+                  display: inline-block;
+                  background-color: #eab052;
+                  width: 30px;
+                  height: 25px;
+                  
+              }
+              .containerColorPalette9{
+                  display: inline-block;
+                  background-color: #a0c0cf;
+                  width: 30px;
+                  height: 25px;
+                  
+              }
+            }
+        }
+
+    }
+               
+           
+        
+    
     .separationDesign{
         width: 280px;
         
     }
-   .containerDesign{
-       display: flex;
-       
-       flex-direction: row;
-       
-       font-family: $primaryFont;
-       
-       color: $metalColor;
-       font-size: 18px;
-       
-       .icon{
-           display: inline;
-           color: $primaryColor;
-           font-size: 18px;
-           width: 21px;
-           height: 18px;
-           
-       }
-     
-       .textDesign{
-           display: inline;
-           
-           padding-left: 10px;
-           font-size: 18px;
-           width: 21px;
-           height: 18px;
-       }
-    
-       .iconDirection{
-           .buttonDesign{
-              text-align: end;
-              border-color: #ffffff;
-              
-              .iconDirection1{
-                
-                color: $metalColor;
-                  
-              }
-              .colorDesign{
-                  padding-top: 22px;
-                  display: grid;
-                  grid-template-columns: 1fr 1fr 1fr;
-                  grid-template-rows: auto auto auto;
-                  
-                  .textColorsDesign{
-                    font-family: $primaryFont;
-                    color: $metalColor;
-                    font-size: 14px;
-                    grid-column: 1 / 2;
-                    grid-row: 1 / 2;
-                    
-                      
-                  }
-                  .colorsCard1{
-                    grid-column: 2 / 3;
-                    grid-row: 1 / 2;
-                    padding-bottom: 20px; 
-                    .check{
-                        width: 17px;
-                        height: 17px;
-                    } 
-                  }
-                  .colorPalette1{
-                      grid-column: 3 / 4;
-                      grid-row: 1 / 2;
-                      padding-bottom: 20px;
-                        .containerColorPalette1{
-                            display: inline-block;
-                            background-color: #114e4e;
-                            width: 15px;
-                            height: 15px;
-                            
-                            
-                        }
-                        .containerColorPalette2{
-                            display: inline-block;
-                            background-color: #438792;
-                            width: 15px;
-                            height: 15px;
-                            
-                        }
-                        .containerColorPalette3{
-                            display: inline-block;
-                            background-color: #a2deaf;
-                            width: 15px;
-                            height: 15px;
-                            
-                        }
-                      
-                  }
-                  .colorsCard2{
-                      grid-column: 2 / 3;
-                      grid-row: 2 / 3;
-                      padding-bottom: 20px; 
-                      .check{
-                          width: 17px;
-                          height: 17px;
-                      }
-                  }
-                  .colorPalette2{
-                      grid-column: 3 / 4;
-                      grid-row: 2 / 3;
-                      padding-bottom: 20px; 
-                      .containerColorPalette4{
-                        display: inline-block;
-                        background-color: #420101;
-                        width: 15px;
-                        height: 15px;
-                        
-                    }
-                    .containerColorPalette5{
-                        display: inline-block;
-                        background-color: #bd1010;
-                        width: 15px;
-                        height: 15px;
-                        
-                    }
-                    .containerColorPalette6{
-                        display: inline-block;
-                        background-color: #e95626;
-                        width: 15px;
-                        height: 15px;
-                        
-                    }
-                  }
-                  .colorsCard3{
-                      grid-column: 2 / 3;
-                      grid-row: 3 / 4;
-                      padding-bottom: 30px; 
-                      .check{
-                        width: 17px;
-                        height: 17px;
-                    }
-                  }
-                  .colorPalette3{
-                      grid-column: 3 / 4;
-                      grid-row: 3 / 4;
-                      padding-bottom: 30px; 
-                      .containerColorPalette7{
-                        display: inline-block;
-                        background-color: #3e5b65;
-                        width: 15px;
-                        height: 15px;
-                        
-                    }
-                    .containerColorPalette8{
-                        display: inline-block;
-                        background-color: #eab052;
-                        width: 15px;
-                        height: 15px;
-                        
-                    }
-                    .containerColorPalette9{
-                        display: inline-block;
-                        background-color: #a0c0cf;
-                        width: 15px;
-                        height: 15px;
-                        
-                    }
-                  }
-              }
-          }
-       }
-   }
+
 
 
    .containerFillIn{
@@ -203,15 +218,18 @@
             font-size: 18px;
             width: 21px;
             height: 18px;
+            padding-top: 10px;
         }
         .textDesign{
             padding-left: 10px;
+            padding-top: 10px;
         }
     }
     .subContainer2FillIn{
        
         .iconDirection{
          padding-right: 20px;
+         padding-top: 10px;
         }
     }
     
@@ -332,6 +350,41 @@
             color: #c5c5c5;
         }
     }
+
+    .addImage{
+        font-family: $primaryFont;
+        font-size: 14px;
+        line-height: 20px;
+        color: #114e4e;
+        padding-bottom: 7px;
+        padding-top: 20px;
+       
+    }
+    .containerAdd{
+        display: flex;
+        flex-direction: row;
+        
+
+        .addImg{
+            margin-right: 20px;
+            background-color: #e17334;
+            font-family: $primaryFont;
+            font-size: 14px;
+            line-height: 20px;
+            color: white;
+            border-radius: 3px;
+            width: 140px;
+            height: 30px;
+        }
+        .search{
+            width: 30px;
+            height: 30px;
+            border: solid 1px;
+            border-color: #a2deaf;
+            
+        }
+    }
+
     .emailCard{
         display: flex;
         flex-direction: column; 
@@ -549,7 +602,7 @@
     }
    
 }
-.Center{
+.createCards{
    margin: auto;
     padding-top: 30px;
     padding-bottom: 30px;
