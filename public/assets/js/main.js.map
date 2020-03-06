@@ -1,1 +1,1 @@
-{"version":3,"sources":["01-arrow.js","02-palette.js","03-form.js","04-socials.js","main.js"],"names":[],"mappings":"AAAA;ACAA;ACAA;ACAA;ACAA;AACA;AACA;AACA","file":"main.js","sourcesContent":["'hola 1'","'hola 2'","","","'use strict';\n\nconsole.log('>> Ready :)');\n"]}
+{"version":3,"sources":["01-arrow.js","02-palette.js","03-form.js","04-socials.js","main.js"],"names":[],"mappings":"AAAA;AACA;ACDA;ACAA;ACAA;ACAA;AACA;AACA;AACA","file":"main.js","sourcesContent":["'hola 1'\nconsole.log('hola')","'hola 2'","","","'use strict';\n\nconsole.log('>> Ready :)');\n"]}
