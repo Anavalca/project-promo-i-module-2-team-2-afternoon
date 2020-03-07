@@ -1293,7 +1293,6 @@ footer .footer-wrapper .img-container a img {
   font-weight: "Montserrat", sans-serif;
   font-size: 1.125rem;
   line-height: 20px;
-  color: #114E4E;
   padding-left: 20px;
   margin-top: 0px;
   margin-bottom: 2px;
@@ -1342,7 +1341,7 @@ footer .footer-wrapper .img-container a img {
 }
 
 .socialKit .list .btn {
-  border: solid 2px green;
+  border: solid 2px;
   border-radius: 50%;
   width: 32px;
   height: 32px;
@@ -1363,7 +1362,7 @@ footer .footer-wrapper .img-container a img {
   border-left: solid 5px #438792;
 }
 
-.colorPalette1 .headline .name {
+.colorPalette1 .headline h2 {
   color: #114E4E;
 }
 
@@ -1371,7 +1370,7 @@ footer .footer-wrapper .img-container a img {
   border-left: solid 5px #bd1010;
 }
 
-.colorPalette2 .headline .name {
+.colorPalette2 .headline h2 {
   color: #420101;
 }
 
@@ -1379,7 +1378,7 @@ footer .footer-wrapper .img-container a img {
   border-left: solid 5px #eab052;
 }
 
-.colorPalette3 .headline .name {
+.colorPalette3 .headline h2 {
   color: #3e5b65;
 }
 

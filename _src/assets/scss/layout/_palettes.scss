@@ -2,7 +2,7 @@
   .headline {
     border-left: solid 5px $bottonColor;
 
-    .name {
+    h2 {
       color: $headerColor;
     }
   }
@@ -12,7 +12,7 @@
   .headline {
     border-left: solid 5px $secondPalette;
 
-    .name {
+    h2 {
       color: $secondPaletteText;
     }
   }
@@ -22,7 +22,7 @@
     .headline {
       border-left: solid 5px $thirdPalette;
   
-      .name {
+      h2 {
         color: $thirdPaletteText;
       }
     }
