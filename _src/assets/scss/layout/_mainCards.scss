@@ -13,11 +13,14 @@
   .preview {
     background: url("../images/shiny.jpg") top center no-repeat;
     background-size: cover;
-    width: 70%;
     height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @include forPc {
+      width: 70%;
+    }
   
     .reset {
       width: 75px;
