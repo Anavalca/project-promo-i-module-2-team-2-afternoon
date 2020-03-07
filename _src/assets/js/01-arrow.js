@@ -1,67 +1,47 @@
 'use strict'
 
-// Elementos de la paleta
+const topDesign = document.querySelector('.containerDesign');
+const bottomDesign = document.querySelector('.containerGrid');
+const topFill = document.querySelector('.containerFillIn');
+const bottomFill = document.querySelector('#form-container');
+const topShare = document.querySelector('.containerShare');
+const bottomShare = document.querySelector('.createCards');
 
-const TopDesign = document.querySelector('.containerDesign');
-const BottomDesign = document.querySelector('.containerGrid');
-const TopFill = document.querySelector('.containerFillIn');
-const BottomFill = document.querySelector('#form-container');
-const TopShare = document.querySelector('.containerShare');
-const BottomShare = document.querySelector('.createCards');
-
-const arrowDesign = document.querySelector('#arrow-design');
-const arrowFill = document.querySelector('#arrow-fill');
+const arrowDesign = document.querySelector('.iconDirection1');
+const arrowFill = document.querySelector('.iconDirection2');
 const arrowShare = document.querySelector('#arrow-share');
 
-var flag = 0;
 function toggleDesign(){
-    if(flag === 0){
-        BottomDesign.classList.toggle('action');
-        BottomDesign.classList.remove('hidden');
-        flag = 1;
-    }
-    else{
-        BottomDesign.classList.toggle('hidden');
-        BottomDesign.classList.remove('action');
-        flag = 0;
-    }
-    BottomFill.classList.remove('action');
-    BottomShare.classList.remove('action');
+    bottomDesign.classList.toggle('action');
+    bottomFill.classList.remove('action');
+    bottomShare.classList.remove('action');
 
-    arrowDesign.classList.toggle('form-arrow-collapse');
-    arrowFill.classList.remove('form-arrow-collapse');
-    arrowShare.classList.remove('form-arrow-collapse');
+    arrowDesign.classList.toggle('arrow-rotate');
+    arrowFill.classList.remove('arrow-rotate');
+    arrowShare.classList.remove('arrow-rotate');
 }
 
 function toggleFill() {
-    if(flag === 0){
-        BottomFill.classList.toggle('action');
-        BottomFill.classList.remove('hidden');
-        flag = 1;
-    }
-    else{
-        BottomFill.classList.toggle('hidden');
-        BottomFill.classList.remove('action');
-        flag = 0;
-    }
+    bottomFill.classList.toggle('action');
+    bottomDesign.classList.remove('action');
+    bottomShare.classList.remove('action');
 
-    BottomDesign.classList.remove('action');
-    BottomShare.classList.remove('action');
+    arrowFill.classList.toggle('arrow-rotate');
+    arrowDesign.classList.remove('arrow-rotate');
+    arrowShare.classList.remove('arrow-rotate');
 
-    arrowFill.classList.toggle('form-arrow-collapse');
-    arrowDesign.classList.remove('form-arrow-collapse');
-    arrowShare.classList.remove('form-arrow-collapse');
 }
+
 function toggleShare() {
-    formBottomShare.classList.toggle('form-bottom-collapse');
-    formBottomDesign.classList.remove('form-bottom-collapse');
-    formBottomFill.classList.remove('form-bottom-collapse');
+    bottomShare.classList.toggle('action');
+    bottomDesign.classList.remove('action');
+    bottomFill.classList.remove('action');
 
-    arrowShare.classList.toggle('form-arrow-collapse');
-    arrowFill.classList.remove('form-arrow-collapse');
-    arrowDesign.classList.remove('form-arrow-collapse');
+    arrowFill.classList.toggle('arrow-rotate');
+    arrowDesign.classList.remove('arrow-rotate');
+    arrowShare.classList.remove('arrow-rotate');
 }
 
-TopDesign.addEventListener('click', toggleDesign);
-TopFill.addEventListener('click', toggleFill);
-TopShare.addEventListener('click', toggleShare);
+topDesign.addEventListener('click', toggleDesign);
+topFill.addEventListener('click', toggleFill);
+topShare.addEventListener('click', toggleShare);

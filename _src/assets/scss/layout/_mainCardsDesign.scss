@@ -51,6 +51,7 @@
             font-size: 18px; 
             .iconDirection{
                 padding-right: 20px;
+
             }
         }
     }   
@@ -58,8 +59,12 @@
      
         
     .containerGrid{
+     
                 
-        .colorDesign{
+        .colorDesign{ 
+            // height: 0px;
+            // transition: max-height 0.5s;
+            // overflow: hidden;
             padding-top: 22px;
             display: grid;
             grid-template-columns: 65% 38% 70%;
@@ -197,7 +202,7 @@
         
     }
 
-
+}
 
    .containerFillIn{
     display: flex;
@@ -207,33 +212,34 @@
     color: $metalColor;
     font-size: 18px;
     width: 100%;
-    .subContainerFillIn{
-        display: flex;
-        flex-direction: row;
-        font-family: $primaryFont;
-        color: $metalColor;
-        font-size: 18px;
-        .icon{
-            color: $primaryColor;
+        .subContainerFillIn{
+            display: flex;
+            flex-direction: row;
+            font-family: $primaryFont;
+            color: $metalColor;
             font-size: 18px;
-            width: 21px;
-            height: 18px;
-            padding-top: 10px;
+            .icon{
+                color: $primaryColor;
+                font-size: 18px;
+                width: 21px;
+                height: 18px;
+                padding-top: 10px;
+            }
+            .textDesign{
+                padding-left: 10px;
+                padding-top: 10px;
+            }
         }
-        .textDesign{
-            padding-left: 10px;
+        .subContainer2FillIn{
+        
+            .iconDirection{
+            padding-right: 20px;
             padding-top: 10px;
+            }
         }
-    }
-    .subContainer2FillIn{
+        
        
-        .iconDirection{
-         padding-right: 20px;
-         padding-top: 10px;
-        }
-    }
-    
-    }  
+    }   
 
     .containerShare{
         display: flex;
@@ -258,6 +264,11 @@
     }
 // PARTE RELLENA //
 .formCard{
+    max-height: 0px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+
+    
     .nameCard{
         display: flex;
         flex-direction: column;
@@ -602,13 +613,16 @@
     }
    
 }
+
 .createCards{
-   margin: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    height: 0px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+    margin: auto;
     
     .send{
-        
+        margin-top: 30px;
+        margin-bottom: 30px;        
         background-color: #e17334;
         border-radius: 12px;
         width: 199px;
@@ -628,7 +642,3 @@
         
     }
 }
-
-}
-
-

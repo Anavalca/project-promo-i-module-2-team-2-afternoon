@@ -1,9 +1,12 @@
-.hidden {
-    height: 0px;
-    transition: max-height 0.5s;
-    overflow: hidden;
+.action {
+    max-height: 700px;
 }
 
-.action {
-    height: 170px;
+.arrow-rotate {
+    transform: rotate(180deg);
+    
+    &:hover {
+       color: $primaryColor;
+    }
+    
 }

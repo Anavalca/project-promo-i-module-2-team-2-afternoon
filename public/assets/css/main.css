@@ -675,7 +675,7 @@ footer .footer-wrapper .img-container a img {
   width: 280px;
 }
 
-.containerSectionStyles .containerFillIn {
+.containerFillIn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -692,7 +692,7 @@ footer .footer-wrapper .img-container a img {
   width: 100%;
 }
 
-.containerSectionStyles .containerFillIn .subContainerFillIn {
+.containerFillIn .subContainerFillIn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -705,7 +705,7 @@ footer .footer-wrapper .img-container a img {
   font-size: 18px;
 }
 
-.containerSectionStyles .containerFillIn .subContainerFillIn .icon {
+.containerFillIn .subContainerFillIn .icon {
   color: #e17334;
   font-size: 18px;
   width: 21px;
@@ -713,17 +713,17 @@ footer .footer-wrapper .img-container a img {
   padding-top: 10px;
 }
 
-.containerSectionStyles .containerFillIn .subContainerFillIn .textDesign {
+.containerFillIn .subContainerFillIn .textDesign {
   padding-left: 10px;
   padding-top: 10px;
 }
 
-.containerSectionStyles .containerFillIn .subContainer2FillIn .iconDirection {
+.containerFillIn .subContainer2FillIn .iconDirection {
   padding-right: 20px;
   padding-top: 10px;
 }
 
-.containerSectionStyles .containerShare {
+.containerShare {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -737,7 +737,7 @@ footer .footer-wrapper .img-container a img {
   width: 100%;
 }
 
-.containerSectionStyles .containerShare .subContainerShare .icon {
+.containerShare .subContainerShare .icon {
   color: #e17334;
   padding-left: 3px;
   font-size: 18px;
@@ -745,11 +745,18 @@ footer .footer-wrapper .img-container a img {
   height: 18px;
 }
 
-.containerSectionStyles .containerShare .subContainerShare .textDesign {
+.containerShare .subContainerShare .textDesign {
   padding-left: 10px;
 }
 
-.containerSectionStyles .formCard .nameCard {
+.formCard {
+  max-height: 0px;
+  -webkit-transition: max-height 0.5s;
+  transition: max-height 0.5s;
+  overflow: hidden;
+}
+
+.formCard .nameCard {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -759,7 +766,7 @@ footer .footer-wrapper .img-container a img {
   flex-direction: column;
 }
 
-.containerSectionStyles .formCard .nameCard .name {
+.formCard .nameCard .name {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 20px;
@@ -768,14 +775,14 @@ footer .footer-wrapper .img-container a img {
   padding-top: 25px;
 }
 
-.containerSectionStyles .formCard .nameCard .name-input {
+.formCard .nameCard .name-input {
   width: 281px;
   height: 30px;
   border: solid 1px;
   border-color: #a2deaf;
 }
 
-.containerSectionStyles .formCard .nameCard *::-webkit-input-placeholder {
+.formCard .nameCard *::-webkit-input-placeholder {
  /* Google Chrome y Safari */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -783,7 +790,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.containerSectionStyles .formCard .nameCard *:-moz-placeholder {
+.formCard .nameCard *:-moz-placeholder {
  /* Firefox anterior a 19 */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -791,7 +798,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.containerSectionStyles .formCard .nameCard *::-moz-placeholder {
+.formCard .nameCard *::-moz-placeholder {
  /* Firefox 19 y superior */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -799,7 +806,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.containerSectionStyles .formCard .nameCard *:-ms-input-placeholder {
+.formCard .nameCard *:-ms-input-placeholder {
  /* Internet Explorer 10 y superior */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -807,7 +814,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.containerSectionStyles .formCard .professionCard {
+.formCard .professionCard {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -817,7 +824,7 @@ footer .footer-wrapper .img-container a img {
   flex-direction: column;
 }
 
-.containerSectionStyles .formCard .professionCard .profession {
+.formCard .professionCard .profession {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 20px;
@@ -826,14 +833,14 @@ footer .footer-wrapper .img-container a img {
   padding-top: 20px;
 }
 
-.containerSectionStyles .formCard .professionCard .profession-input {
+.formCard .professionCard .profession-input {
   width: 281px;
   height: 30px;
   border: solid 1px;
   border-color: #a2deaf;
 }
 
-.containerSectionStyles .formCard .professionCard *::-webkit-input-placeholder {
+.formCard .professionCard *::-webkit-input-placeholder {
  /* Google Chrome y Safari */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -841,7 +848,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.containerSectionStyles .formCard .professionCard *:-moz-placeholder {
+.formCard .professionCard *:-moz-placeholder {
  /* Firefox anterior a 19 */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -849,7 +856,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.containerSectionStyles .formCard .professionCard *::-moz-placeholder {
+.formCard .professionCard *::-moz-placeholder {
  /* Firefox 19 y superior */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -857,7 +864,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.containerSectionStyles .formCard .professionCard *:-ms-input-placeholder {
+.formCard .professionCard *:-ms-input-placeholder {
  /* Internet Explorer 10 y superior */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -865,7 +872,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.containerSectionStyles .formCard .addImage {
+.formCard .addImage {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 20px;
@@ -874,7 +881,7 @@ footer .footer-wrapper .img-container a img {
   padding-top: 20px;
 }
 
-.containerSectionStyles .formCard .containerAdd {
+.formCard .containerAdd {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -884,7 +891,7 @@ footer .footer-wrapper .img-container a img {
   flex-direction: row;
 }
 
-.containerSectionStyles .formCard .containerAdd .addImg {
+.formCard .containerAdd .addImg {
   margin-right: 20px;
   background-color: #e17334;
   font-family: "Open Sans", sans-serif;
@@ -896,14 +903,14 @@ footer .footer-wrapper .img-container a img {
   height: 30px;
 }
 
-.containerSectionStyles .formCard .containerAdd .search {
+.formCard .containerAdd .search {
   width: 30px;
   height: 30px;
   border: solid 1px;
   border-color: #a2deaf;
 }
 
-.containerSectionStyles .formCard .emailCard {
+.formCard .emailCard {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -913,7 +920,7 @@ footer .footer-wrapper .img-container a img {
   flex-direction: column;
 }
 
-.containerSectionStyles .formCard .emailCard .email {
+.formCard .emailCard .email {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 20px;
@@ -922,14 +929,14 @@ footer .footer-wrapper .img-container a img {
   padding-top: 20px;
 }
 
-.containerSectionStyles .formCard .emailCard .email-input {
+.formCard .emailCard .email-input {
   width: 281px;
   height: 30px;
   border: solid 1px;
   border-color: #a2deaf;
 }
 
-.containerSectionStyles .formCard .emailCard *::-webkit-input-placeholder {
+.formCard .emailCard *::-webkit-input-placeholder {
  /* Google Chrome y Safari */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -937,7 +944,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.containerSectionStyles .formCard .emailCard *:-moz-placeholder {
+.formCard .emailCard *:-moz-placeholder {
  /* Firefox anterior a 19 */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -945,7 +952,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.containerSectionStyles .formCard .emailCard *::-moz-placeholder {
+.formCard .emailCard *::-moz-placeholder {
  /* Firefox 19 y superior */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -953,7 +960,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.containerSectionStyles .formCard .emailCard *:-ms-input-placeholder {
+.formCard .emailCard *:-ms-input-placeholder {
  /* Internet Explorer 10 y superior */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -961,7 +968,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.containerSectionStyles .formCard .phoneCard {
+.formCard .phoneCard {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -971,7 +978,7 @@ footer .footer-wrapper .img-container a img {
   flex-direction: column;
 }
 
-.containerSectionStyles .formCard .phoneCard .phone {
+.formCard .phoneCard .phone {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 20px;
@@ -980,14 +987,14 @@ footer .footer-wrapper .img-container a img {
   padding-top: 20px;
 }
 
-.containerSectionStyles .formCard .phoneCard .phone-input {
+.formCard .phoneCard .phone-input {
   width: 281px;
   height: 30px;
   border: solid 1px;
   border-color: #a2deaf;
 }
 
-.containerSectionStyles .formCard .phoneCard *::-webkit-input-placeholder {
+.formCard .phoneCard *::-webkit-input-placeholder {
  /* Google Chrome y Safari */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -995,7 +1002,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.containerSectionStyles .formCard .phoneCard *:-moz-placeholder {
+.formCard .phoneCard *:-moz-placeholder {
  /* Firefox anterior a 19 */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -1003,7 +1010,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.containerSectionStyles .formCard .phoneCard *::-moz-placeholder {
+.formCard .phoneCard *::-moz-placeholder {
  /* Firefox 19 y superior */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -1011,7 +1018,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.containerSectionStyles .formCard .phoneCard *:-ms-input-placeholder {
+.formCard .phoneCard *:-ms-input-placeholder {
  /* Internet Explorer 10 y superior */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -1019,7 +1026,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.containerSectionStyles .formCard .linkedinCard {
+.formCard .linkedinCard {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1029,7 +1036,7 @@ footer .footer-wrapper .img-container a img {
   flex-direction: column;
 }
 
-.containerSectionStyles .formCard .linkedinCard .linkedin {
+.formCard .linkedinCard .linkedin {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 20px;
@@ -1038,14 +1045,14 @@ footer .footer-wrapper .img-container a img {
   padding-top: 20px;
 }
 
-.containerSectionStyles .formCard .linkedinCard .linkedin-input {
+.formCard .linkedinCard .linkedin-input {
   width: 281px;
   height: 30px;
   border: solid 1px;
   border-color: #a2deaf;
 }
 
-.containerSectionStyles .formCard .linkedinCard *::-webkit-input-placeholder {
+.formCard .linkedinCard *::-webkit-input-placeholder {
  /* Google Chrome y Safari */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -1053,7 +1060,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.containerSectionStyles .formCard .linkedinCard *:-moz-placeholder {
+.formCard .linkedinCard *:-moz-placeholder {
  /* Firefox anterior a 19 */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -1061,7 +1068,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.containerSectionStyles .formCard .linkedinCard *::-moz-placeholder {
+.formCard .linkedinCard *::-moz-placeholder {
  /* Firefox 19 y superior */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -1069,7 +1076,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.containerSectionStyles .formCard .linkedinCard *:-ms-input-placeholder {
+.formCard .linkedinCard *:-ms-input-placeholder {
  /* Internet Explorer 10 y superior */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -1077,7 +1084,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.containerSectionStyles .formCard .githubCard {
+.formCard .githubCard {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1088,7 +1095,7 @@ footer .footer-wrapper .img-container a img {
   padding-bottom: 30px;
 }
 
-.containerSectionStyles .formCard .githubCard .github {
+.formCard .githubCard .github {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 20px;
@@ -1097,14 +1104,14 @@ footer .footer-wrapper .img-container a img {
   padding-top: 20px;
 }
 
-.containerSectionStyles .formCard .githubCard .github-input {
+.formCard .githubCard .github-input {
   width: 281px;
   height: 30px;
   border: solid 1px;
   border-color: #a2deaf;
 }
 
-.containerSectionStyles .formCard .githubCard *::-webkit-input-placeholder {
+.formCard .githubCard *::-webkit-input-placeholder {
  /* Google Chrome y Safari */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -1112,7 +1119,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.containerSectionStyles .formCard .githubCard *:-moz-placeholder {
+.formCard .githubCard *:-moz-placeholder {
  /* Firefox anterior a 19 */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -1120,7 +1127,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.containerSectionStyles .formCard .githubCard *::-moz-placeholder {
+.formCard .githubCard *::-moz-placeholder {
  /* Firefox 19 y superior */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -1128,7 +1135,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.containerSectionStyles .formCard .githubCard *:-ms-input-placeholder {
+.formCard .githubCard *:-ms-input-placeholder {
  /* Internet Explorer 10 y superior */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -1136,7 +1143,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.containerSectionStyles .containerShare {
+.containerShare {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1153,7 +1160,7 @@ footer .footer-wrapper .img-container a img {
   width: 100%;
 }
 
-.containerSectionStyles .containerShare .subContainerShare {
+.containerShare .subContainerShare {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1166,39 +1173,43 @@ footer .footer-wrapper .img-container a img {
   font-size: 18px;
 }
 
-.containerSectionStyles .containerShare .subContainerShare .icon {
+.containerShare .subContainerShare .icon {
   padding-top: 10px;
 }
 
-.containerSectionStyles .containerShare .subContainerShare .textDesign {
+.containerShare .subContainerShare .textDesign {
   padding-top: 10px;
 }
 
-.containerSectionStyles .containerShare .subContainer2Share .iconDirection {
+.containerShare .subContainer2Share .iconDirection {
   padding-top: 10px;
   padding-right: 20px;
 }
 
-.containerSectionStyles .createCards {
+.createCards {
+  height: 0px;
+  -webkit-transition: max-height 0.5s;
+  transition: max-height 0.5s;
+  overflow: hidden;
   margin: auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
 
-.containerSectionStyles .createCards .send {
+.createCards .send {
+  margin-top: 30px;
+  margin-bottom: 30px;
   background-color: #e17334;
   border-radius: 12px;
   width: 199px;
   height: 50px;
 }
 
-.containerSectionStyles .createCards .send .iconSend {
+.createCards .send .iconSend {
   width: 22px;
   height: 25px;
   color: white;
 }
 
-.containerSectionStyles .createCards .send .textButton {
+.createCards .send .textButton {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   color: white;
@@ -1383,15 +1394,17 @@ footer .footer-wrapper .img-container a img {
   color: #3e5b65;
 }
 
-.hidden {
-  height: 0px;
-  -webkit-transition: max-height 0.5s;
-  transition: max-height 0.5s;
-  overflow: hidden;
+.action {
+  max-height: 700px;
 }
 
-.action {
-  height: 170px;
+.arrow-rotate {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.arrow-rotate:hover {
+  color: #e17334;
 }
 
 @media all and (min-width: 768px) {
