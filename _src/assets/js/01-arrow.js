@@ -1,6 +1,6 @@
 'use strict'
 
-const topDesign = document.querySelector('.wrapperDesign');
+const topDesign = document.querySelector('.containerDesign');
 const bottomDesign = document.querySelector('.containerGrid');
 const topFill = document.querySelector('.containerFillIn');
 const bottomFill = document.querySelector('#form-container');
