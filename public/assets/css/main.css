@@ -1208,6 +1208,7 @@ footer .footer-wrapper .img-container a img {
 .preview {
   background: url("../images/shiny.jpg") top center no-repeat;
   background-size: cover;
+  width: 70%;
   height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
