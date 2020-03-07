@@ -19,18 +19,40 @@
 }
 
 .colorPalette3 {
-    .headline {
-      border-left: solid 5px $thirdPalette;
-  
-      h2 {
-        color: $thirdPaletteText;
-      }
+  .headline {
+    border-left: solid 5px $thirdPalette;
+
+    h2 {
+      color: $thirdPaletteText;
     }
   }
+}
 
-  .coloricon1 {
+.coloricon1 {
+  .btn {
+    border: solid 2px $secondaryColor;
 
-    color:red;
-
-
+    #icon {
+      color: $headerColor;
+    }
   }
+}
+
+.coloricon2 {
+  .btn {
+    border: solid 2px $primaryColor;
+
+    #icon {
+      color: $secondPaletteText;
+    }
+  }
+}
+.coloricon3 {
+  .btn {
+    border: solid 2px $thidlightPalette;
+
+    #icon {
+      color: $thirdPaletteText;
+    }
+  }
+}
