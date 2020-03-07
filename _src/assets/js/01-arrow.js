@@ -9,7 +9,7 @@ const bottomShare = document.querySelector('.createCards');
 
 const arrowDesign = document.querySelector('.iconDirection1');
 const arrowFill = document.querySelector('.iconDirection2');
-const arrowShare = document.querySelector('#arrow-share');
+const arrowShare = document.querySelector('.iconDirection3');
 
 function toggleDesign(){
     bottomDesign.classList.toggle('action');
@@ -37,9 +37,9 @@ function toggleShare() {
     bottomDesign.classList.remove('action');
     bottomFill.classList.remove('action');
 
-    arrowFill.classList.toggle('arrow-rotate');
+    arrowShare.classList.toggle('arrow-rotate');
     arrowDesign.classList.remove('arrow-rotate');
-    arrowShare.classList.remove('arrow-rotate');
+    arrowFill.classList.remove('arrow-rotate');
 }
 
 topDesign.addEventListener('click', toggleDesign);

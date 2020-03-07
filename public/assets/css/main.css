@@ -1187,7 +1187,7 @@ footer .footer-wrapper .img-container a img {
 }
 
 .createCards {
-  height: 0px;
+  max-height: 0px;
   -webkit-transition: max-height 0.5s;
   transition: max-height 0.5s;
   overflow: hidden;
