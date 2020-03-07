@@ -18,6 +18,8 @@ function previewOne (){
     titleCard.classList.remove('colorPalette2');
     titleCard.classList.remove('colorPalette3');
 
+    socialKit = classList.add ('coloricon1');
+
 };
 
 function previewTwo (){

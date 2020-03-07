@@ -1382,6 +1382,10 @@ footer .footer-wrapper .img-container a img {
   color: #3e5b65;
 }
 
+.coloricon1 {
+  color: red;
+}
+
 @media all and (min-width: 768px) {
   .landing__container {
     height: 90%;
