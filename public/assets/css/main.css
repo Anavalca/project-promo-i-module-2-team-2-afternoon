@@ -1360,6 +1360,30 @@ footer .footer-wrapper .img-container a img {
   align-items: center;
 }
 
+.colorPalette1 .headline {
+  border-left: solid 5px #438792;
+}
+
+.colorPalette1 .headline .name {
+  color: #114E4E;
+}
+
+.colorPalette2 .headline {
+  border-left: solid 5px #bd1010;
+}
+
+.colorPalette2 .headline .name {
+  color: #420101;
+}
+
+.colorPalette3 .headline {
+  border-left: solid 5px #eab052;
+}
+
+.colorPalette3 .headline .name {
+  color: #3e5b65;
+}
+
 @media all and (min-width: 768px) {
   .landing__container {
     height: 90%;

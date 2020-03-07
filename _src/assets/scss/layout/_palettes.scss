@@ -1,0 +1,29 @@
+.colorPalette1 {
+  .headline {
+    border-left: solid 5px $bottonColor;
+
+    .name {
+      color: $headerColor;
+    }
+  }
+}
+
+.colorPalette2 {
+  .headline {
+    border-left: solid 5px $secondPalette;
+
+    .name {
+      color: $secondPaletteText;
+    }
+  }
+}
+
+.colorPalette3 {
+    .headline {
+      border-left: solid 5px $thirdPalette;
+  
+      .name {
+        color: $thirdPaletteText;
+      }
+    }
+  }
