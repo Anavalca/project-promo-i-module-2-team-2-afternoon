@@ -19,6 +19,7 @@ function toggleDesign(){
     arrowDesign.classList.toggle('arrow-rotate');
     arrowFill.classList.remove('arrow-rotate');
     arrowShare.classList.remove('arrow-rotate');
+    
 }
 
 function toggleFill() {
@@ -40,7 +41,9 @@ function toggleShare() {
     arrowShare.classList.toggle('arrow-rotate');
     arrowDesign.classList.remove('arrow-rotate');
     arrowFill.classList.remove('arrow-rotate');
+  
 }
+
 
 topDesign.addEventListener('click', toggleDesign);
 topFill.addEventListener('click', toggleFill);
