@@ -1278,7 +1278,6 @@ footer .footer-wrapper .img-container a img {
 }
 
 .preview .card .headline {
-  border-left: 5px solid #114E4E;
   -ms-flex-item-align: start;
   align-self: flex-start;
   margin-top: 23px;
@@ -1457,9 +1456,9 @@ footer .footer-wrapper .img-container a img {
     -ms-flex-pack: center;
     justify-content: center;
     padding: 0 40px;
-    background-color: lightgoldenrodyellow;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), color-stop(9%, #ffffff));
+    background-image: linear-gradient(to bottom, #f5f5f5, #ffffff 9%);
     padding-top: 20px;
-    border: 2px solid red;
   }
 }
 
