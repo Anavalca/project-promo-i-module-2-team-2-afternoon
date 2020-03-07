@@ -1,19 +1,19 @@
 'hola 1'
-<<<<<<< HEAD
 console.log('hola')
 'use strict';
+<<<<<<< HEAD
 
 =======
-'use strict';
 // Elementos de la paleta
 >>>>>>> palette
 const paletteOne = document.querySelector('#colorOne');
 
 const paletteTwo = document.querySelector('#colorTwo');
 
-const paletteThree = document.querySelector('#color3');
 <<<<<<< HEAD
+const paletteThree = document.querySelector('#color3');
 =======
+const paletteThree = document.querySelector('#color3');
 
 // Elementos de la tarjeta
 
@@ -58,8 +58,8 @@ paletteOne.addEventListener('change',previewOne);
 paletteTwo.addEventListener('change', previewTwo);
 paletteThree.addEventListener('change', previewThree);
 
-
 >>>>>>> palette
+
 
 
 'use strict';
