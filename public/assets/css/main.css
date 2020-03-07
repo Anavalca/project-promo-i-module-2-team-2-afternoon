@@ -1383,6 +1383,17 @@ footer .footer-wrapper .img-container a img {
   color: #3e5b65;
 }
 
+.hidden {
+  height: 0px;
+  -webkit-transition: max-height 0.5s;
+  transition: max-height 0.5s;
+  overflow: hidden;
+}
+
+.action {
+  height: 170px;
+}
+
 @media all and (min-width: 768px) {
   .landing__container {
     height: 90%;
