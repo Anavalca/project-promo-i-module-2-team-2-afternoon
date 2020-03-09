@@ -477,8 +477,15 @@ footer .footer-wrapper .img-container a img {
   -ms-flex-align: start;
   align-items: start;
   width: 320px;
+  padding-right: 30px;
   padding-left: 20px;
   padding-bottom: 30px;
+}
+
+.containerSectionStyles .line-separator {
+  height: 1px;
+  width: 100%;
+  border-bottom: 1px solid #d8d8d8;
 }
 
 .containerSectionStyles .containerDesign {
@@ -538,16 +545,12 @@ footer .footer-wrapper .img-container a img {
   font-size: 18px;
 }
 
-.containerSectionStyles .containerDesign .subContainer2Design .iconDirection {
-  padding-right: 20px;
-}
-
 .containerSectionStyles .colorDesign {
   -webkit-transition: max-height 0.5s;
   transition: max-height 0.5s;
   overflow: hidden;
   width: 100%;
-  padding: 22px 20px 10px 0;
+  padding: 22px 0px 10px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -685,6 +688,7 @@ footer .footer-wrapper .img-container a img {
   color: #54585A;
   font-size: 18px;
   width: 100%;
+  border-top: 1px solid #d8d8d8;
 }
 
 .containerFillIn .subContainerFillIn {
@@ -714,7 +718,6 @@ footer .footer-wrapper .img-container a img {
 }
 
 .containerFillIn .subContainer2FillIn .iconDirection {
-  padding-right: 20px;
   padding-top: 10px;
 }
 
@@ -1153,6 +1156,7 @@ footer .footer-wrapper .img-container a img {
   color: #54585A;
   font-size: 18px;
   width: 100%;
+  border-top: 1px solid #d8d8d8;
 }
 
 .containerShare .subContainerShare {
@@ -1178,7 +1182,6 @@ footer .footer-wrapper .img-container a img {
 
 .containerShare .subContainer2Share .iconDirection {
   padding-top: 10px;
-  padding-right: 20px;
 }
 
 .createCards {

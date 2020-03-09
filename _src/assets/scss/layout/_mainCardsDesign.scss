@@ -6,9 +6,17 @@
     margin: auto;
     align-items: start;
     width: 320px;
+    padding-right: 30px;
   
     padding-left: 20px;
     padding-bottom: 30px;
+
+    .line-separator{
+        height: 1px;
+        width: 100%;
+        border-bottom: 1px solid #d8d8d8;
+    
+    }
     .containerDesign{
         display: flex;
         flex-direction: row;
@@ -49,10 +57,7 @@
             font-family: $primaryFont;
             color: $metalColor;
             font-size: 18px; 
-            .iconDirection{
-                padding-right: 20px;
-
-            }
+           
         }
     }   
      
@@ -61,7 +66,7 @@
            transition: max-height 0.5s;
            overflow: hidden;
             width: 100%;
-            padding: 22px 20px 10px 0;
+            padding: 22px 0px 10px 0;
             display: flex;
            flex-direction: row;
            justify-content: space-between;
@@ -187,6 +192,7 @@
 }
 
    .containerFillIn{
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -194,6 +200,8 @@
     color: $metalColor;
     font-size: 18px;
     width: 100%;
+    border-top: 1px solid #d8d8d8;
+
         .subContainerFillIn{
             display: flex;
             flex-direction: row;
@@ -215,7 +223,7 @@
         .subContainer2FillIn{
         
             .iconDirection{
-            padding-right: 20px;
+           
             padding-top: 10px;
             }
         }
@@ -574,6 +582,8 @@
     color: $metalColor;
     font-size: 18px;
     width: 100%;
+
+    border-top: 1px solid #d8d8d8;
     .subContainerShare{
         display: flex;
         flex-direction: row;
@@ -590,9 +600,11 @@
     .subContainer2Share{
         .iconDirection{
             padding-top: 10px;
-            padding-right: 20px;
+            
         }
     }
+
+   
    
 }
 
@@ -623,4 +635,10 @@
         }
         
     }
+   
+
+    
 }
+
+
+
