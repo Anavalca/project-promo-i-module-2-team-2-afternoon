@@ -62,7 +62,7 @@
       height: 329px;
   
       .headline {
-        // border-left: 5px solid $headerColor; debe comentarse porque sino pisa el css del javascript
+        border-left: 5px solid $headerColor; 
         align-self: flex-start;
         margin-top: 23px;
         margin-bottom: 10px;
@@ -116,6 +116,8 @@
       height: 32px;
       // opacity: 0.6;
       list-style: none;
+
+      
   
       .btn {
         // border: solid 2px;
