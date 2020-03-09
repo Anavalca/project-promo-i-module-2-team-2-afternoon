@@ -1,7 +1,7 @@
 'use strict'
 
 const topDesign = document.querySelector('.containerDesign');
-const bottomDesign = document.querySelector('.containerGrid');
+const bottomDesign = document.querySelector('.colorDesign');
 const topFill = document.querySelector('.containerFillIn');
 const bottomFill = document.querySelector('#form-container');
 const topShare = document.querySelector('.containerShare');
