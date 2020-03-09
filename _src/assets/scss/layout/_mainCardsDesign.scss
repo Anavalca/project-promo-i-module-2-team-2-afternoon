@@ -25,7 +25,7 @@
             color: $metalColor;
             font-size: 18px; 
             .icon{
-                display: inline;
+               
                 color: $primaryColor;
                 font-size: 18px;
                 width: 21px;
@@ -34,12 +34,11 @@
             }
           
             .textDesign{
-                display: inline;
+               
                 
                 padding-left: 10px;
                 font-size: 18px;
-                width: 21px;
-                height: 18px;
+               
             }  
         }
         .subContainer2Design{
@@ -56,42 +55,42 @@
     }   
      
      
+    
         
-    .containerGrid{
-        
-        .colorDesign{
-            padding-top: 22px;
-            display: grid;
-            grid-template-columns: 65% 38% 70%;
-            grid-template-rows: auto auto auto;
+        .colorDesign {
+            width: 100%;
+            padding: 22px 20px 10px 0;
+            display: flex;
+           flex-direction: row;
+           justify-content: space-between;
+           align-items: flex-start;
             
             
             .textColorsDesign{
               font-family: $primaryFont;
               color: $metalColor;
               font-size: 14px;
-              grid-column: 1 / 2;
-              grid-row: 1 / 2;
               
-              
-                
             }
-            .colorsCard1{
-              grid-column: 2 / 3;
-              grid-row: 1 / 2;
-              padding-bottom: 20px; 
-              
-              .check{
-                  width: 17px;
-                  height: 17px;
+            .check{
+                margin-right: 10px;
+                width: 17px;
+                height: 17px;
               } 
+
+            li {
+                padding-bottom: 20px; 
+                display: flex;
+                align-items: center;
+
             }
+            
             .colorPalette1{
-                grid-column: 3 / 4;
-                grid-row: 1 / 2;
-                padding-bottom: 20px;
+               display: inline-flex;
+            
                   .containerColorPalette1{
-                      display: inline-block;
+                    display: inline-block;
+                  
                       background-color: #114e4e;
                       width: 30px;
                       height: 25px;
@@ -99,6 +98,7 @@
                       
                   }
                   .containerColorPalette2{
+               
                       display: inline-block;
                       background-color: #438792;
                       width: 30px;
@@ -106,6 +106,7 @@
                       
                   }
                   .containerColorPalette3{
+               
                       display: inline-block;
                       background-color: #a2deaf;
                       width: 30px;
@@ -115,19 +116,11 @@
                   }
                 
             }
-            .colorsCard2{
-                grid-column: 2 / 3;
-                grid-row: 2 / 3;
-                padding-bottom: 20px; 
-                .check{
-                    width: 17px;
-                    height: 17px;
-                }
-            }
+          
+            
             .colorPalette2{
-                grid-column: 3 / 4;
-                grid-row: 2 / 3;
-                padding-bottom: 20px; 
+               
+                display: inline-flex;
                 .containerColorPalette4{
                   display: inline-block;
                   background-color: #420101;
@@ -150,19 +143,10 @@
                   
               }
             }
-            .colorsCard3{
-                grid-column: 2 / 3;
-                grid-row: 3 / 4;
-                padding-bottom: 30px; 
-                .check{
-                  width: 17px;
-                  height: 17px;
-              }
-            }
+           
+            
             .colorPalette3{
-                grid-column: 3 / 4;
-                grid-row: 3 / 4;
-                padding-bottom: 30px; 
+                display: inline-flex;
                 .containerColorPalette7{
                   display: inline-block;
                   background-color: #3e5b65;
@@ -185,9 +169,9 @@
                   
               }
             }
-        }
+        
 
-    }
+        }
                
            
         

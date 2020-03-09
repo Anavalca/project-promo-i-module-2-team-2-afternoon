@@ -226,6 +226,10 @@ sup {
 
 a {
   text-decoration: none;
+}
+
+li {
+  list-style: none;
 }/* COLORS *//* FONTS *//*BREAKPOINTS*/html {
   font-size: 16px;
 }
@@ -509,7 +513,6 @@ footer .footer-wrapper .img-container a img {
 }
 
 .containerSectionStyles .containerDesign .subContainerDesign .icon {
-  display: inline;
   color: #e17334;
   font-size: 18px;
   width: 21px;
@@ -517,11 +520,8 @@ footer .footer-wrapper .img-container a img {
 }
 
 .containerSectionStyles .containerDesign .subContainerDesign .textDesign {
-  display: inline;
   padding-left: 10px;
   font-size: 18px;
-  width: 21px;
-  height: 18px;
 }
 
 .containerSectionStyles .containerDesign .subContainer2Design {
@@ -542,129 +542,121 @@ footer .footer-wrapper .img-container a img {
   padding-right: 20px;
 }
 
-.containerSectionStyles .containerGrid .colorDesign {
-  padding-top: 22px;
-  display: grid;
-  grid-template-columns: 65% 38% 70%;
-  grid-template-rows: auto auto auto;
+.containerSectionStyles .colorDesign {
+  width: 100%;
+  padding: 22px 20px 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
-.containerSectionStyles .containerGrid .colorDesign .textColorsDesign {
+.containerSectionStyles .colorDesign .textColorsDesign {
   font-family: "Open Sans", sans-serif;
   color: #54585A;
   font-size: 14px;
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
 }
 
-.containerSectionStyles .containerGrid .colorDesign .colorsCard1 {
-  grid-column: 2 / 3;
-  grid-row: 1 / 2;
-  padding-bottom: 20px;
-}
-
-.containerSectionStyles .containerGrid .colorDesign .colorsCard1 .check {
+.containerSectionStyles .colorDesign .check {
+  margin-right: 10px;
   width: 17px;
   height: 17px;
 }
 
-.containerSectionStyles .containerGrid .colorDesign .colorPalette1 {
-  grid-column: 3 / 4;
-  grid-row: 1 / 2;
+.containerSectionStyles .colorDesign li {
   padding-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
-.containerSectionStyles .containerGrid .colorDesign .colorPalette1 .containerColorPalette1 {
+.containerSectionStyles .colorDesign .colorPalette1 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.containerSectionStyles .colorDesign .colorPalette1 .containerColorPalette1 {
   display: inline-block;
   background-color: #114e4e;
   width: 30px;
   height: 25px;
 }
 
-.containerSectionStyles .containerGrid .colorDesign .colorPalette1 .containerColorPalette2 {
+.containerSectionStyles .colorDesign .colorPalette1 .containerColorPalette2 {
   display: inline-block;
   background-color: #438792;
   width: 30px;
   height: 25px;
 }
 
-.containerSectionStyles .containerGrid .colorDesign .colorPalette1 .containerColorPalette3 {
+.containerSectionStyles .colorDesign .colorPalette1 .containerColorPalette3 {
   display: inline-block;
   background-color: #a2deaf;
   width: 30px;
   height: 25px;
 }
 
-.containerSectionStyles .containerGrid .colorDesign .colorsCard2 {
-  grid-column: 2 / 3;
-  grid-row: 2 / 3;
-  padding-bottom: 20px;
+.containerSectionStyles .colorDesign .colorPalette2 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
-.containerSectionStyles .containerGrid .colorDesign .colorsCard2 .check {
-  width: 17px;
-  height: 17px;
-}
-
-.containerSectionStyles .containerGrid .colorDesign .colorPalette2 {
-  grid-column: 3 / 4;
-  grid-row: 2 / 3;
-  padding-bottom: 20px;
-}
-
-.containerSectionStyles .containerGrid .colorDesign .colorPalette2 .containerColorPalette4 {
+.containerSectionStyles .colorDesign .colorPalette2 .containerColorPalette4 {
   display: inline-block;
   background-color: #420101;
   width: 30px;
   height: 25px;
 }
 
-.containerSectionStyles .containerGrid .colorDesign .colorPalette2 .containerColorPalette5 {
+.containerSectionStyles .colorDesign .colorPalette2 .containerColorPalette5 {
   display: inline-block;
   background-color: #bd1010;
   width: 30px;
   height: 25px;
 }
 
-.containerSectionStyles .containerGrid .colorDesign .colorPalette2 .containerColorPalette6 {
+.containerSectionStyles .colorDesign .colorPalette2 .containerColorPalette6 {
   display: inline-block;
   background-color: #e95626;
   width: 30px;
   height: 25px;
 }
 
-.containerSectionStyles .containerGrid .colorDesign .colorsCard3 {
-  grid-column: 2 / 3;
-  grid-row: 3 / 4;
-  padding-bottom: 30px;
+.containerSectionStyles .colorDesign .colorPalette3 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
-.containerSectionStyles .containerGrid .colorDesign .colorsCard3 .check {
-  width: 17px;
-  height: 17px;
-}
-
-.containerSectionStyles .containerGrid .colorDesign .colorPalette3 {
-  grid-column: 3 / 4;
-  grid-row: 3 / 4;
-  padding-bottom: 30px;
-}
-
-.containerSectionStyles .containerGrid .colorDesign .colorPalette3 .containerColorPalette7 {
+.containerSectionStyles .colorDesign .colorPalette3 .containerColorPalette7 {
   display: inline-block;
   background-color: #3e5b65;
   width: 30px;
   height: 25px;
 }
 
-.containerSectionStyles .containerGrid .colorDesign .colorPalette3 .containerColorPalette8 {
+.containerSectionStyles .colorDesign .colorPalette3 .containerColorPalette8 {
   display: inline-block;
   background-color: #eab052;
   width: 30px;
   height: 25px;
 }
 
-.containerSectionStyles .containerGrid .colorDesign .colorPalette3 .containerColorPalette9 {
+.containerSectionStyles .colorDesign .colorPalette3 .containerColorPalette9 {
   display: inline-block;
   background-color: #a0c0cf;
   width: 30px;
