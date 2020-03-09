@@ -17,6 +17,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @include forPc {
+      width: 70%;
+    }
   
     .reset {
       width: 75px;
@@ -70,7 +74,7 @@
           font-weight: $cardBoldFont;
           font-size: 1.125rem;
           line-height: 20px;
-          color: $headerColor;
+          // color: $headerColor;
           padding-left: 20px;
           margin-top: 0px;
           margin-bottom: 2px;
@@ -110,16 +114,16 @@
   
     .list {
       height: 32px;
-      opacity: 0.6;
+      // opacity: 0.6;
       list-style: none;
   
       .btn {
-        border: solid 2px green;
+        // border: solid 2px;
         border-radius: 50%;
         width: 32px;
         height: 32px;
         margin: 0px 5px 15px 5px;
-        background-color: transparent;
+        // background-color: transparent;
         display: flex;
         justify-content: center;
         align-items: center;

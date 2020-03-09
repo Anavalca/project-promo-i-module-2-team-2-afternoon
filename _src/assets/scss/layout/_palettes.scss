@@ -1,8 +1,11 @@
+
+
+
 .colorPalette1 {
   .headline {
     border-left: solid 5px $bottonColor;
 
-    .name {
+    h2 {
       color: $headerColor;
     }
   }
@@ -12,18 +15,47 @@
   .headline {
     border-left: solid 5px $secondPalette;
 
-    .name {
+    h2 {
       color: $secondPaletteText;
     }
   }
 }
 
 .colorPalette3 {
-    .headline {
-      border-left: solid 5px $thirdPalette;
-  
-      .name {
-        color: $thirdPaletteText;
-      }
+  .headline {
+    border-left: solid 5px $thirdPalette;
+
+    h2 {
+      color: $thirdPaletteText;
     }
   }
+}
+
+.coloricon1 {
+  .btn {
+    border: solid 2px $secondaryColor;
+
+    #icon {
+      color: $headerColor;
+    }
+  }
+}
+
+.coloricon2 {
+  .btn {
+    border: solid 2px $primaryColor;
+
+    #icon {
+      color: $secondPaletteText;
+    }
+  }
+}
+.coloricon3 {
+  .btn {
+    border: solid 2px $thidlightPalette;
+
+    #icon {
+      color: $thirdPaletteText;
+    }
+  }
+}
