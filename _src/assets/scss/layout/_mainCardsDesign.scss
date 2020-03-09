@@ -1,4 +1,5 @@
 // PARTE DISEÑA //
+
 .containerSectionStyles{
     display: flex;
     flex-direction: column;
@@ -55,16 +56,17 @@
         }
     }   
      
-     
-    
-        
         .colorDesign {
+            // max-height: 0px;
+           transition: max-height 0.5s;
+           overflow: hidden;
             width: 100%;
             padding: 22px 20px 10px 0;
             display: flex;
            flex-direction: row;
            justify-content: space-between;
-           align-items: flex-start;
+           align-items: flex-start;    
+         
             
             
             .textColorsDesign{
