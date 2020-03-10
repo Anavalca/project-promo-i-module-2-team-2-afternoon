@@ -475,7 +475,7 @@ footer .footer-wrapper .img-container a img {
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: start;
-  width: 320px;
+  width: 100%;
   padding-right: 30px;
   padding-left: 20px;
   padding-bottom: 30px;
@@ -1502,7 +1502,12 @@ footer .footer-wrapper .img-container a img {
     margin-top: 0px;
   }
 
+  .containerSectionStyles .style {
+    width: 40%;
+  }
+
   .cardWrapper {
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1518,11 +1523,9 @@ footer .footer-wrapper .img-container a img {
     background-image: linear-gradient(to bottom, #f5f5f5, #ffffff 9%);
     padding-top: 20px;
   }
-}
 
-@media all and (min-width: 1200px) {
   .preview {
-    width: 70%;
+    width: 60%;
   }
 }
 
