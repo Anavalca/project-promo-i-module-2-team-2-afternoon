@@ -25,6 +25,8 @@
         color: $metalColor;
         font-size: 18px;
         width: 100%;
+        cursor: pointer;
+        padding-bottom: 10px;
 
         .subContainerDesign{
             padding-top: 27px;
@@ -43,9 +45,7 @@
             }
           
             .textDesign{
-               
-                
-                padding-left: 10px;
+                padding-left: 20px;
                 font-size: 18px;
                
             }  
@@ -84,6 +84,7 @@
                 margin-right: 10px;
                 width: 17px;
                 height: 17px;
+                cursor: pointer;
               } 
 
             li {
@@ -201,6 +202,8 @@
     font-size: 18px;
     width: 100%;
     border-top: 1px solid #d8d8d8;
+    cursor: pointer;
+    padding-bottom: 10px;
 
         .subContainerFillIn{
             display: flex;
@@ -536,40 +539,42 @@
             padding-bottom: 7px;
             padding-top: 20px;
         }
-        .github-input{
-            width: 281px;
-            height: 30px;
-            border: solid 1px;
-            border-color: #a2deaf;
-        }
-        *::-webkit-input-placeholder {
-            /* Google Chrome y Safari */
-            font-family: $primaryFont;
-            font-size: 14px;
-            line-height: 20px;
-            color: #c5c5c5;
-        }
-        *:-moz-placeholder {
-            /* Firefox anterior a 19 */
-            font-family: $primaryFont;
-            font-size: 14px;
-            line-height: 20px;
-            color: #c5c5c5;
-        }
-        *::-moz-placeholder {
-            /* Firefox 19 y superior */
-            font-family: $primaryFont;
-            font-size: 14px;
-            line-height: 20px;
-            color: #c5c5c5;
-        }
-        *:-ms-input-placeholder {
-            /* Internet Explorer 10 y superior */
-            font-family: $primaryFont;
-            font-size: 14px;
-            line-height: 20px;
-            color: #c5c5c5;
-        }
+            .github-input{
+                width: 281px;
+                height: 30px;
+                border: solid 1px;
+                border-color: #a2deaf;
+            }
+            *::-webkit-input-placeholder {
+                /* Google Chrome y Safari */
+                font-family: $primaryFont;
+                font-size: 14px;
+                line-height: 20px;
+                color: #c5c5c5;
+            }
+            *:-moz-placeholder {
+                /* Firefox anterior a 19 */
+                font-family: $primaryFont;
+                font-size: 14px;
+                line-height: 20px;
+                color: #c5c5c5;
+            }
+            *::-moz-placeholder {
+                /* Firefox 19 y superior */
+                font-family: $primaryFont;
+                font-size: 14px;
+                line-height: 20px;
+                color: #c5c5c5;
+            }
+            *:-ms-input-placeholder {
+                /* Internet Explorer 10 y superior */
+                font-family: $primaryFont;
+                font-size: 14px;
+                line-height: 20px;
+                color: #c5c5c5;
+            }
+        
+       
     }
 }
 
@@ -582,6 +587,8 @@
     color: $metalColor;
     font-size: 18px;
     width: 100%;
+    cursor: pointer;
+    padding-bottom: 10px;
 
     border-top: 1px solid #d8d8d8;
     .subContainerShare{

@@ -398,12 +398,12 @@ h1 {
 
 footer {
   font-size: 16px;
+  height: 15%;
 }
 
 footer .footer-wrapper {
   background-color: #ffffff;
   border-top: solid 1px #d8d8d8;
-  height: 110px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -503,6 +503,8 @@ footer .footer-wrapper .img-container a img {
   color: #54585A;
   font-size: 18px;
   width: 100%;
+  cursor: pointer;
+  padding-bottom: 10px;
 }
 
 .containerSectionStyles .containerDesign .subContainerDesign {
@@ -527,7 +529,7 @@ footer .footer-wrapper .img-container a img {
 }
 
 .containerSectionStyles .containerDesign .subContainerDesign .textDesign {
-  padding-left: 10px;
+  padding-left: 20px;
   font-size: 18px;
 }
 
@@ -576,6 +578,7 @@ footer .footer-wrapper .img-container a img {
   margin-right: 10px;
   width: 17px;
   height: 17px;
+  cursor: pointer;
 }
 
 .containerSectionStyles .colorDesign li {
@@ -689,6 +692,8 @@ footer .footer-wrapper .img-container a img {
   font-size: 18px;
   width: 100%;
   border-top: 1px solid #d8d8d8;
+  cursor: pointer;
+  padding-bottom: 10px;
 }
 
 .containerFillIn .subContainerFillIn {
@@ -1156,6 +1161,8 @@ footer .footer-wrapper .img-container a img {
   color: #54585A;
   font-size: 18px;
   width: 100%;
+  cursor: pointer;
+  padding-bottom: 10px;
   border-top: 1px solid #d8d8d8;
 }
 
@@ -1244,15 +1251,17 @@ footer .footer-wrapper .img-container a img {
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
   line-height: 1.67;
-  color: #54585a;
+  background-color: #ffffff;
+  opacity: 0.8;
+  color: grey;
   text-transform: uppercase;
   cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -1366,7 +1375,7 @@ footer .footer-wrapper .img-container a img {
 }
 
 .colorPalette1 .headline {
-  border-left: solid 5px #438792;
+  border-left: solid 5px #438792 !important;
 }
 
 .colorPalette1 .headline h2 {
@@ -1374,7 +1383,7 @@ footer .footer-wrapper .img-container a img {
 }
 
 .colorPalette2 .headline {
-  border-left: solid 5px #bd1010;
+  border-left: solid 5px #bd1010 !important;
 }
 
 .colorPalette2 .headline h2 {
@@ -1382,7 +1391,7 @@ footer .footer-wrapper .img-container a img {
 }
 
 .colorPalette3 .headline {
-  border-left: solid 5px #eab052;
+  border-left: solid 5px #eab052 !important;
 }
 
 .colorPalette3 .headline h2 {
@@ -1390,7 +1399,7 @@ footer .footer-wrapper .img-container a img {
 }
 
 .coloricon1 .btn {
-  border: solid 2px #a2deaf;
+  border: solid 2px #a2deaf !important;
 }
 
 .coloricon1 .btn #icon {
@@ -1398,7 +1407,7 @@ footer .footer-wrapper .img-container a img {
 }
 
 .coloricon2 .btn {
-  border: solid 2px #e17334;
+  border: solid 2px #e17334 !important;
 }
 
 .coloricon2 .btn #icon {
@@ -1406,7 +1415,7 @@ footer .footer-wrapper .img-container a img {
 }
 
 .coloricon3 .btn {
-  border: solid 2px #a0c0cf;
+  border: solid 2px #a0c0cf !important;
 }
 
 .coloricon3 .btn #icon {
@@ -1432,7 +1441,7 @@ footer .footer-wrapper .img-container a img {
 
 @media all and (min-width: 768px) {
   .landing__container {
-    height: 90%;
+    height: 94%;
   }
 
   .landing__container .container_logo {
@@ -1475,8 +1484,11 @@ footer .footer-wrapper .img-container a img {
     margin-top: 70px;
   }
 
+  footer {
+    height: 6%;
+  }
+
   footer .footer-wrapper {
-    height: 60px;
     padding: 10px 40px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;

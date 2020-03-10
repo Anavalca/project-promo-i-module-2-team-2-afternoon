@@ -2,18 +2,19 @@
 
 
 .colorPalette1 {
+  
   .headline {
-    border-left: solid 5px $bottonColor;
+    border-left: solid 5px $bottonColor !important;
 
     h2 {
-      color: $headerColor;
+      color: $headerColor ;
     }
   }
 }
 
 .colorPalette2 {
   .headline {
-    border-left: solid 5px $secondPalette;
+    border-left: solid 5px $secondPalette !important;
 
     h2 {
       color: $secondPaletteText;
@@ -23,7 +24,7 @@
 
 .colorPalette3 {
   .headline {
-    border-left: solid 5px $thirdPalette;
+    border-left: solid 5px $thirdPalette !important;
 
     h2 {
       color: $thirdPaletteText;
@@ -33,7 +34,7 @@
 
 .coloricon1 {
   .btn {
-    border: solid 2px $secondaryColor;
+    border: solid 2px $secondaryColor !important;
 
     #icon {
       color: $headerColor;
@@ -43,7 +44,7 @@
 
 .coloricon2 {
   .btn {
-    border: solid 2px $primaryColor;
+    border: solid 2px $primaryColor !important;
 
     #icon {
       color: $secondPaletteText;
@@ -52,7 +53,7 @@
 }
 .coloricon3 {
   .btn {
-    border: solid 2px $thidlightPalette;
+    border: solid 2px $thidlightPalette !important;
 
     #icon {
       color: $thirdPaletteText;

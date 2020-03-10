@@ -1,17 +1,19 @@
 footer {
     font-size: 16px;
-   
-    
+    height:15%;
+    @include forTablet {
+    height: 6%;
+    }
     .footer-wrapper {
         background-color: $whiteColor;
         border-top: solid 1px $colorFooterBorder;
-        height: 110px;
+        // height: 15%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         @include forTablet {
-            height: 60px;
+            // height: 6%;
             padding: 10px 40px;
             flex-direction: row;
             justify-content: space-between;
