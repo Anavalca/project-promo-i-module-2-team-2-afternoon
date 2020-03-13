@@ -1,11 +1,11 @@
 'use strict'
 
-const topDesign = document.querySelector('.containerDesign');
-const bottomDesign = document.querySelector('.colorDesign');
-const topFill = document.querySelector('.containerFillIn');
-const bottomFill = document.querySelector('#form-container');
-const topShare = document.querySelector('.containerShare');
-const bottomShare = document.querySelector('.createCards');
+const topDesign = document.querySelector('.containerDesignTop');
+const bottomDesign = document.querySelector('.containerDesignBottom');
+const topFill = document.querySelector('.containerFillInTop');
+const bottomFill = document.querySelector('.containerFillInBottom');
+const topShare = document.querySelector('.containerShareTop');
+const bottomShare = document.querySelector('.containerShareBottom');
 
 const arrowDesign = document.querySelector('.iconDirection1');
 const arrowFill = document.querySelector('.iconDirection2');
