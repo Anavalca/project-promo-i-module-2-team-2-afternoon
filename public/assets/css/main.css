@@ -471,7 +471,6 @@ footer .footer-wrapper .img-container a img {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  margin: auto;
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: start;
@@ -1521,16 +1520,12 @@ footer .footer-wrapper .img-container a img {
     padding: 0 40px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), color-stop(9%, #ffffff));
     background-image: linear-gradient(to bottom, #f5f5f5, #ffffff 9%);
-    padding: 20px 0 20px 0;
+    padding: 20px 40px 20px 40px;
   }
 
   .preview {
-<<<<<<< HEAD
-    width: 70%;
     border-radius: 6px;
-=======
-    width: 60%;
->>>>>>> 6aa40248da3d195fc986b5c4e475910a2872cb5b
+    width: 100%;
   }
 }
 
