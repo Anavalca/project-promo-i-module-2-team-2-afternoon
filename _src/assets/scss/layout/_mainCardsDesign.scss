@@ -6,17 +6,12 @@
     flex-direction: column;
     align-items: start;
     width: 100%;
-    padding-right: 30px;
-  
-    padding-left: 20px;
-    padding-bottom: 30px;
-    .style {
+    padding: 0 30px 30px 20px;
 
-        @include forTablet {
-
+    @include forTablet {
         width: 40%;
         };
-    }
+  
     .line-separator{
         height: 1px;
         width: 100%;
@@ -72,7 +67,7 @@
            transition: max-height 0.5s;
            overflow: hidden;
             width: 100%;
-            // padding: 22px 0px 10px 0;
+
             display: flex;
            flex-direction: row;
            justify-content: space-between;
@@ -625,7 +620,6 @@
     max-height: 0px;
     transition: max-height 0.5s;
     overflow: hidden;
-    margin: auto;
     
     .send{
         margin-top: 30px;

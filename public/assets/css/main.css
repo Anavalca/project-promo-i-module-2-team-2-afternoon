@@ -475,9 +475,7 @@ footer .footer-wrapper .img-container a img {
   -ms-flex-align: start;
   align-items: start;
   width: 100%;
-  padding-right: 30px;
-  padding-left: 20px;
-  padding-bottom: 30px;
+  padding: 0 30px 30px 20px;
 }
 
 .containerSectionStyles .line-separator {
@@ -1194,7 +1192,6 @@ footer .footer-wrapper .img-container a img {
   -webkit-transition: max-height 0.5s;
   transition: max-height 0.5s;
   overflow: hidden;
-  margin: auto;
 }
 
 .createCards .send {
@@ -1501,7 +1498,7 @@ footer .footer-wrapper .img-container a img {
     margin-top: 0px;
   }
 
-  .containerSectionStyles .style {
+  .containerSectionStyles {
     width: 40%;
   }
 
@@ -1525,7 +1522,7 @@ footer .footer-wrapper .img-container a img {
 
   .preview {
     border-radius: 6px;
-    width: 100%;
+    width: 60%;
   }
 }
 
