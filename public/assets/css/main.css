@@ -249,8 +249,7 @@ h1 {
 }
 
 .landing__container {
-  width: 100%;
-  height: 85%;
+  height: 83%;
   background: #f5f5f5;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -398,7 +397,7 @@ h1 {
 
 footer {
   font-size: 16px;
-  height: 15%;
+  max-height: 15%;
 }
 
 footer .footer-wrapper {
@@ -441,7 +440,7 @@ footer .footer-wrapper .img-container a {
 }
 
 footer .footer-wrapper .img-container a img {
-  height: 100%;
+  max-height: 100%;
 }
 
 .container_logoCards {
@@ -476,7 +475,7 @@ footer .footer-wrapper .img-container a img {
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: start;
-  width: 320px;
+  width: 100%;
   padding-right: 30px;
   padding-left: 20px;
   padding-bottom: 30px;
@@ -1441,7 +1440,7 @@ footer .footer-wrapper .img-container a img {
 
 @media all and (min-width: 768px) {
   .landing__container {
-    height: 94%;
+    height: 91%;
   }
 
   .landing__container .container_logo {
@@ -1485,7 +1484,7 @@ footer .footer-wrapper .img-container a img {
   }
 
   footer {
-    height: 6%;
+    max-height: 4%;
   }
 
   footer .footer-wrapper {
@@ -1503,7 +1502,12 @@ footer .footer-wrapper .img-container a img {
     margin-top: 0px;
   }
 
+  .containerSectionStyles .style {
+    width: 40%;
+  }
+
   .cardWrapper {
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1519,12 +1523,14 @@ footer .footer-wrapper .img-container a img {
     background-image: linear-gradient(to bottom, #f5f5f5, #ffffff 9%);
     padding: 20px 0 20px 0;
   }
-}
 
-@media all and (min-width: 1200px) {
   .preview {
+<<<<<<< HEAD
     width: 70%;
     border-radius: 6px;
+=======
+    width: 60%;
+>>>>>>> 6aa40248da3d195fc986b5c4e475910a2872cb5b
   }
 }
 
