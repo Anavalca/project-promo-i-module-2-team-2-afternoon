@@ -157,6 +157,11 @@ emailInput.addEventListener('keyup',appearIconEmail);
 phoneInput.addEventListener('keyup',appearIconPhone);
 linkedinInput.addEventListener('keyup',appearIconLinkedin);
 githubInput.addEventListener('keyup',appearIconGithub);
+
+
+
+
+
 'use strict';
 
 console.log('>> Ready :)');
