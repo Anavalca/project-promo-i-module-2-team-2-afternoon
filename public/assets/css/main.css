@@ -1236,7 +1236,7 @@ footer .footer-wrapper .img-container a img {
   align-items: center;
 }
 
-.preview .reset {
+.preview .buttonReset {
   width: 75px;
   height: 30px;
   margin-top: 20px;
@@ -1267,7 +1267,7 @@ footer .footer-wrapper .img-container a img {
   align-items: center;
 }
 
-.preview .reset:hover {
+.preview .buttonReset:hover {
   border: 2px solid #114E4E;
 }
 
@@ -1517,13 +1517,14 @@ footer .footer-wrapper .img-container a img {
     padding: 0 40px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), color-stop(9%, #ffffff));
     background-image: linear-gradient(to bottom, #f5f5f5, #ffffff 9%);
-    padding-top: 20px;
+    padding: 20px 0 20px 0;
   }
 }
 
 @media all and (min-width: 1200px) {
   .preview {
     width: 70%;
+    border-radius: 6px;
   }
 }
 
