@@ -1,16 +1,23 @@
 'use strict'
 
+// restauredColorInput(event) {
+//     event.curretTargetclassList.remove('errorBorder');
+
+// }
+
 function validateFormInput(inputKey){
     let input = document.querySelector(inputKey);
    
     if(input.value === ''){
         input.classList.add('errorBorder');
         input.nextElementSibling.classList.remove('hiddenInputMessage');
+        // input('keyup',restauredColorInput());
         return false;
     } else{
         return true;
     }
 }
+
 
 function buttonActivation() {
 
