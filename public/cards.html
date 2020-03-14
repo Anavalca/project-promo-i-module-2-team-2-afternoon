@@ -94,23 +94,29 @@
                     <div class="containerFillInBottom" id="form-container">
                         <form action="">
                             <div class="nameCard">
-                                <label class="name" for="name">Nombre completo</label>
-                                <input class="name-input" placeholder="Ej: Idelisa Bonnelly"
-                                type="text" name="name" id="name-input" required>
+                                <label class="name" for="name">Nombre completo<span class="inputRequired">*</span>
+
+                                </label>
+                                <input class="name-input" placeholder="Ej: Idelisa Bonnelly" type="text"
+                                name="name" id="name-input" required>
                             </div>
                             <div class="professionCard">
-                                <label class="profession" for="profession">Puesto</label>
+                                <label class="profession" for="profession">Puesto<span class="inputRequired">*</span>
+
+                                </label>
                                 <input class="profession-input" placeholder="Ej: Front-end Developer"
                                 type="text" name="profession" id="job-input" required>
                             </div>
-                            <div class="addImage"> <span class="textAddImage">Imagen de perfil</span> 
+                            <div class="addImage"> <span class="textAddImage">Imagen de perfil<span class="inputRequired">*</span></span>
                             </div>
                             <div class="containerAdd">
                                 <button class="button buttonImage" type="button">Añadir Imagen</button>
                                 <div class="search"></div>
                             </div>
                             <div class="emailCard">
-                                <label class="email" for="email">Email</label>
+                                <label class="email" for="email">Email<span class="inputRequired">*</span>
+
+                                </label>
                                 <input class="email-input" placeholder="Ej: IdelisaBonnelly@gmail.com "
                                 type="email" name="email" id="email-input" required>
                             </div>
@@ -126,7 +132,7 @@
                             </div>
                             <div class="githubCard">
                                 <label class="github" for="github">Github</label>
-                                <input class="github-input" placeholder="Ej: @Idelisa-Bonnelly"
+                                <input class="github-input" placeholder="Ej: Idelisa-Bonnelly"
                                 type="text" name="github" id="github-input">
                             </div>
                         </form>
@@ -143,7 +149,8 @@
                         </div>
                     </div>
                     <div class="containerShareBottom">
-                        <button class="button buttonShare" type="button"><i class="iconSend far fa-address-card"></i>  <span class="textButton">CREAR TARJETA</span> 
+                        <button id="buttonValidation" class="button buttonShare" type="button"
+                        disabled><i class="iconSend far fa-address-card"></i><span class="textButton">CREAR TARJETA</span> 
                         </button>
                     </div>
                     <div class="line-separator"></div>

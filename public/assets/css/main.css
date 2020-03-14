@@ -1087,6 +1087,12 @@ footer .footer-wrapper .img-container a img {
   -webkit-transition: max-height 0.5s;
   transition: max-height 0.5s;
   overflow: hidden;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
 }
 
 .containerShareBottom .buttonShare {
@@ -1326,6 +1332,14 @@ footer .footer-wrapper .img-container a img {
 
 .hidden {
   display: none;
+}
+
+.inputRequired {
+  color: #e17334;
+}
+
+.errorBorder {
+  border: 2px solid #e17334 !important;
 }
 
 @media all and (min-width: 768px) {

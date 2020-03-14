@@ -550,6 +550,9 @@
     max-height: 0px;
     transition: max-height 0.5s;
     overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 
     .buttonShare {
         margin-top: 30px;
