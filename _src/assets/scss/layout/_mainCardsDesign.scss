@@ -283,6 +283,7 @@
     }
 
     .addImage {
+        
         font-family: $primaryFont;
         font-size: 14px;
         line-height: 20px;
@@ -311,6 +312,8 @@
             height: 30px;
             border: solid 1px;
             border-color: #a2deaf;
+            background: url("../images/queen.gif") no-repeat  center;
+            background-size: contain;
 
         }
     }

@@ -827,6 +827,8 @@ footer .footer-wrapper .img-container a img {
   height: 30px;
   border: solid 1px;
   border-color: #a2deaf;
+  background: url("../images/queen.gif") no-repeat center;
+  background-size: contain;
 }
 
 .containerFillInBottom .emailCard {
