@@ -171,10 +171,10 @@ function validateFormInput(inputKey){
     }
 }
 
-
 function buttonActivation() {
 
     let button = document.querySelector("#buttonValidation");
+    let errorMesagge = document.querySelector("#error-message");
 
     let returnInput1 = validateFormInput('#name-input');
     let returnInput2 = validateFormInput('#job-input');
@@ -183,19 +183,19 @@ function buttonActivation() {
 
 
     if (returnInput1 === false || returnInput2 === false 
-    || returnInput3 === false  || returnInput4 === false) {
+    || returnInput3 === false || returnInput4 === false) {
+        // button.getAttribute("disabled", true);
+        button.classList.add('buttonDisabled');
+        errorMesagge.classList.remove('hiddenMessage');
     
-        button.addAttribute("disabled");
-        //TODO: añadir clase disable
     }
     else {
         button.removeAttribute("disabled");
         //TODO: quitar clase disable
     }
-
 }
 
-topShare.addEventListener('click', buttonActivatio);
+topShare.addEventListener('click', buttonActivation);
 
 
 

@@ -1091,12 +1091,20 @@ footer .footer-wrapper .img-container a img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .containerShareBottom .buttonShare {
-  margin-top: 30px;
+  margin-top: 25px;
   margin-bottom: 30px;
   background-color: #e17334;
   width: 199px;
@@ -1340,6 +1348,22 @@ footer .footer-wrapper .img-container a img {
 
 .errorBorder {
   border: 2px solid #e17334 !important;
+}
+
+#error-message {
+  padding-top: 5px;
+  font-size: 12px;
+  color: #e17334;
+  text-align: center;
+}
+
+.hiddenMessage {
+  display: none;
+}
+
+.buttonDisabled {
+  background-color: grey !important;
+  opacity: 0.4 !important;
 }
 
 @media all and (min-width: 768px) {

@@ -99,6 +99,7 @@
                                 </label>
                                 <input class="name-input" placeholder="Ej: Idelisa Bonnelly" type="text"
                                 name="name" id="name-input" required>
+                                <p id="input-error-message" class="hiddenMessage">Completa los campos obligatorios*</p>
                             </div>
                             <div class="professionCard">
                                 <label class="profession" for="profession">Puesto<span class="inputRequired">*</span>
@@ -106,12 +107,14 @@
                                 </label>
                                 <input class="profession-input" placeholder="Ej: Front-end Developer"
                                 type="text" name="profession" id="job-input" required>
+                                <p id="input-error-message" class="hiddenMessage">Completa los campos obligatorios*</p>
                             </div>
                             <div class="addImage"> <span class="textAddImage">Imagen de perfil<span class="inputRequired">*</span></span>
                             </div>
                             <div class="containerAdd">
                                 <button class="button buttonImage" type="button">Añadir Imagen</button>
                                 <div class="search"></div>
+                                <p id="input-error-message" class="hiddenMessage">Completa los campos obligatorios*</p>
                             </div>
                             <div class="emailCard">
                                 <label class="email" for="email">Email<span class="inputRequired">*</span>
@@ -119,6 +122,7 @@
                                 </label>
                                 <input class="email-input" placeholder="Ej: IdelisaBonnelly@gmail.com "
                                 type="email" name="email" id="email-input" required>
+                                <p id="input-error-message" class="hiddenMessage">Completa los campos obligatorios*</p>
                             </div>
                             <div class="phoneCard">
                                 <label class="phone" for="phone">Teléfono</label>
@@ -149,8 +153,10 @@
                         </div>
                     </div>
                     <div class="containerShareBottom">
-                        <button id="buttonValidation" class="button buttonShare" type="button"
-                        disabled><i class="iconSend far fa-address-card"></i><span class="textButton">CREAR TARJETA</span> 
+                        <p id="error-message" class="hiddenMessage">Completa los campos obligatorios*</p>
+                        <button id="buttonValidation" class="button buttonShare"
+                        type="button" disabled><i class="iconSend far fa-address-card"></i><span class="textButton">CREAR TARJETA</span>
+
                         </button>
                     </div>
                     <div class="line-separator"></div>
