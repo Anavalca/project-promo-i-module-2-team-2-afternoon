@@ -7,7 +7,11 @@ const addImage = document.querySelector('.search');
 
 function resetAll() {
 
-    // previewOne ()
+ 
+    // Palette1 checked by default
+    paletteOne.checked = true;
+
+ 
     // Reset form fields
     document.querySelector('#email-input').value = '';
     document.querySelector('#phone-input').value = '';
