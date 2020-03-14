@@ -164,8 +164,10 @@ const btnReset = document.querySelector('#reset');
 const inputImage = document.querySelector ('#inputImage');
 const addImage = document.querySelector('.search');
 
-function resetAll() {
 
+function resetAll() {
+    
+    // previewOne ()
     // Reset form fields
     document.querySelector('#email-input').value = '';
     document.querySelector('#phone-input').value = '';
@@ -176,22 +178,33 @@ function resetAll() {
 
     //   Default Name & Rol in preview card
 
-    outputName.innerHTML = 'Nombre Apellidos';
+    outputName.innerHTML ='Nombre Apellidos';
     outputJob.innerHTML = 'Front-end developer';
 
-    // Default Palette Color 
+    // Default Palette Color , no funciona 
 
-    const defaultpalette = document.querySelector('#default');
-    defaultpalette.checked = true;
+    
+    paletteOne.checked = true;
+
+   // Default inputImage y addImpage 
+
+    const imageUrl = './assets/images/queen.gif';
+    inputImage.style.backgroundImage = `url(${imageUrl})`;
+    addImage.style.backgroundImage = `url(${imageUrl})`;
+
+    // Icons hidden
+
+    emailIcon.classList.add('hidden');
+    phoneIcon.classList.add('hidden');
+    linkedinIcon.classList.add('hidden');
+    githubIcon.classList.add('hidden');
 
 
-    inputImage.image.background = "url('./assets/images/queen.gif') top center no-repeat";
-    addImage.search.background = './assets/images/queen.gif';
-    // profilePreviewImg.src = './assets/images/placeholderImg.jpg';
 
-
-
-
+    
+    titleCard.classList.add('colorPalette1');
+    titleCard.classList.remove('colorPalette2');
+    titleCard.classList.remove('colorPalette3');
 }
 
 
