@@ -704,8 +704,9 @@ footer .footer-wrapper .img-container a img {
   border: solid 1px #a2deaf;
 }
 
-.containerFillInBottom .nameCard .name-input:hover {
+.containerFillInBottom .nameCard .name-input:focus {
   border: solid 3px #a2deaf;
+  outline: -webkit-focus-ring-color auto 0px;
 }
 
 .containerFillInBottom .nameCard *::-webkit-input-placeholder {
@@ -764,6 +765,11 @@ footer .footer-wrapper .img-container a img {
   height: 30px;
   border: solid 1px;
   border-color: #a2deaf;
+}
+
+.containerFillInBottom .professionCard .profession-input:focus {
+  border: solid 3px #a2deaf;
+  outline: -webkit-focus-ring-color auto 0px;
 }
 
 .containerFillInBottom .professionCard *::-webkit-input-placeholder {
@@ -859,6 +865,11 @@ footer .footer-wrapper .img-container a img {
   border-color: #a2deaf;
 }
 
+.containerFillInBottom .emailCard .email-input:focus {
+  border: solid 3px #a2deaf;
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
 .containerFillInBottom .emailCard *::-webkit-input-placeholder {
  /* Google Chrome y Safari */
   font-family: "Open Sans", sans-serif;
@@ -915,6 +926,11 @@ footer .footer-wrapper .img-container a img {
   height: 30px;
   border: solid 1px;
   border-color: #a2deaf;
+}
+
+.containerFillInBottom .phoneCard .phone-input:focus {
+  border: solid 3px #a2deaf;
+  outline: -webkit-focus-ring-color auto 0px;
 }
 
 .containerFillInBottom .phoneCard *::-webkit-input-placeholder {
@@ -975,6 +991,11 @@ footer .footer-wrapper .img-container a img {
   border-color: #a2deaf;
 }
 
+.containerFillInBottom .linkedinCard .linkedin-input:focus {
+  border: solid 3px #a2deaf;
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
 .containerFillInBottom .linkedinCard *::-webkit-input-placeholder {
  /* Google Chrome y Safari */
   font-family: "Open Sans", sans-serif;
@@ -1032,6 +1053,11 @@ footer .footer-wrapper .img-container a img {
   height: 30px;
   border: solid 1px;
   border-color: #a2deaf;
+}
+
+.containerFillInBottom .githubCard .github-input:focus {
+  border: solid 3px #a2deaf;
+  outline: -webkit-focus-ring-color auto 0px;
 }
 
 .containerFillInBottom .githubCard *::-webkit-input-placeholder {
