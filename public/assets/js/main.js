@@ -166,8 +166,7 @@ function validateFormInput(inputKey){
         input.classList.add('errorBorder');
         input.nextElementSibling.classList.remove('hiddenInputMessage');
         return false;
-    }else{
-        input.classList.remove('errorBorder');
+    } else{
         return true;
     }
 }
@@ -185,7 +184,8 @@ function buttonActivation() {
 
     if (returnInput1 === false || returnInput2 === false 
     || returnInput3 === false || returnInput4 === false) {
-        // button.getAttribute("disabled", true);
+
+        button.setAttribute('disabled','disabled');
         button.classList.add('buttonDisabled');
         errorMesagge.classList.remove('hiddenMessage');
     }
@@ -196,6 +196,7 @@ function buttonActivation() {
         
     }
 }
+
 
 topShare.addEventListener('click', buttonActivation);
 

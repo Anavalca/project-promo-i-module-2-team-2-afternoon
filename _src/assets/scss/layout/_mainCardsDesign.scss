@@ -174,7 +174,7 @@
     max-height: 0px;
     transition: max-height 0.5s;
     overflow: hidden;
-
+    width: 100%;
 
     .nameCard {
         display: flex;
@@ -190,10 +190,13 @@
         }
 
         .name-input {
-            width: 281px;
+            width: 100%;
             height: 30px;
-            border: solid 1px;
-            border-color: #a2deaf;
+            border: solid 1px #a2deaf;
+
+            &:hover{
+                border: solid 3px #a2deaf;
+            }
         }
 
         *::-webkit-input-placeholder {
@@ -243,7 +246,7 @@
         }
 
         .profession-input {
-            width: 281px;
+            width: 100%;
             height: 30px;
             border: solid 1px;
             border-color: #a2deaf;
@@ -329,7 +332,7 @@
         }
 
         .email-input {
-            width: 281px;
+            width: 100%;
             height: 30px;
             border: solid 1px;
             border-color: #a2deaf;
@@ -382,7 +385,7 @@
         }
 
         .phone-input {
-            width: 281px;
+            width: 100%;
             height: 30px;
             border: solid 1px;
             border-color: #a2deaf;
@@ -435,7 +438,7 @@
         }
 
         .linkedin-input {
-            width: 281px;
+            width: 100%;
             height: 30px;
             border: solid 1px;
             border-color: #a2deaf;
@@ -489,7 +492,7 @@
         }
 
         .github-input {
-            width: 281px;
+            width: 100%;
             height: 30px;
             border: solid 1px;
             border-color: #a2deaf;
@@ -568,6 +571,7 @@
         align-items: center;
         
         .iconSend {
+
             color: white;
         }
 
