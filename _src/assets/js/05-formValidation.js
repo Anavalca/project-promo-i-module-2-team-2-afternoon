@@ -5,6 +5,7 @@ function validateFormInput(inputKey){
    
     if(input.value === ''){
         input.classList.add('errorBorder');
+        input.nextElementSibling.classList.remove('hiddenInputMessage');
         return false;
     }else{
         input.classList.remove('errorBorder');
@@ -28,11 +29,12 @@ function buttonActivation() {
         // button.getAttribute("disabled", true);
         button.classList.add('buttonDisabled');
         errorMesagge.classList.remove('hiddenMessage');
-    
     }
     else {
+        button.classList.remove('buttonDisabled');
+        errorMesagge.classList.add('hiddenMessage');
         button.removeAttribute("disabled");
-        //TODO: quitar clase disable
+        
     }
 }
 

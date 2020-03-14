@@ -562,10 +562,12 @@
         background-color:$primaryColor;
         width: 199px;
         height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
         
         .iconSend {
-            width: 22px;
-            height: 25px;
             color: white;
         }
 

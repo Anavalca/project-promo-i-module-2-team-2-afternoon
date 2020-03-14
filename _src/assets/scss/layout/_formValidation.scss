@@ -2,10 +2,23 @@
     color: $primaryColor;
 }
 
+//CLASES ERROR INPUTS FORM
+
 .errorBorder {
     border: 2px solid $primaryColor !important;
 }
 
+.input-error-message {
+    font-size: 10px;
+    color: $primaryColor;
+    padding-top: 2px;
+}
+
+.hiddenInputMessage {
+    display: none;
+}
+
+//CLASES ERROR BUTTON
 #error-message {
     padding-top: 5px;
     font-size: 12px;
