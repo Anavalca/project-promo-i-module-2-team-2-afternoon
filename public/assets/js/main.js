@@ -159,15 +159,20 @@ linkedinInput.addEventListener('keyup',appearIconLinkedin);
 githubInput.addEventListener('keyup',appearIconGithub);
 'use strict'
 
-function validateFormInput(inputKey){
-    let input = document.querySelector(inputKey);
+const input1 = document.querySelector('#name-input');
+const input2 = document.querySelector('#job-input');
+const input3 = document.querySelector('#email-input');
+
+
+function validateFormInput(input){
    
     if(input.value === ''){
         input.classList.add('errorBorder');
         input.nextElementSibling.classList.remove('hiddenInputMessage');
         return false;
-    }else{
+    } else{
         input.classList.remove('errorBorder');
+        input.nextElementSibling.classList.add('hiddenInputMessage');
         return true;
     }
 }
@@ -177,30 +182,86 @@ function buttonActivation() {
     let button = document.querySelector("#buttonValidation");
     let errorMesagge = document.querySelector("#error-message");
 
-    let returnInput1 = validateFormInput('#name-input');
-    let returnInput2 = validateFormInput('#job-input');
-    let returnInput3 = validateFormInput('.search');
-    let returnInput4 = validateFormInput('#email-input');
+    let returnInput1 = validateFormInput(input1);
+    let returnInput2 = validateFormInput(input2);
+    let returnInput3 = validateFormInput(input3);
 
 
-    if (returnInput1 === false || returnInput2 === false 
-    || returnInput3 === false || returnInput4 === false) {
-        // button.getAttribute("disabled", true);
+    if (returnInput1 === false || returnInput2 === false || returnInput3 === false) {
+        button.setAttribute('disabled','disabled');
         button.classList.add('buttonDisabled');
         errorMesagge.classList.remove('hiddenMessage');
-    }
-    else {
+    } else {
         button.classList.remove('buttonDisabled');
         errorMesagge.classList.add('hiddenMessage');
         button.removeAttribute("disabled");
-        
     }
 }
 
 topShare.addEventListener('click', buttonActivation);
+input1.addEventListener('keyup', function(){validateFormInput(this)});
+input2.addEventListener('keyup', function(){validateFormInput(this)});
+input3.addEventListener('keyup', function(){validateFormInput(this)});
 
 
 
+'use strict';
+// Show share link on click
+
+const cardShare = document.querySelector('#card-share');
+
+function shareLink(event) {
+    if (buttonActivation() != false) {
+        cardShare.classList.remove('hidden');
+        event.preventDefault();
+    }
+    else {
+        cardShare.classList.add('hidden');
+        event.preventDefault();
+    }
+}
+
+//  buttonCreate.addEventListener('click', shareLink);
+
+//  fetch*******
+
+const urlBase = 'https://us-central1-awesome-cards-cf6f0.cloudfunctions.net/card/';
+const cardLink = document.querySelector('#card-link');
+let photoSend = '';
+
+function sendData() {
+
+    fetch(urlBase, {
+        method: 'POST',
+        body: localStorage.getItem('Details'),
+        headers: {
+            'content-type': 'application/json'
+        }
+    })
+        .then(response => response.json())
+        .then(data => showURL(data))
+        .catch(function (error) { console.log(error) })
+
+    shareLink(event);
+}
+
+function showURL(data) {
+    if (data.success) {
+        cardLink.innerHTML = `<a class="twitter-url" href=${data.cardURL} target="_blank">${data.cardURL}</a>`;
+        twitterLink(data.cardURL);
+
+    } else {
+        cardLink.innerHTML = 'ERROR: ' + data.error;
+    }
+}
+
+// buttonCreate.addEventListener('click', sendData);
+
+
+function twitterLink(URL) {
+    const twitterLink = document.querySelector('#twitter-share');
+    twitterLink.href = `https://twitter.com/intent/tweet?text=He%20creado%20esta%20tarjeta%20con%20Awesome%20Profile%20Cards:%0A;hashtags=Adalab, promoIdelisa ${URL}`;
+}
 
 
 
