@@ -80,6 +80,7 @@
                             </li>
                         </ul>
                     </div>
+                    <!--FORMULARIO RELLENA-->
                     <div class="containerFillInTop">
                         <div class="subContainer">
                             <div><i class="icon far fa-keyboard"></i>
@@ -92,7 +93,7 @@
                         </div>
                     </div>
                     <div class="containerFillInBottom" id="form-container">
-                        <form action="">
+                        <form action="" class="FormFillIn">
                             <div class="nameCard">
                                 <label class="name" for="name">Nombre completo</label>
                                 <input class="name-input" placeholder="Ej: Idelisa Bonnelly"
@@ -103,7 +104,12 @@
                                 <input class="profession-input" placeholder="Ej: Front-end Developer"
                                 type="text" name="profession" id="job-input" required>
                             </div>
-                            <div class="addImage"> <span class="textAddImage">Imagen de perfil</span> 
+                            <div class="addImage">
+                                <label for="textAddImage">Imagen de perfil<span>*</span>
+
+                                </label>
+                                <input id="image-input" type="file" name="textAddImage" class="hidden js__profile-upload-btn"
+                                required>
                             </div>
                             <div class="containerAdd">
                                 <button class="button buttonImage" type="button">Añadir Imagen</button>
