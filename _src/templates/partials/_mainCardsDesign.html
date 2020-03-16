@@ -1,88 +1,87 @@
 <secction class="containerSectionStyles">
-        <div class="containerDesignTop">
-            <div class="subContainer">
-                <i class="icon far fa-object-ungroup"></i>
-                <p class="title">DISEÑA</p>
-            </div>
-            <div class="iconDirection"><i class="iconDirection1 fas fa-chevron-down"></i></div>
+    <div class="containerDesignTop">
+        <div class="subContainer">
+            <i class="icon far fa-object-ungroup"></i>
+            <p class="title">DISEÑA</p>
         </div>
-        
-        <div class="containerDesignBottom">
-            <p class="title special">COLORES</p>
-            <ul>
-                <li>
-                    <input class="check" id="colorOne" type="radio" value="colorsCard" name="colorCard" palette ="palette1" checked/>
-                    <label class="colorPalette" >
-                        <div class="palette containerColorPalette1"></div>
-                        <div class="palette containerColorPalette2"></div>
-                        <div class="palette containerColorPalette3"></div>
-                    </label>
-                </li>
-                <li>
-                    <input class="check" id="colorTwo" type="radio" value="colorsCard" name="colorCard" />
-                    <label class="colorPalette">
-                        <div class="palette containerColorPalette4"></div>
-                        <div class="palette containerColorPalette5"></div>
-                        <div class="palette containerColorPalette6"></div>
-                    </label>
-                </li>
-                <li>
-                    <input class="check" id="color3" type="radio" value="colorsCard" name="colorCard" />
-                    <label class="colorPalette">
-                        <div class="palette containerColorPalette7"></div>
-                        <div class="palette containerColorPalette8"></div>
-                        <div class="palette containerColorPalette9"></div>
-                    </label>
-                </li>
-            </ul>
-      </div>
-  
-   
-  <!--FORMULARIO RELLENA-->
+        <div class="iconDirection"><i class="iconDirection1 fas fa-chevron-down"></i></div>
+    </div>
+    <div class="containerDesignBottom">
+        <p class="title special">COLORES</p>
+        <ul>
+            <li>
+                <input class="check" id="colorOne" type="radio" value="colorsCard" name="colorCard" palette="palette1"
+                    checked />
+                <label class="colorPalette">
+                    <div class="palette containerColorPalette1"></div>
+                    <div class="palette containerColorPalette2"></div>
+                    <div class="palette containerColorPalette3"></div>
+                </label>
+            </li>
+            <li>
+                <input class="check" id="colorTwo" type="radio" value="colorsCard" name="colorCard" />
+                <label class="colorPalette">
+                    <div class="palette containerColorPalette4"></div>
+                    <div class="palette containerColorPalette5"></div>
+                    <div class="palette containerColorPalette6"></div>
+                </label>
+            </li>
+            <li>
+                <input class="check" id="color3" type="radio" value="colorsCard" name="colorCard" />
+                <label class="colorPalette">
+                    <div class="palette containerColorPalette7"></div>
+                    <div class="palette containerColorPalette8"></div>
+                    <div class="palette containerColorPalette9"></div>
+                </label>
+            </li>
+        </ul>
+    </div>
     <div class="containerFillInTop">
         <div class="subContainer">
             <div><i class="icon far fa-keyboard"></i></div>
             <p class="title">RELLENA</p>
         </div>
-        <div class="containerFillInBottom" id="form-container">
-            <form id="formContainer">
-                <div class="nameCard">
-                    <label class="name" for="name">Nombre completo<span class="inputRequired">*</span></label>
-                    <input class="name-input" placeholder=" Ej: Idelisa Bonnelly" type="text" name="name" id="name-input"
-                        required>
-                    <p class="input-error-message hiddenInputMessage">Completa los campos obligatorios*</p>
-
-                </div>
-
-                <div class="professionCard">
-                    <label class="profession" for="profession">Puesto<span class="inputRequired">*</span></label>
-                    <input class="profession-input" placeholder=" Ej: Front-end Developer" type="text" name="profession"
-                        id="job-input" required>
-                    <p class="input-error-message hiddenInputMessage">Completa los campos obligatorios*</p>
-
-                </div>
-
-           <div class="containerAdd">
-                <button class="button buttonImage" type="button" id="addImage">Añadir Imagen</button>
+        <div class="iconDirection"><i class="iconDirection2 fas fa-chevron-down"></i></div>
+    </div>
+    <div class="containerFillInBottom" id="form-container">
+        <form id="formContainer">
+            <div class="nameCard">
+                <label class="name" for="name">Nombre completo<span class="inputRequired">*</span></label>
+                <input class="name-input" placeholder=" Ej: Idelisa Bonnelly" type="text" name="name" id="name-input"
+                    required>
+                <p class="input-error-message hiddenInputMessage">Completa los campos obligatorios*</p>
+            </div>
+            <div class="professionCard">
+                <label class="profession" for="profession">Puesto<span class="inputRequired">*</span></label>
+                <input class="profession-input" placeholder=" Ej: Front-end Developer" type="text" name="profession"
+                    id="job-input" required>
+                <p class="input-error-message hiddenInputMessage">Completa los campos obligatorios*</p>
+            </div>
+            <div class="addImage">
+                <span class="textAddImage">Imagen de perfil</span>
+            </div>
+            <div class="containerAdd">
+                <button class="button buttonImage" type="button">Añadir Imagen</button>
                 <div class="search"></div>
             </div>
             <div class="emailCard">
-                <label class="email" for="email">Email</label>
-                <input class="email-input" placeholder="Ej: IdelisaBonnelly@gmail.com " type="email" name="email"
+                <label class="email" for="email">Email<span class="inputRequired">*</span></label>
+                <input class="email-input" placeholder=" Ej: IdelisaBonnelly@gmail.com " type="email" name="email"
                     id="email-input" required>
+                <p class="input-error-message hiddenInputMessage">Completa los campos obligatorios*</p>
             </div>
             <div class="phoneCard">
                 <label class="phone" for="phone">Teléfono</label>
-                <input class="phone-input" placeholder="Ej: 670-777-444" type="tel" name="phone" id="phone-input">
+                <input class="phone-input" placeholder=" Ej: 670 777 444" type="tel" name="phone" id="phone-input">
             </div>
             <div class="linkedinCard">
                 <label class="linkedin" for="linkedin">Linkedin</label>
-                <input class="linkedin-input" placeholder="Ej: linkedin.com/in/Idelisa.Bonnelly" type="text"
+                <input class="linkedin-input" placeholder=" Ej: linkedin.com/in/Idelisa.Bonnelly" type="text"
                     name="linkedin" id="linkedin-input">
             </div>
             <div class="githubCard">
                 <label class="github" for="github">Github</label>
-                <input class="github-input" placeholder="Ej: @Idelisa-Bonnelly" type="text" name="github"
+                <input class="github-input" placeholder=" Ej: Idelisa-Bonnelly" type="text" name="github"
                     id="github-input">
             </div>
         </form>
@@ -90,14 +89,14 @@
     <div class="containerShareTop">
         <div class="subContainer">
             <div><i class="icon fas fa-share-alt"></i></div>
-            <p class="title">COMPARTE</p> 
-      
+            <p class="title">COMPARTE</p>
+        </div>
         <div class="iconDirection"><i class="iconDirection3 fas fa-chevron-down"></i></div>
-   </div>
-
-        <div class="containerShareBottom">
-            <p id="error-message" class="hiddenMessage">Completa los campos obligatorios*</p>
-            <button id="buttonValidation" class="button buttonShare" type="button" disabled><i class="iconSend far fa-address-card"></i><span class="textButton">CREAR TARJETA</span></button>
-
-   <div class ="line-separator"></div>
-  </section>
+    </div>
+    <div class="containerShareBottom">
+        <p id="error-message" class="hiddenMessage">Completa los campos obligatorios*</p>
+        <button id="buttonValidation" class="button buttonShare" type="button" disabled><i
+                class="iconSend far fa-address-card"></i><span class="textButton">CREAR TARJETA</span></button>
+    </div>
+    <div class="line-separator"></div>
+    </section>
