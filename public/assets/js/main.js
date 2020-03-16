@@ -161,53 +161,63 @@ githubInput.addEventListener('keyup',appearIconGithub);
 
 
 
-/* eslint-disable no-undef */
-/* eslint-disable no-unused-vars */
 'use strict';
+//call elements
+const nameInputElem = document.querySelector('#name-input');
+const professionInputElem = document.querySelector('#job-input');
+const imageInputElem = document.querySelector('#image-input');
+const addImageInputElem = document.querySelector('#addImage');
+const emailInputElem = document.querySelector('#email-input');
+const phoneInputElem = document.querySelector('#phone-input');
+const linkedinInputElem = document.querySelector('#linkedin-input');
+const githubInputElem = document.querySelector('#github-input');
 
-const formContainer = document.querySelector('#form-container');
+//save information in local storage
+const saveInfoLocalStorage = readsaveInfoLocalStorage()
+console.log(saveInfoLocalStorage)
 
-const getDataObj = function () {
-  const inputPalleteChecked = document.querySelector(
-    'input[name="colorCard"]:checked'
-  );
-  const data = {
-    nameCard: inputNameCard.value,
-    professionCard: inputprofessionCard.value,
-    linkedinCard: inputlinkedinCard.value,
-    githubCard: inputGithubCard.value,
-    emailCard: inputEmailCard.value,
-    phoneCard: inputphoneCard.value,
-    colorCard: parseInt(inputcolorCardChecked.value),
-    photo: picture
-  };
-  return data;
-};
+//function that responds to click
+function savesaveInfoLocalStorage(evt){
+  saveInfoLocalStorage[evt.currentTarget.name] = evt.currentTarget.value;
+  setsaveInfoLocalStorage(saveInfoLocalStorage);
+}
 
-const setToLocalStorage = function () {
-  const lsData = getDataObj();
-  localStorage.setItem('userData', JSON.stringify(lsData));
-};
+//function that saves in local storage
+function setsaveInfoLocalStorage(userInfo){
+  localStorage.setItem('userInfo',JSON.stringify(userInfo));
+}
 
-const getFromLocalStorage = function () {
-  const userData = JSON.parse(localStorage.getItem('userData'));
-  if (userData !== null) {
-    inputNameCard.value = userData.nameCard;
-    inputprofessionCard.value = userData.professionCard;
-    inputlinkedinCard.value = userData.linkedinCard;
-    inputGithubCard.value = userData.githubCard;
-    inputEmailCard.value = userData.emailCard;
-    inputphoneCard.value = userData.phoneCard;
-    picture = userData.photo;
-    document.querySelector(
-      `input[name="colorCard"][value="${userData.colorCard}"]`
-    ).checked = true;
+//function that reads local storage
+function readsaveInfoLocalStorage(){
+  let saveInfoLocalStorage = JSON.parse(localStorage.getItem('userInfo'));
+  if(saveInfoLocalStorage !== null){
+    return saveInfoLocalStorage;
+  } else {
+    return saveInfoLocalStorage = {};
   }
-};
+}
 
-getFromLocalStorage();
-doAll();
-
+//function to fill inputs
+function fillFormfromLocal(saveInfoLocalStorage){
+  const inputArray = document.querySelectorAll('input');
+ 
+  for(let inputName of inputArray){
+    if(saveInfoLocalStorage[inputName.name] !== undefined){
+      inputName.value = saveInfoLocalStorage[inputName.name]
+    } else {
+      inputName.value = '';
+    }
+  }
+}
+fillFormfromLocal(saveInfoLocalStorage);
+nameInputElem.addEventListener('keyup',savesaveInfoLocalStorage);
+professionInputElem.addEventListener('keyup',savesaveInfoLocalStorage);
+imageInputElem.addEventListener('keyup',savesaveInfoLocalStorage);
+addImageInputElem.addEventListener('keyup',savesaveInfoLocalStorage);
+emailInputElem.addEventListener('keyup',savesaveInfoLocalStorage);
+phoneInputElem.addEventListener('keyup',savesaveInfoLocalStorage);
+linkedinInputElem.addEventListener('keyup',savesaveInfoLocalStorage);
+githubInputElem.addEventListener('keyup',savesaveInfoLocalStorage);
 
 'use strict';
 
