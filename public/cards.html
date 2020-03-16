@@ -106,11 +106,12 @@
                                 type="text" name="profession" id="job-input" required>
                             </div>
                             <div class="addImage"> <span class="textAddImage">Imagen de perfil</span> 
-                                <!-- <input type="file"
-                                id="inputFile" value="Imagen de perfil"> -->
+                                <label class="custom-file-upload">
+                                    <input type="file" id="inputFile" hidden="hidden" />
+                                </label>
                             </div>
                             <div class="containerAdd">
-                                <button class="button buttonImage" type="button">Añadir Imagen</button>
+                                <button class="button buttonImage" id="btnFile" type="button">Añadir Imagen</button>
                                 <div class="search" id="inputImgPreview">
                                     <img alt="Profile picture" class="previewSmallImg" src="../assets/images/queen.gif">
                                 </div>
