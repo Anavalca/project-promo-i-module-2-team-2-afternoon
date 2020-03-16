@@ -827,6 +827,20 @@ footer .footer-wrapper .img-container a img {
   height: 30px;
   border: solid 1px;
   border-color: #a2deaf;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.containerFillInBottom .containerAdd .search .previewSmallImg {
+  height: 100%;
+  overflow: hidden;
 }
 
 .containerFillInBottom .emailCard {
