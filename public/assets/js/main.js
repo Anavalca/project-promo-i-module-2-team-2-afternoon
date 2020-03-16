@@ -157,7 +157,6 @@ emailInput.addEventListener('keyup',appearIconEmail);
 phoneInput.addEventListener('keyup',appearIconPhone);
 linkedinInput.addEventListener('keyup',appearIconLinkedin);
 githubInput.addEventListener('keyup',appearIconGithub);
-
 'use strict'
 
 const input1 = document.querySelector('#name-input');
@@ -203,7 +202,6 @@ topShare.addEventListener('click', buttonActivation);
 input1.addEventListener('keyup', function(){validateFormInput(this)});
 input2.addEventListener('keyup', function(){validateFormInput(this)});
 input3.addEventListener('keyup', function(){validateFormInput(this)});
-
 
 
 
