@@ -174,7 +174,7 @@
     max-height: 0px;
     transition: max-height 0.5s;
     overflow: hidden;
-
+    width: 100%;
 
     .nameCard {
         display: flex;
@@ -190,10 +190,14 @@
         }
 
         .name-input {
-            width: 281px;
+            width: 100%;
             height: 30px;
-            border: solid 1px;
-            border-color: #a2deaf;
+            border: solid 1px #a2deaf;
+
+            &:focus{
+                border: solid 3px #a2deaf;
+                outline: -webkit-focus-ring-color auto 0px;
+            }
         }
 
         *::-webkit-input-placeholder {
@@ -243,10 +247,14 @@
         }
 
         .profession-input {
-            width: 281px;
+            width: 100%;
             height: 30px;
             border: solid 1px;
             border-color: #a2deaf;
+            &:focus{
+                border: solid 3px #a2deaf;
+                outline: -webkit-focus-ring-color auto 0px;
+            }
         }
 
         *::-webkit-input-placeholder {
@@ -329,10 +337,14 @@
         }
 
         .email-input {
-            width: 281px;
+            width: 100%;
             height: 30px;
             border: solid 1px;
             border-color: #a2deaf;
+            &:focus{
+                border: solid 3px #a2deaf;
+                outline: -webkit-focus-ring-color auto 0px;
+            }
         }
 
         *::-webkit-input-placeholder {
@@ -382,10 +394,14 @@
         }
 
         .phone-input {
-            width: 281px;
+            width: 100%;
             height: 30px;
             border: solid 1px;
             border-color: #a2deaf;
+            &:focus{
+                border: solid 3px #a2deaf;
+                outline: -webkit-focus-ring-color auto 0px;
+            }
         }
 
         *::-webkit-input-placeholder {
@@ -435,10 +451,14 @@
         }
 
         .linkedin-input {
-            width: 281px;
+            width: 100%;
             height: 30px;
             border: solid 1px;
             border-color: #a2deaf;
+            &:focus{
+                border: solid 3px #a2deaf;
+                outline: -webkit-focus-ring-color auto 0px;
+            }
         }
 
         *::-webkit-input-placeholder {
@@ -489,10 +509,14 @@
         }
 
         .github-input {
-            width: 281px;
+            width: 100%;
             height: 30px;
             border: solid 1px;
             border-color: #a2deaf;
+            &:focus{
+                border: solid 3px #a2deaf;
+                outline: -webkit-focus-ring-color auto 0px;
+            }
         }
 
         *::-webkit-input-placeholder {
@@ -550,17 +574,25 @@
     max-height: 0px;
     transition: max-height 0.5s;
     overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     .buttonShare {
-        margin-top: 30px;
+        margin-top: 25px;
         margin-bottom: 30px;
         background-color:$primaryColor;
         width: 199px;
         height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
         
         .iconSend {
-            width: 22px;
-            height: 25px;
+
             color: white;
         }
 
