@@ -1217,11 +1217,13 @@ footer .footer-wrapper .img-container a img {
   margin-bottom: 0px;
 }
 
-.preview .card .image {
-  background: url("../images/queen.gif") top center no-repeat;
-  background-size: cover;
+.preview .card .inputImgContainer {
   width: 240px;
   height: 200px;
+}
+
+.preview .card .inputImgContainer .previewImg {
+  width: 100%;
 }
 
 .socialKit {

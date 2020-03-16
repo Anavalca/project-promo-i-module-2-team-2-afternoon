@@ -102,11 +102,12 @@
           margin-bottom: 0px;
         }
       }
-      .image {
-        background: url("../images/queen.gif") top center no-repeat;
-        background-size: cover;
+      .inputImgContainer {
         width: 240px;
         height: 200px;
+        .previewImg {
+          width: 100%;
+        }
       }
     }
   }
