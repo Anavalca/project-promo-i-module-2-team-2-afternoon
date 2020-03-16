@@ -249,7 +249,7 @@ h1 {
 }
 
 .landing__container {
-  height: 83%;
+  height: calc(100% - 110px);
   background: #f5f5f5;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -397,7 +397,7 @@ h1 {
 
 footer {
   font-size: 16px;
-  max-height: 15%;
+  height: 110px;
 }
 
 footer .footer-wrapper {
@@ -1421,11 +1421,11 @@ footer .footer-wrapper .img-container a img {
 
 @media all and (min-width: 768px) {
   .landing__container {
-    height: 91%;
+    height: calc(100% - 85px);
   }
 
   .landing__container .container_logo {
-    padding: 150px 174px 31px 175px;
+    padding: 40px 175px 31px 175px;
   }
 
   .landing__container .container_logo .logo {
@@ -1461,11 +1461,11 @@ footer .footer-wrapper .img-container a img {
   }
 
   .landing__container .main__button {
-    margin-top: 70px;
+    margin-top: 150px;
   }
 
   footer {
-    max-height: 4%;
+    height: 85px;
   }
 
   footer .footer-wrapper {
@@ -1508,6 +1508,12 @@ footer .footer-wrapper .img-container a img {
   .preview {
     border-radius: 6px;
     width: 60%;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .landing__container .main__button {
+    margin-top: 40px;
   }
 }
 
