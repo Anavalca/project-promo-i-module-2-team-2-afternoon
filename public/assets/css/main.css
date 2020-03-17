@@ -1419,6 +1419,41 @@ footer .footer-wrapper .img-container a img {
   opacity: 0.4 !important;
 }
 
+.btn-twitter {
+  background: #00a0f5;
+  border-radius: 3px;
+  width: 181px;
+  height: 30px;
+  color: #ffffff;
+  font-size: rem(14);
+  line-height: 30px;
+}
+
+.card__share {
+  padding-top: 25px;
+  border-top: 1px solid #d8d8d8;
+}
+
+.card__share p {
+  font-size: rem(18);
+  font-weight: 600;
+  margin: 0px;
+}
+
+.card__share p.card__link {
+  font-size: rem(12);
+  color: #e17334;
+  margin: 5px 0 10px 0;
+}
+
+.card__share .btn-twitter {
+  margin: 20px auto;
+}
+
+.containerShareBottom .hidden1 {
+  display: none;
+}
+
 @media all and (min-width: 768px) {
   .landing__container {
     height: calc(100% - 85px);
