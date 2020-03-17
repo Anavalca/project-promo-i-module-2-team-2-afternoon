@@ -1,6 +1,6 @@
 'use strict';
 //creating constant for base url
-const urlBase = 'https://us-central1-awesome-cards-cf6f0.cloudfunctions.net/card/';
+const urlBase = `https://us-central1-awesome-cards-cf6f0.cloudfunctions.net/card/`;
 
 //we call the elements
 const cardLinkElem = document.querySelector('#card-link');
@@ -19,7 +19,7 @@ function sendData() {
         .then(response => response.json())
         .then(data => showURL(data))
         .catch(function (error) { console.log(error) })
-    twitterLink(event);
+    // shareLink(event);
 }
 
 //showing tweet or error
