@@ -4,6 +4,7 @@ const input1 = document.querySelector('#name-input');
 const input2 = document.querySelector('#job-input');
 const input3 = document.querySelector('#email-input');
 
+let button = document.querySelector("#buttonValidation");
 
 function validateFormInput(input){
    
@@ -20,7 +21,6 @@ function validateFormInput(input){
 
 function buttonActivation() {
 
-    let button = document.querySelector("#buttonValidation");
     let errorMesagge = document.querySelector("#error-message");
 
     let returnInput1 = validateFormInput(input1);
