@@ -10,7 +10,7 @@ const buttonCreate = document.querySelector('.buttonShare');
 let imgSend = '';
 
 //we use post method, sending data to the API
-function sendDataApi() {
+function sendData() {
     fetch(urlBase, {
         method: 'POST',
         body: localStorage.getItem('Details'),
@@ -21,7 +21,7 @@ function sendDataApi() {
         .then(response => response.json())
         .then(data => showURL(data))
         .catch(function (error) { console.log(error) })
-    shareLink(event);
+    twitterLink(event);
 }
 
 //showing tweet or error
@@ -36,7 +36,7 @@ function showURL(data) {
 
 
 //element listener
-buttonCreate.addEventListener('click', sendDataApi);
+buttonCreate.addEventListener('click', sendData);
 
 //link for twitter is created
 function twitterLink(URL) {
