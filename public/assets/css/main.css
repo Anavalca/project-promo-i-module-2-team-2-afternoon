@@ -821,6 +821,14 @@ footer .footer-wrapper .img-container a img {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
+ /* .search {
+            width: 30px;
+            height: 30px;
+            border: solid 1px;
+            border-color: #a2deaf;
+            background: url("../images/queen.gif") no-repeat  center;
+            background-size: contain;
+        } */;
 }
 
 .containerFillInBottom .containerAdd .buttonImage {
@@ -830,15 +838,6 @@ footer .footer-wrapper .img-container a img {
   color: white;
   width: 140px;
   height: 30px;
-}
-
-.containerFillInBottom .containerAdd .search {
-  width: 30px;
-  height: 30px;
-  border: solid 1px;
-  border-color: #a2deaf;
-  background: url("../images/queen.gif") no-repeat center;
-  background-size: contain;
 }
 
 .containerFillInBottom .emailCard {
