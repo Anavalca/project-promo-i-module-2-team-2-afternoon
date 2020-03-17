@@ -61,10 +61,17 @@
                 <span class="textAddImage" id="addImage">Imagen de perfil</span>
             </div>
 
-            <div class="containerAdd action">
-                <button class="button buttonImage action__upload-btn js__profile-trigger" type="button" id="image-input">Añadir Imagen</button>
-                <input type="file" name="" id="img-selector" class="action__hiddenField js__profile-upload-btn" hidden="hidden">
-                <!-- <div class="search "></div> -->
+            <div class="addImage">
+                <span class="textAddImage">Imagen de perfil</span>
+                <label class="custom-file-upload">
+                    <input type="file" id="inputFile" hidden="hidden"/>
+                </label>
+            </div>
+            <div class="containerAdd">
+                <button class="button buttonImage" id="btnFile" type="button">Añadir Imagen</button>
+                <div class="search inputImgContainer">
+                    <img alt="Profile picture" class="previewSmallImg" src="../assets/images/queen.gif">
+                </div>
             </div>
             
             <div class="emailCard">
