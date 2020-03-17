@@ -315,7 +315,7 @@ h1 {
   width: 264.8px;
   height: 38.4px;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
+  font-weight: 600px;
   font-size: 12.8px;
   font-weight: normal;
   font-stretch: normal;
@@ -476,6 +476,48 @@ footer .footer-wrapper .img-container a img {
   align-items: start;
   width: 100%;
   padding: 0 30px 30px 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.containerSectionStyles .title {
+  padding-left: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600px;
+  color: #54585A;
+}
+
+.containerSectionStyles .iconDirection {
+  padding-top: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  color: #54585A;
+  font-size: 18px;
+}
+
+.containerSectionStyles .subContainer {
+  padding-top: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  font-family: "Open Sans", sans-serif;
+  color: #54585A;
+  font-size: 18px;
+}
+
+.containerSectionStyles .subContainer .icon {
+  color: #e17334;
+  font-size: 18px;
+  width: 21px;
+  height: 18px;
 }
 
 .containerSectionStyles .line-separator {
@@ -484,7 +526,15 @@ footer .footer-wrapper .img-container a img {
   border-bottom: 1px solid #d8d8d8;
 }
 
-.containerSectionStyles .containerDesign {
+.containerSectionStyles .button {
+  background-color: #e17334;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.32);
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.32);
+  border: none;
+}
+
+.containerSectionStyles .containerDesignTop {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -503,47 +553,7 @@ footer .footer-wrapper .img-container a img {
   padding-bottom: 10px;
 }
 
-.containerSectionStyles .containerDesign .subContainerDesign {
-  padding-top: 27px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  font-family: "Open Sans", sans-serif;
-  color: #54585A;
-  font-size: 18px;
-}
-
-.containerSectionStyles .containerDesign .subContainerDesign .icon {
-  color: #e17334;
-  font-size: 18px;
-  width: 21px;
-  height: 18px;
-}
-
-.containerSectionStyles .containerDesign .subContainerDesign .textDesign {
-  padding-left: 20px;
-  font-size: 18px;
-}
-
-.containerSectionStyles .containerDesign .subContainer2Design {
-  padding-top: 27px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  font-family: "Open Sans", sans-serif;
-  color: #54585A;
-  font-size: 18px;
-}
-
-.containerSectionStyles .colorDesign {
+.containerSectionStyles .containerDesignBottom {
   max-height: 0px;
   -webkit-transition: max-height 0.5s;
   transition: max-height 0.5s;
@@ -564,20 +574,26 @@ footer .footer-wrapper .img-container a img {
   align-items: flex-start;
 }
 
-.containerSectionStyles .colorDesign .textColorsDesign {
+.containerSectionStyles .containerDesignBottom .special {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+}
+
+.containerSectionStyles .containerDesignBottom .textColorsDesign {
   font-family: "Open Sans", sans-serif;
   color: #54585A;
   font-size: 14px;
 }
 
-.containerSectionStyles .colorDesign .check {
+.containerSectionStyles .containerDesignBottom .check {
   margin-right: 10px;
   width: 17px;
   height: 17px;
   cursor: pointer;
 }
 
-.containerSectionStyles .colorDesign li {
+.containerSectionStyles .containerDesignBottom li {
   padding-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -587,92 +603,55 @@ footer .footer-wrapper .img-container a img {
   align-items: center;
 }
 
-.containerSectionStyles .colorDesign .colorPalette1 {
+.containerSectionStyles .containerDesignBottom .colorPalette {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
 }
 
-.containerSectionStyles .colorDesign .colorPalette1 .containerColorPalette1 {
+.containerSectionStyles .containerDesignBottom .colorPalette .palette {
+  width: 30px;
+  height: 25px;
   display: inline-block;
+}
+
+.containerSectionStyles .containerDesignBottom .colorPalette .containerColorPalette1 {
   background-color: #114e4e;
-  width: 30px;
-  height: 25px;
 }
 
-.containerSectionStyles .colorDesign .colorPalette1 .containerColorPalette2 {
-  display: inline-block;
+.containerSectionStyles .containerDesignBottom .colorPalette .containerColorPalette2 {
   background-color: #438792;
-  width: 30px;
-  height: 25px;
 }
 
-.containerSectionStyles .colorDesign .colorPalette1 .containerColorPalette3 {
-  display: inline-block;
+.containerSectionStyles .containerDesignBottom .colorPalette .containerColorPalette3 {
   background-color: #a2deaf;
-  width: 30px;
-  height: 25px;
 }
 
-.containerSectionStyles .colorDesign .colorPalette2 {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-}
-
-.containerSectionStyles .colorDesign .colorPalette2 .containerColorPalette4 {
-  display: inline-block;
+.containerSectionStyles .containerDesignBottom .colorPalette .containerColorPalette4 {
   background-color: #420101;
-  width: 30px;
-  height: 25px;
 }
 
-.containerSectionStyles .colorDesign .colorPalette2 .containerColorPalette5 {
-  display: inline-block;
+.containerSectionStyles .containerDesignBottom .colorPalette .containerColorPalette5 {
   background-color: #bd1010;
-  width: 30px;
-  height: 25px;
 }
 
-.containerSectionStyles .colorDesign .colorPalette2 .containerColorPalette6 {
-  display: inline-block;
+.containerSectionStyles .containerDesignBottom .colorPalette .containerColorPalette6 {
   background-color: #e95626;
-  width: 30px;
-  height: 25px;
 }
 
-.containerSectionStyles .colorDesign .colorPalette3 {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-}
-
-.containerSectionStyles .colorDesign .colorPalette3 .containerColorPalette7 {
-  display: inline-block;
+.containerSectionStyles .containerDesignBottom .colorPalette .containerColorPalette7 {
   background-color: #3e5b65;
-  width: 30px;
-  height: 25px;
 }
 
-.containerSectionStyles .colorDesign .colorPalette3 .containerColorPalette8 {
-  display: inline-block;
+.containerSectionStyles .containerDesignBottom .colorPalette .containerColorPalette8 {
   background-color: #eab052;
-  width: 30px;
-  height: 25px;
 }
 
-.containerSectionStyles .colorDesign .colorPalette3 .containerColorPalette9 {
-  display: inline-block;
+.containerSectionStyles .containerDesignBottom .colorPalette .containerColorPalette9 {
   background-color: #a0c0cf;
-  width: 30px;
-  height: 25px;
 }
 
-.containerSectionStyles .separationDesign {
-  width: 280px;
-}
-
-.containerFillIn {
+.containerFillInTop {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -692,70 +671,14 @@ footer .footer-wrapper .img-container a img {
   padding-bottom: 10px;
 }
 
-.containerFillIn .subContainerFillIn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  font-family: "Open Sans", sans-serif;
-  color: #54585A;
-  font-size: 18px;
-}
-
-.containerFillIn .subContainerFillIn .icon {
-  color: #e17334;
-  font-size: 18px;
-  width: 21px;
-  height: 18px;
-  padding-top: 10px;
-}
-
-.containerFillIn .subContainerFillIn .textDesign {
-  padding-left: 10px;
-  padding-top: 10px;
-}
-
-.containerFillIn .subContainer2FillIn .iconDirection {
-  padding-top: 10px;
-}
-
-.containerShare {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  font-family: "Open Sans", sans-serif;
-  color: #54585A;
-  font-size: 18px;
-  width: 100%;
-}
-
-.containerShare .subContainerShare .icon {
-  color: #e17334;
-  padding-left: 3px;
-  font-size: 18px;
-  width: 21px;
-  height: 18px;
-}
-
-.containerShare .subContainerShare .textDesign {
-  padding-left: 10px;
-}
-
-.formCard {
+.containerFillInBottom {
   max-height: 0px;
   -webkit-transition: max-height 0.5s;
   transition: max-height 0.5s;
   overflow: hidden;
 }
 
-.formCard .nameCard {
+.containerFillInBottom .nameCard {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -765,7 +688,7 @@ footer .footer-wrapper .img-container a img {
   flex-direction: column;
 }
 
-.formCard .nameCard .name {
+.containerFillInBottom .nameCard .name {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 20px;
@@ -774,14 +697,14 @@ footer .footer-wrapper .img-container a img {
   padding-top: 25px;
 }
 
-.formCard .nameCard .name-input {
+.containerFillInBottom .nameCard .name-input {
   width: 281px;
   height: 30px;
   border: solid 1px;
   border-color: #a2deaf;
 }
 
-.formCard .nameCard *::-webkit-input-placeholder {
+.containerFillInBottom .nameCard *::-webkit-input-placeholder {
  /* Google Chrome y Safari */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -789,7 +712,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.formCard .nameCard *:-moz-placeholder {
+.containerFillInBottom .nameCard *:-moz-placeholder {
  /* Firefox anterior a 19 */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -797,7 +720,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.formCard .nameCard *::-moz-placeholder {
+.containerFillInBottom .nameCard *::-moz-placeholder {
  /* Firefox 19 y superior */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -805,7 +728,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.formCard .nameCard *:-ms-input-placeholder {
+.containerFillInBottom .nameCard *:-ms-input-placeholder {
  /* Internet Explorer 10 y superior */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -813,7 +736,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.formCard .professionCard {
+.containerFillInBottom .professionCard {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -823,7 +746,7 @@ footer .footer-wrapper .img-container a img {
   flex-direction: column;
 }
 
-.formCard .professionCard .profession {
+.containerFillInBottom .professionCard .profession {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 20px;
@@ -832,14 +755,14 @@ footer .footer-wrapper .img-container a img {
   padding-top: 20px;
 }
 
-.formCard .professionCard .profession-input {
+.containerFillInBottom .professionCard .profession-input {
   width: 281px;
   height: 30px;
   border: solid 1px;
   border-color: #a2deaf;
 }
 
-.formCard .professionCard *::-webkit-input-placeholder {
+.containerFillInBottom .professionCard *::-webkit-input-placeholder {
  /* Google Chrome y Safari */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -847,7 +770,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.formCard .professionCard *:-moz-placeholder {
+.containerFillInBottom .professionCard *:-moz-placeholder {
  /* Firefox anterior a 19 */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -855,7 +778,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.formCard .professionCard *::-moz-placeholder {
+.containerFillInBottom .professionCard *::-moz-placeholder {
  /* Firefox 19 y superior */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -863,7 +786,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.formCard .professionCard *:-ms-input-placeholder {
+.containerFillInBottom .professionCard *:-ms-input-placeholder {
  /* Internet Explorer 10 y superior */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -871,7 +794,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.formCard .addImage {
+.containerFillInBottom .addImage {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 20px;
@@ -880,7 +803,7 @@ footer .footer-wrapper .img-container a img {
   padding-top: 20px;
 }
 
-.formCard .containerAdd {
+.containerFillInBottom .containerAdd {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -890,26 +813,23 @@ footer .footer-wrapper .img-container a img {
   flex-direction: row;
 }
 
-.formCard .containerAdd .addImg {
+.containerFillInBottom .containerAdd .buttonImage {
   margin-right: 20px;
-  background-color: #e17334;
-  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: white;
-  border-radius: 3px;
   width: 140px;
   height: 30px;
 }
 
-.formCard .containerAdd .search {
+.containerFillInBottom .containerAdd .search {
   width: 30px;
   height: 30px;
   border: solid 1px;
   border-color: #a2deaf;
 }
 
-.formCard .emailCard {
+.containerFillInBottom .emailCard {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -919,7 +839,7 @@ footer .footer-wrapper .img-container a img {
   flex-direction: column;
 }
 
-.formCard .emailCard .email {
+.containerFillInBottom .emailCard .email {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 20px;
@@ -928,14 +848,14 @@ footer .footer-wrapper .img-container a img {
   padding-top: 20px;
 }
 
-.formCard .emailCard .email-input {
+.containerFillInBottom .emailCard .email-input {
   width: 281px;
   height: 30px;
   border: solid 1px;
   border-color: #a2deaf;
 }
 
-.formCard .emailCard *::-webkit-input-placeholder {
+.containerFillInBottom .emailCard *::-webkit-input-placeholder {
  /* Google Chrome y Safari */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -943,7 +863,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.formCard .emailCard *:-moz-placeholder {
+.containerFillInBottom .emailCard *:-moz-placeholder {
  /* Firefox anterior a 19 */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -951,7 +871,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.formCard .emailCard *::-moz-placeholder {
+.containerFillInBottom .emailCard *::-moz-placeholder {
  /* Firefox 19 y superior */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -959,7 +879,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.formCard .emailCard *:-ms-input-placeholder {
+.containerFillInBottom .emailCard *:-ms-input-placeholder {
  /* Internet Explorer 10 y superior */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -967,7 +887,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.formCard .phoneCard {
+.containerFillInBottom .phoneCard {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -977,7 +897,7 @@ footer .footer-wrapper .img-container a img {
   flex-direction: column;
 }
 
-.formCard .phoneCard .phone {
+.containerFillInBottom .phoneCard .phone {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 20px;
@@ -986,14 +906,14 @@ footer .footer-wrapper .img-container a img {
   padding-top: 20px;
 }
 
-.formCard .phoneCard .phone-input {
+.containerFillInBottom .phoneCard .phone-input {
   width: 281px;
   height: 30px;
   border: solid 1px;
   border-color: #a2deaf;
 }
 
-.formCard .phoneCard *::-webkit-input-placeholder {
+.containerFillInBottom .phoneCard *::-webkit-input-placeholder {
  /* Google Chrome y Safari */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -1001,7 +921,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.formCard .phoneCard *:-moz-placeholder {
+.containerFillInBottom .phoneCard *:-moz-placeholder {
  /* Firefox anterior a 19 */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -1009,7 +929,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.formCard .phoneCard *::-moz-placeholder {
+.containerFillInBottom .phoneCard *::-moz-placeholder {
  /* Firefox 19 y superior */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -1017,7 +937,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.formCard .phoneCard *:-ms-input-placeholder {
+.containerFillInBottom .phoneCard *:-ms-input-placeholder {
  /* Internet Explorer 10 y superior */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -1025,7 +945,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.formCard .linkedinCard {
+.containerFillInBottom .linkedinCard {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1035,7 +955,7 @@ footer .footer-wrapper .img-container a img {
   flex-direction: column;
 }
 
-.formCard .linkedinCard .linkedin {
+.containerFillInBottom .linkedinCard .linkedin {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 20px;
@@ -1044,14 +964,14 @@ footer .footer-wrapper .img-container a img {
   padding-top: 20px;
 }
 
-.formCard .linkedinCard .linkedin-input {
+.containerFillInBottom .linkedinCard .linkedin-input {
   width: 281px;
   height: 30px;
   border: solid 1px;
   border-color: #a2deaf;
 }
 
-.formCard .linkedinCard *::-webkit-input-placeholder {
+.containerFillInBottom .linkedinCard *::-webkit-input-placeholder {
  /* Google Chrome y Safari */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -1059,7 +979,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.formCard .linkedinCard *:-moz-placeholder {
+.containerFillInBottom .linkedinCard *:-moz-placeholder {
  /* Firefox anterior a 19 */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -1067,7 +987,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.formCard .linkedinCard *::-moz-placeholder {
+.containerFillInBottom .linkedinCard *::-moz-placeholder {
  /* Firefox 19 y superior */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -1075,7 +995,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.formCard .linkedinCard *:-ms-input-placeholder {
+.containerFillInBottom .linkedinCard *:-ms-input-placeholder {
  /* Internet Explorer 10 y superior */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -1083,7 +1003,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.formCard .githubCard {
+.containerFillInBottom .githubCard {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1094,7 +1014,7 @@ footer .footer-wrapper .img-container a img {
   padding-bottom: 30px;
 }
 
-.formCard .githubCard .github {
+.containerFillInBottom .githubCard .github {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 20px;
@@ -1103,14 +1023,14 @@ footer .footer-wrapper .img-container a img {
   padding-top: 20px;
 }
 
-.formCard .githubCard .github-input {
+.containerFillInBottom .githubCard .github-input {
   width: 281px;
   height: 30px;
   border: solid 1px;
   border-color: #a2deaf;
 }
 
-.formCard .githubCard *::-webkit-input-placeholder {
+.containerFillInBottom .githubCard *::-webkit-input-placeholder {
  /* Google Chrome y Safari */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -1118,7 +1038,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.formCard .githubCard *:-moz-placeholder {
+.containerFillInBottom .githubCard *:-moz-placeholder {
  /* Firefox anterior a 19 */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -1126,7 +1046,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.formCard .githubCard *::-moz-placeholder {
+.containerFillInBottom .githubCard *::-moz-placeholder {
  /* Firefox 19 y superior */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -1134,7 +1054,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.formCard .githubCard *:-ms-input-placeholder {
+.containerFillInBottom .githubCard *:-ms-input-placeholder {
  /* Internet Explorer 10 y superior */
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -1142,7 +1062,7 @@ footer .footer-wrapper .img-container a img {
   color: #c5c5c5;
 }
 
-.containerShare {
+.containerShareTop {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1162,54 +1082,28 @@ footer .footer-wrapper .img-container a img {
   border-top: 1px solid #d8d8d8;
 }
 
-.containerShare .subContainerShare {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  font-family: "Open Sans", sans-serif;
-  color: #54585A;
-  font-size: 18px;
-}
-
-.containerShare .subContainerShare .icon {
-  padding-top: 10px;
-}
-
-.containerShare .subContainerShare .textDesign {
-  padding-top: 10px;
-}
-
-.containerShare .subContainer2Share .iconDirection {
-  padding-top: 10px;
-}
-
-.createCards {
+.containerShareBottom {
   max-height: 0px;
   -webkit-transition: max-height 0.5s;
   transition: max-height 0.5s;
   overflow: hidden;
 }
 
-.createCards .send {
+.containerShareBottom .buttonShare {
   margin-top: 30px;
   margin-bottom: 30px;
   background-color: #e17334;
-  border-radius: 12px;
   width: 199px;
   height: 50px;
 }
 
-.createCards .send .iconSend {
+.containerShareBottom .buttonShare .iconSend {
   width: 22px;
   height: 25px;
   color: white;
 }
 
-.createCards .send .textButton {
+.containerShareBottom .buttonShare .textButton {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   color: white;
@@ -1267,8 +1161,8 @@ footer .footer-wrapper .img-container a img {
 }
 
 .preview .card {
-  height: 400px;
-  width: 270px;
+  height: 329px;
+  width: 240px;
   border-radius: 2px;
   background-color: rgba(17, 78, 78, 0.8);
   display: -webkit-box;
