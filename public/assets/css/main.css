@@ -1543,7 +1543,7 @@ footer .footer-wrapper .img-container a img {
   .preview {
     border-radius: 6px;
     width: 60%;
-    max-height: 80%;
+    height: auto;
   }
 }
 
