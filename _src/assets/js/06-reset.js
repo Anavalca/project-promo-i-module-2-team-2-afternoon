@@ -2,7 +2,7 @@
 
 const btnReset = document.querySelector('#reset');
 const inputImage = document.querySelector('#inputImage');
-const addImage = document.querySelector('.search');
+/* const addImage = document.querySelector('.search'); */
 
 
 function resetAll() {
@@ -29,7 +29,7 @@ function resetAll() {
 
     const imageUrl = './assets/images/queen.gif';
     inputImage.style.backgroundImage = `url(${imageUrl})`;
-    addImage.style.backgroundImage = `url(${imageUrl})`;
+   /*  addImage.style.backgroundImage = `url(${imageUrl})`; */
 
     // Icons hidden & Default Color
     previewOne()

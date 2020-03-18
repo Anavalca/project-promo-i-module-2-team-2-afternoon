@@ -60,10 +60,13 @@
             <div class="addImage">
                 <span class="textAddImage" id="addImage">Imagen de perfil</span>
             </div>
-            <div class="containerAdd">
-                <button class="button buttonImage" type="button" id="image-input">Añadir Imagen</button>
+
+            <div class="containerAdd action">
+                <button class="button buttonImage action__upload-btn js__profile-trigger" type="button" id="image-input">Añadir Imagen</button>
+                <input type="file" name="" id="img-selector" class="action__hiddenField js__profile-upload-btn" hidden="hidden">
                 <div class="search"></div>
             </div>
+            
             <div class="emailCard">
                 <label class="email" for="email">Email<span class="inputRequired">*</span></label>
                 <input class="email-input" placeholder=" Ej: IdelisaBonnelly@gmail.com " type="email" name="email"

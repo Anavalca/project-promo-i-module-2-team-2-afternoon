@@ -25,7 +25,10 @@
                                  <h2 class="name" id="cardname">nombre apellido</h2> 
                                  <h3 class="role" id="cardrole">Front-end developer</h3> 
                             </div>
-                            <div id="inputImage" class="image"></div>
+                            <div id="inputImage" class="image">
+                                <div class="profile__image js__profile-image" style="background-image:url(../assets/images/queen.gif)"></div>
+                                <div class="profile__preview js__profile-preview"></div>
+                            </div>
                             <ul class="socialKit">
                                 <li class="list hidden" id="btn-phone"> <a class="btn" id="phone">                         <i class="fas fa-mobile-alt" id="icon"></i>                     </a> 
                                 </li>
@@ -111,8 +114,11 @@
                             </div>
                             <div class="addImage"> <span class="textAddImage" id="addImage">Imagen de perfil</span> 
                             </div>
-                            <div class="containerAdd">
-                                <button class="button buttonImage" type="button" id="image-input">Añadir Imagen</button>
+                            <div class="containerAdd action">
+                                <button class="button buttonImage action__upload-btn js__profile-trigger"
+                                type="button" id="image-input">Añadir Imagen</button>
+                                <input type="file" name="" id="img-selector" class="action__hiddenField js__profile-upload-btn"
+                                hidden="hidden">
                                 <div class="search"></div>
                             </div>
                             <div class="emailCard">
