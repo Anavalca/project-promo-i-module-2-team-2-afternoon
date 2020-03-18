@@ -1185,8 +1185,8 @@ footer .footer-wrapper .img-container a img {
 .preview .buttonReset {
   width: 75px;
   height: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 25px;
+  margin-bottom: 10px;
   -ms-flex-item-align: center;
   align-self: center;
   -webkit-transform: translateX(-85px);
@@ -1217,11 +1217,7 @@ footer .footer-wrapper .img-container a img {
   border: 2px solid #114E4E;
 }
 
-.preview .card {
-  height: 329px;
-  width: 240px;
-  border-radius: 2px;
-  background-color: rgba(17, 78, 78, 0.8);
+.preview .card_container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1235,10 +1231,12 @@ footer .footer-wrapper .img-container a img {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin: 20px 30px 40px 30px;
-  background-color: #ffffff;
+}
+
+.preview .card {
   width: 240px;
-  height: 329px;
+  background-color: #ffffff;
+  margin: 20px 30px 40px 30px;
 }
 
 .preview .card .headline {
