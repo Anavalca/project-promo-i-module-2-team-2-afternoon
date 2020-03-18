@@ -4,11 +4,13 @@ const urlBase = `https://us-central1-awesome-cards-cf6f0.cloudfunctions.net/card
 
 //we call the elements
 const cardLinkElem = document.querySelector('#card-link');
+const cardShare = document.querySelector('#card-share');
 
 let imgSend = '';
 
 //we use post method, sending data to the API
 function sendData() {
+    cardShare.classList.remove('hidden');
     fetch(urlBase, {
         method: 'POST',
         body: localStorage.getItem('Details'),
