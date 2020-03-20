@@ -349,58 +349,44 @@ phoneInputElem.addEventListener('keyup',savesaveInfoLocalStorage);
 linkedinInputElem.addEventListener('keyup',savesaveInfoLocalStorage);
 githubInputElem.addEventListener('keyup',savesaveInfoLocalStorage);
 
-'use strict';
+'use strict'
 
-const fr = new FileReader();
-const uploadBtn = document.querySelector('.js__profile-trigger');
-const fileField = document.querySelector('.js__profile-upload-btn');
-const profileImage = document.querySelector('.js__profile-image');
-const profilePreview = document.querySelector('.js__profile-preview');
+const inputFile = document.querySelector('#inputFile');
+const btnAddFile = document.querySelector('#btnFile');
+const inputImgContainer = document.querySelector('.inputImgContainer');
+const inputSmallImgContainer = document.querySelector('.inputSmallImgContainer');
+const previewImg = document.querySelector('.previewImg');
+const previewSmallImg = document.querySelector('.previewSmallImg');
 
-
-/**
- * Recoge el archivo añadido al campo de tipo "file"
- * y lo carga en nuestro objeto FileReader para que 
- * lo convierta a algo con lo que podamos trabajar.
- * Añade un listener al FR para que ejecute una función
- * al tener los datos listos
- * @param {evento} e 
- */
-function getImage(e){
-  var myFile = e.currentTarget.files[0];
-  fr.addEventListener('load', writeImage);
-  fr.readAsDataURL(myFile);
+function clickOnRealInputButton() {
+    inputFile.click();
 }
 
-
-/**
- * Una vez tenemos los datos listos en el FR podemos
- * trabajar con ellos ;)
- */
-function writeImage() {
-  /* En la propiedad `result` de nuestro FR se almacena
-   * el resultado
-   */
-  profileImage.style.backgroundImage = `url(${fr.result})`;
-  profilePreview.style.backgroundImage = `url(${fr.result})`;
+function displayFile(previewImg) {
+    previewImg.setAttribute('src', this.result);
+    previewSmallImg.setAttribute('src', this.result);
+}
+function getFile() {
+        const inputFile = this.files[0];
+        if(inputFile) {
+            const fileReader = new FileReader();
+            previewImg.classList.add('hidden');
+            previewSmallImg.classList.add('hidden');
+            fileReader.addEventListener('load', displayFile);
+            fileReader.readAsDataURL(inputFile);
+            console.log(fileReader);
+        }
+        else {
+            previewImg.classList.remove('hidden');
+            previewSmallImg.classList.remove('hidden');
+            previewImg.setAttribute('src', '');
+            previewSmallImg.setAttribute('src', '');
+        }
 }
 
+btnAddFile.addEventListener('click', clickOnRealInputButton);
+inputFile.addEventListener('change', getFile);
 
-/**
- * Genera un click automático en nuesto campo de tipo "file"
- * que está oculto
- */
-function fakeFileClick() {
- fileField.click(); 
-}
-
-/**
- * Añadimos los listeners necesarios:
- * - al botón visible para generar el click automático
- * - al campo oculto para cuando cambie su value
- */
-uploadBtn.addEventListener('click', fakeFileClick);
-fileField.addEventListener('change', getImage);
 'use strict';
 
 console.log('>> Ready :)');

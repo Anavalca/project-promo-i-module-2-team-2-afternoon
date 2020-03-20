@@ -837,8 +837,20 @@ footer .footer-wrapper .img-container a img {
   height: 30px;
   border: solid 1px;
   border-color: #a2deaf;
-  background: url("../images/queen.gif") no-repeat center;
-  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.containerFillInBottom .containerAdd .search .previewSmallImg {
+  height: 100%;
+  overflow: hidden;
 }
 
 .containerFillInBottom .emailCard {
@@ -1272,7 +1284,9 @@ footer .footer-wrapper .img-container a img {
   margin-bottom: 0px;
 }
 
-.preview .card .image {
+.preview .card .inputImgContainer {
+  width: 240px;
+  height: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1284,11 +1298,8 @@ footer .footer-wrapper .img-container a img {
   align-items: center;
 }
 
-.preview .card .image .profile__image {
-  background: url("../images/queen.gif") top center no-repeat;
-  background-size: cover;
-  width: 240px;
-  height: 200px;
+.preview .card .inputImgContainer .previewImg {
+  width: 100%;
 }
 
 .socialKit {

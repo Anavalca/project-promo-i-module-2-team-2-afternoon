@@ -25,20 +25,21 @@
                                  <h2 class="name" id="cardname">nombre apellido</h2> 
                                  <h3 class="role" id="cardrole">Front-end developer</h3> 
                             </div>
-                            <div id="inputImage" class="image">
-                                <div class="profile__image js__profile-image" style="background-image:url(../assets/images/queen.gif)"></div>
-                                <div class="profile__preview js__profile-preview"></div>
-                            </div>
-                            <ul class="socialKit">
-                                <li class="list hidden" id="btn-phone"> <a class="btn" id="phone">                         <i class="fas fa-mobile-alt" id="icon"></i>                     </a> 
-                                </li>
-                                <li class="list hidden" id="btn-email"> <a class="btn" id="email">                         <i class="far fa-envelope" id="icon"></i>                     </a> 
-                                </li>
-                                <li class="list hidden" id="btn-linkedin"> <a class="btn" id="linkedin" target="_blank">                         <i class="fab fa-linkedin-in" id="icon"></i>                     </a> 
-                                </li>
-                                <li class="list hidden" id="btn-github"> <a class="btn" id="github" target="_blank">                         <i class="fab fa-github-alt" id="icon"></i>                     </a> 
-                                </li>
-                            </ul>
+                            <<<<<<< HEAD <div class="inputImgContainer">
+                                <img alt="Profile picture" class="previewImg" src="../assets/images/queen.gif">=======
+                                <div id="inputImage" class="image">
+                                    <div class="profile__image js__profile-image" style="background-image:url(../assets/images/queen.gif)"></div>
+                                    <div class="profile__preview js__profile-preview"></div>>>>>>>> dev</div>
+                                <ul class="socialKit">
+                                    <li class="list hidden" id="btn-phone"> <a class="btn" id="phone">                         <i class="fas fa-mobile-alt" id="icon"></i>                     </a> 
+                                    </li>
+                                    <li class="list hidden" id="btn-email"> <a class="btn" id="email">                         <i class="far fa-envelope" id="icon"></i>                     </a> 
+                                    </li>
+                                    <li class="list hidden" id="btn-linkedin"> <a class="btn" id="linkedin" target="_blank">                         <i class="fab fa-linkedin-in" id="icon"></i>                     </a> 
+                                    </li>
+                                    <li class="list hidden" id="btn-github"> <a class="btn" id="github" target="_blank">                         <i class="fab fa-github-alt" id="icon"></i>                     </a> 
+                                    </li>
+                                </ul>
                         </div>
                     </div>
                 </section>
@@ -114,12 +115,16 @@
                             </div>
                             <div class="addImage"> <span class="textAddImage" id="addImage">Imagen de perfil</span> 
                             </div>
-                            <div class="containerAdd action">
-                                <button class="button buttonImage action__upload-btn js__profile-trigger"
-                                type="button" id="image-input">Añadir Imagen</button>
-                                <input type="file" name="" id="img-selector" class="action__hiddenField js__profile-upload-btn"
-                                hidden="hidden">
-                                <div class="search"></div>
+                            <div class="addImage"> <span class="textAddImage">Imagen de perfil</span> 
+                                <label class="custom-file-upload">
+                                    <input type="file" id="inputFile" hidden="hidden" />
+                                </label>
+                            </div>
+                            <div class="containerAdd">
+                                <button class="button buttonImage" id="btnFile" type="button">Añadir Imagen</button>
+                                <div class="search inputImgContainer">
+                                    <img alt="Profile picture" class="previewSmallImg" src="../assets/images/queen.gif">
+                                </div>
                             </div>
                             <div class="emailCard">
                                 <label class="email" for="email">Email<span class="inputRequired">*</span>
