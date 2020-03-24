@@ -234,6 +234,14 @@ li {
   font-size: 16px;
 }
 
+.body {
+  height: 100%;
+}
+
+.wrapper {
+  height: calc(100% - 85px);
+}
+
 .page {
   height: 100vh;
   font-size: 16px;
@@ -397,7 +405,6 @@ h1 {
 
 footer {
   font-size: 16px;
-  height: 110px;
 }
 
 footer .footer-wrapper {
@@ -461,6 +468,14 @@ footer .footer-wrapper .img-container a img {
 
 .container_logoCards .logoCards {
   width: 201px;
+}
+
+.body {
+  height: 100%;
+}
+
+.wrapper {
+  height: calc(100% - 85px);
 }
 
 .containerSectionStyles {
@@ -1557,7 +1572,6 @@ footer .footer-wrapper .img-container a img {
   .preview {
     border-radius: 6px;
     width: 60%;
-    height: auto;
   }
 }
 

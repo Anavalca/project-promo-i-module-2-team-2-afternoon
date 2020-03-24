@@ -1,5 +1,11 @@
 // PARTE DISEÑA //
-
+.body {
+    height: 100%;
+    
+    }
+ .wrapper {
+     height: calc(100% - 85px);
+    }
 .containerSectionStyles {
     display: flex;
     flex-direction: column;
