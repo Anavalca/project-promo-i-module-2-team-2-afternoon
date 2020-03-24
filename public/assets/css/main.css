@@ -1389,13 +1389,9 @@ footer .footer-wrapper .img-container a img {
 
 .arrow-rotate:hover {
   color: #e17334;
-}
-
-.hidden {
-  display: none;
-}
-
-.inputRequired {
+}/* .hidden {
+display:none;
+} */.inputRequired {
   color: #e17334;
 }
 
