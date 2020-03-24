@@ -1391,8 +1391,8 @@ footer .footer-wrapper .img-container a img {
   color: #e17334;
 }
 
-.hidden {
-  display: none;
+.deactivate {
+  opacity: 0.5;
 }
 
 .inputRequired {

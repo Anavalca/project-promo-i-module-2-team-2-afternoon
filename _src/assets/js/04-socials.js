@@ -12,22 +12,19 @@ const githubIcon = document.querySelector('#btn-github');
 
 
 function appearIconEmail (){
-
- emailIcon.classList.remove('hidden');
- 
+ emailIcon.classList.remove('deactivate');
 }
 
 function appearIconPhone (){
-    phoneIcon.classList.remove('hidden');
+    phoneIcon.classList.remove('deactivate');
 }
 
 function appearIconLinkedin (){
-    linkedinIcon.classList.remove('hidden');
+    linkedinIcon.classList.remove('deactivate');
 }
 
 function appearIconGithub (){
-    githubIcon.classList.remove('hidden');
-    console.log('hey')
+    githubIcon.classList.remove('deactivate');
 }
 
 
