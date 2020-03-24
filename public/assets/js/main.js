@@ -148,8 +148,6 @@ function appearIconGithub (){
     githubIcon.classList.remove('deactivate');
 }
 
-
-
 emailInput.addEventListener('keyup',appearIconEmail);
 phoneInput.addEventListener('keyup',appearIconPhone);
 linkedinInput.addEventListener('keyup',appearIconLinkedin);
@@ -234,7 +232,6 @@ function resetAll() {
     phoneIcon.classList.add('hidden');
     linkedinIcon.classList.add('hidden');
     githubIcon.classList.add('hidden');
-
 }
 btnReset.addEventListener('click', resetAll);
 'use strict';

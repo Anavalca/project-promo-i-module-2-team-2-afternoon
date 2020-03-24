@@ -32,6 +32,5 @@ function resetAll() {
     phoneIcon.classList.add('hidden');
     linkedinIcon.classList.add('hidden');
     githubIcon.classList.add('hidden');
-
 }
 btnReset.addEventListener('click', resetAll);

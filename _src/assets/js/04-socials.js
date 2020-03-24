@@ -27,8 +27,6 @@ function appearIconGithub (){
     githubIcon.classList.remove('deactivate');
 }
 
-
-
 emailInput.addEventListener('keyup',appearIconEmail);
 phoneInput.addEventListener('keyup',appearIconPhone);
 linkedinInput.addEventListener('keyup',appearIconLinkedin);

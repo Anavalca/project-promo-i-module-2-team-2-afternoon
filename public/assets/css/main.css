@@ -1395,6 +1395,10 @@ footer .footer-wrapper .img-container a img {
   opacity: 0.5;
 }
 
+.hidden {
+  display: none;
+}
+
 .inputRequired {
   color: #e17334;
 }
