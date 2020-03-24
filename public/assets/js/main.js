@@ -161,4 +161,7 @@ githubInput.addEventListener('keyup',appearIconGithub);
 
 console.log('>> Ready :)');
 
+
+/* TESTING, TESTING, GITHUB, ALWAYS DELETE THIS MESSAGE WHEN THERE IS A CONFLICT */
+
 //# sourceMappingURL=main.js.map
