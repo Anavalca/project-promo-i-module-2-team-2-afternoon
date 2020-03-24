@@ -24,7 +24,7 @@
     @include forTablet {
       border-radius: 6px;
       width: 60%;
-      max-height:80%;
+      height: auto;
       
     }
 
@@ -36,8 +36,8 @@
     .buttonReset {
       width: 75px;
       height: 30px;
-      margin-top: 20px;
-      margin-bottom: 20px;
+      margin-top: 25px;
+      margin-bottom: 10px;
       align-self: center;
       transform: translateX(-85px);
       border: solid 1px $whiteColor;
@@ -58,21 +58,21 @@
         border: 2px solid $headerColor;
       }
     }
-  
-    .card {
-      height: 329px;
-      width: 240px;
-      border-radius: 2px;
-      background-color: rgba(17, 78, 78, 0.8);
+
+    .card_container{
+
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
+    }
   
-      margin: 20px 30px 40px 30px;
-      background-color: $whiteColor;
+    .card {
+    
       width: 240px;
-      height: 329px;
+      background-color: $whiteColor;
+      margin: 20px 30px 40px 30px;
+ 
   
       .headline {
         border-left: 5px solid $headerColor; 
@@ -138,7 +138,6 @@
       
   
       .btn {
-        // border: solid 2px;
         border-radius: 50%;
         width: 32px;
         height: 32px;
