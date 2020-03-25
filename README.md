@@ -1,4 +1,4 @@
-![Adalab](_src/assets/images/logo-adalab-80px.png) //Aquí molaría meter nuestro logo con la corona!!
+![Adalab](._src/assets/images/logo-adalab-80px.png) //Aquí molaría meter nuestro logo con la corona!!
 
 # Javasqueens
 	
