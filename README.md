@@ -7,11 +7,25 @@
 Hola! Somos Javasqueens, un grupo de programadoras basadas en Madrid, estudiando HTML5, CSS3 y JavaScript.
 En este repositorio podéis encontrar nuestro último proyecto del módulo de JavaScript de AdaLab.
 
+## Instalación
+
 Necesitarás instalar [Node.js](https://nodejs.org/) y [Gulp](https://gulpjs.com) para trabajar con este repositorio, luego:
 
-1. Descarga o clona el repositorio
-2. Instala las dependencias locales con `npm install`
-3. Arranca el kit con `gulp`
+1. Descarga o clona el repositorio. Si decides clonarlo abre la termial de tu PC y clona el repositorio
+```sh
+$ git clone https://github.com/Adalab/project-promo-i-module-2-team-2-afternoon.git
+```
+2. Luego abre el proyecto en tu editor de codigo (Visual Sudio Code, Atom, Brackets...) 
+
+3. Instala las dependencias locales
+```sh
+$ npm install
+```
+
+4. Arranca el kit con `gulp`
+```sh
+$ npm gulp
+```
 
 ## Objetivos
 
@@ -58,3 +72,5 @@ Necesitarás instalar [Node.js](https://nodejs.org/) y [Gulp](https://gulpjs.com
 - Para cada sprint elegimos una Scrum Master que tenía especial atención en que el equipo siguiera los principios Scrum, agilizar los impedimentos que encontrabamos, facilitar las reuniones y las Daily Meeting
 
 - Al final de cada sprint hicimos una demo para presentar los resultados conseguidos, y una retrospectiva (retro) para evaluar nuestro trabajo en equipo y mejorar en el siguiente sprint.
+
+
