@@ -80,7 +80,7 @@ $ npm gulp
 
 - Dedicamos el primer día a la planificación del sprint y el resto a trabajar en el desarrollo del proyecto. :ok_hand:
 
-- Para este proyecto trabajamos siguiento la metodología Scrum, que consta de formar equipos auto-organizados y multifuncionales. Auto-organizados hace referencia a que los equipos elegimos la mejor opción de llevar a cabo el trabajo y no somos dirigidos por personas externas. Al ser multifuncionales, contamos con las competencias necesarias para llevar a cabo el trabajo. Este modelo de equipo está diseñado para optimizar la flexibilidad, la creatividad y la productividad. El objetivo final es entregar productos de forma iterativa e incremental, maximizando el aprendizaje de cada iteración. :twisted_rightwards_arrows:
+- Para este proyecto trabajamos siguiento la metodología Scrum, que consta de formar equipos auto-organizados y multifuncionales. Auto-organizados hace referencia a que los equipos elegimos la mejor opción de llevar a cabo el trabajo y no somos dirigidos por personas externas. Al ser multifuncionales, contamos con las competencias necesarias para llevar a cabo el trabajo. Este modelo de equipo está diseñado para optimizar la flexibilidad, la creatividad y la productividad. El objetivo final es entregar productos de forma iterativa e incremental, maximizando el aprendizaje de cada iteración. :white_check_mark:
 
 - Para cada sprint elegimos una Scrum Master que tenía especial atención en que el equipo siguiera los principios Scrum, agilizar los impedimentos que encontrabamos, facilitar las reuniones y las Daily Meeting
 
@@ -90,10 +90,10 @@ $ npm gulp
 Control de versiones :bookmark:
 - Ramas: A lo largo del proyecto hemos trabajado creando una rama permanente para cada scprint, y multiples ramas puntuales para crear o modificar algunas funcionalidades. 
 
-- Pull Request y revisión de código: para este proyecto hemos usado la funcionalidad de Pull Request que consiste en que un equipo crea la rama, ejecuta la tarea y la sube a la rama remota, pero no la fusiona todavía, antes crea un Pull Request. De esta forma un equipo o algún miembro del equipo se encarga de revisar el código y dar el visto bueno a la fusión.
+- Pull Request y revisión de código:twisted_rightwards_arrows: : para este proyecto hemos usado la funcionalidad de Pull Request que consiste en que un equipo crea la rama, ejecuta la tarea y la sube a la rama remota, pero no la fusiona todavía, antes crea un Pull Request. De esta forma un equipo o algún miembro del equipo se encarga de revisar el código y dar el visto bueno a la fusión. 
 
 ## Ecofriendly
-- Sabemos que sólo tenemos un planeta,.. why not do digital? 
+- Sabemos que sólo tenemos un planeta,.. why not go digital? :green_heart:
 
 ## Recursos interesantes
 * [Adalab](https://adalab.es/)
