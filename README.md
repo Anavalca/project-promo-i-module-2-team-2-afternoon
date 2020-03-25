@@ -92,6 +92,15 @@ Control de versiones :bookmark:
 
 - Pull Request y revisión de código:twisted_rightwards_arrows: : para este proyecto hemos usado la funcionalidad de Pull Request que consiste en que un equipo crea la rama, ejecuta la tarea y la sube a la rama remota, pero no la fusiona todavía, antes crea un Pull Request. De esta forma un equipo o algún miembro del equipo se encarga de revisar el código y dar el visto bueno a la fusión. 
 
+## Roadmap
+ - [x] Crear la página de bienvenida y la aplicación de crear tarjetas
+ - [x] Permitir al usuario elegir el estilo de la tarjeta
+ - [x] Generar vista previa de la tarjeta 
+ - [x] Activar el botón Reset para poner los datos por defecto
+ - [x] Añadir funcionalidad para cargar la foto
+ - [x] Guardar los datos en Local Storage
+ - [x] Permitir que el usuario pueda compartir su tarjeta de visita por Twitter
+
 ## Ecofriendly
 - Sabemos que sólo tenemos un planeta,.. why not go digital? :green_heart:
 
