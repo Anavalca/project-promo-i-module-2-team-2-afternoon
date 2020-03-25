@@ -53,7 +53,7 @@ $ npm install
 ```
 4. Arranca el kit con `gulp`
 ```sh
-$ npm gulp
+$ gulp
 ```
 
 ## Especificaciones
