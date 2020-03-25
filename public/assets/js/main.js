@@ -301,7 +301,17 @@ const phoneInputElem = document.querySelector('#phone-input');
 const linkedinInputElem = document.querySelector('#linkedin-input');
 const githubInputElem = document.querySelector('#github-input');
 /* const paletteElems = document.querySelectorAll('.check'); */
-/* const profileImageInput = document.querySelector('.js__profile-image'); */
+
+/* const infoToObject = {
+  /* "palette": 1,
+  "name": "María García",
+  "job": "Front-end developer",
+  "phone": "+34 666666666",
+  "email": "mariagar@example.com",
+  "linkedin": "mariagar",
+  "github": "mariagar",
+  // "image": "undefined",
+}; */
 
 //detectar el click de los elementos radio falta para quedarse con el value
 
@@ -311,9 +321,9 @@ console.log(infoToObject);
 
 //function that responds to click
 function infoIntoLocalStorage(evt){
-  infoToObject[evt.currentTarget.name] = evt.currentTarget.value; //Usa el name del input y recoge el valor introducido
-  //ejecutamos la función readsaveInfoLocalStorage() sobre los valores recogidos
-  saveInfoLocalStorage(infoToObject); //ejecutamos la función setsaveInfoLocalStorage() sobre los valores recogidos
+  infoToObject[evt.currentTarget.name] = evt.currentTarget.value; // MAL PARA IMAGEN //Usa el name del input y recoge el valor introducido
+  //ejecutamos la función infoObjectGenerator() sobre los valores recogidos
+  saveInfoLocalStorage(infoToObject); //ejecutamos la función saveInfoLocalStorage() sobre los valores recogidos
 }
 
 //function that saves in local storage
@@ -325,20 +335,20 @@ function saveInfoLocalStorage(userInfo){
 //function that reads local storage
 function infoObjectGenerator(){
   let infoToObject = JSON.parse(localStorage.getItem('userInfo')); //reclara y asigna un nuevo valor, parseador de de la info de usuario en formato .json
-  if(infoToObject !== null){ // devuelve el objeto saveInfoLocalStorage con la info del usuario
+  if(infoToObject !== null){ // devuelve el objeto infoToObject con la info del usuario
     return infoToObject;
   } else {
     return infoToObject = {};
-   // devuelve saveInfoLocalStorage como objeto vacío
+   // devuelve infoToObject como objeto vacío
   }
 }
-
+// SELECCIONAR CON CLASE.
 //function to fill inputs
 function fillFormfromLocal(object){
-  const inputArray = document.querySelectorAll('input'); // Declara variable que selecciona el input
+  const inputArray = document.querySelectorAll('.inputInfo'); // Declara variable que selecciona el input
   for(let inputName of inputArray){ //Recorre los inputs
-    if(object[inputName.name] !== undefined){ // Comprueba si hay info en campos con atributo name (con valor name, profession, phone, email) del objecto saveInfoLocalStorage
-      inputName.value = object[inputName.name]
+    if(object[inputName.name] !== undefined){// Comprueba si hay info en campos con atributo name (con valor name, profession, phone, email) del objecto infoToObject
+      inputName.value = object[inputName.name];
     }// Si hay, guarda el valor en inputName
     }
   }
@@ -346,7 +356,7 @@ function fillFormfromLocal(object){
 fillFormfromLocal(infoToObject);
 nameInputElem.addEventListener('keyup',infoIntoLocalStorage);
 professionInputElem.addEventListener('keyup',infoIntoLocalStorage);
-/* imageInputElem.addEventListener('input',infoIntoLocalStorage);*/
+/* imageInputElem.addEventListener('input',imageIntoLocalStorage); */
 emailInputElem.addEventListener('keyup',infoIntoLocalStorage);
 phoneInputElem.addEventListener('keyup',infoIntoLocalStorage);
 linkedinInputElem.addEventListener('keyup',infoIntoLocalStorage);
