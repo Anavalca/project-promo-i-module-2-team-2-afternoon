@@ -7,6 +7,16 @@
 Hola! Somos Javasqueens, un grupo de programadoras basadas en Madrid, estudiando HTML5, CSS3 y JavaScript.
 En este repositorio podéis encontrar nuestro último proyecto del módulo de JavaScript de AdaLab.
 
+## Tabla de contenidos
+
+- [Objetivos](#objetivos)
+- [Instalación](#instalación)
+- [Especificaciones](#especificaciones)
+- [Metodología](#metodología-de-trabajo)
+    - [Scrum](#scrum)
+    - [GitHub](#github)
+- [Recursos](#recursos-interesantes)
+
 ## Objetivos
 
 1.  Aprender los conceptos básicos de programación (variables, estructuras de datos, condicionales, funciones, etc.)
@@ -37,7 +47,6 @@ $ git clone https://github.com/Adalab/project-promo-i-module-2-team-2-afternoon.
 ```sh
 $ npm install
 ```
-
 4. Arranca el kit con `gulp`
 ```sh
 $ npm gulp
@@ -61,8 +70,8 @@ $ npm gulp
 
 - Publicación del resultado en Internet usando GitHub Pages
 
-## Metodología de trabajo | Scrum
-
+## Metodología de trabajo
+### Scrum
 - Para la realización de este proyecto trabajamos en 2 sprints de 7 sesiones cada uno
 
 - Dedicamos el primer día a la planificación del sprint y el resto a trabajar en el desarrollo del proyecto. 
@@ -73,8 +82,10 @@ $ npm gulp
 
 - Al final de cada sprint hicimos una demo para presentar los resultados conseguidos, y una retrospectiva (retro) para evaluar nuestro trabajo en equipo y mejorar en el siguiente sprint.
 
-## Control de versiones | Github
-
+### GitHub
+Control de versiones
 - Ramas: A lo largo del proyecto hemos trabajado creando una rama permanente para cada scprint, y multiples ramas puntuales para crear o modificar algunas funcionalidades. 
 
 - Pull Request y revisión de código: para este proyecto hemos usado la funcionalidad de Pull Request que consiste en que un equipo crea la rama, ejecuta la tarea y la sube a la rama remota, pero no la fusiona todavía, antes crea un Pull Request. De esta forma un equipo o algún miembro del equipo se encarga de revisar el código y dar el visto bueno a la fusión.
+
+## Recursos interesantes
