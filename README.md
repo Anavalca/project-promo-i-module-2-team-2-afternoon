@@ -1,4 +1,4 @@
-![Adalab](https://github.com/Adalab/project-promo-i-module-2-team-2-afternoon/src/assets/images/logo-adalab-80px.png)
+![Adalab](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LZZ7_HREMZMUMXiWrCj%2F-LZZ7xHB1bnkIxUrw_Yx%2F-LZZ83Upae8RuHPxHpB8%2Fadalab_brand.png?generation=1551089555419087&alt=media)
 
 # Javasqueens
 ![Javasqueens](https://data.whicdn.com/images/232427054/original.gif)
