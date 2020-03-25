@@ -292,10 +292,7 @@ function twitterLink(URL) {
 //element listener
 button.addEventListener('click', sendData);
 'use strict';
-//call elements
-// const paletteOne = document.querySelector('#colorOne');
-// const paletteTwo = document.querySelector('#colorTwo');
-// const paletteThree = document.querySelector('#color3');
+
 const nameInputElem = document.querySelector('#name-input');
 const professionInputElem = document.querySelector('#job-input');
 /* const imageInputElem = document.querySelector('#img-selector'); */
@@ -305,16 +302,6 @@ const linkedinInputElem = document.querySelector('#linkedin-input');
 const githubInputElem = document.querySelector('#github-input');
 /* const paletteElems = document.querySelectorAll('.check'); */
 
-/* const infoToObject = {
-  /* "palette": 1,
-  "name": "María García",
-  "job": "Front-end developer",
-  "phone": "+34 666666666",
-  "email": "mariagar@example.com",
-  "linkedin": "mariagar",
-  "github": "mariagar",
-  // "image": "undefined",
-}; */
 
 //detectar el click de los elementos radio falta para quedarse con el value
 
@@ -322,52 +309,9 @@ const githubInputElem = document.querySelector('#github-input');
 let infoToObject = infoObjectGenerator();
 console.log(infoToObject);
 
-
-function checkInput (evt){
-
-  let dataCheck = evt.currentTarget.value ;
-  saveInfoLocalStorage(dataCheck);
-}
-
-
-
-
-
-// function retrievePalette() {
-//   let saveInLocalStorage = saveInfoLocalStorage(infoToObject);
-//   if(saveInLocalStorage === palette2.value) {
-//     palette2Value.checked = true;
-//   return palette2Value;
-//   }
-//   else if(saveInLocalStorage === palette3.value) {
-//     palette3Value.checked = true;
-//     return palette3Value;
-//   }
-//   else {
-//     palette1Value.checked = true;
-//     return palette1Value;
-    
-//   } 
-  
-// }
-
-// function storePalette(){
-//   if(palette2.checked){
-//     infoToObject.palette = palette2.value;
-//       console.log(infoToObject);
-//   } else if (palette3.checked){
-//       infoToObject.palette = palette3.value;
-//       console.log(infoToObject);
-//   }  else {
-//       infoToObject.palette = palette1.value;
-//       console.log(infoToObject);
-//   }
-//    saveInfoLocalStorage();
-// }
-
 //function that responds to click
 function infoIntoLocalStorage(evt){
-  infoToObject[evt.currentTarget.name] = evt.currentTarget.value; // MAL PARA IMAGEN //Usa el name del input y recoge el valor introducido
+  infoToObject[evt.currentTarget.name] = evt.currentTarget.value; //Usa el name del input y recoge el valor introducido
   //ejecutamos la función infoObjectGenerator() sobre los valores recogidos
   saveInfoLocalStorage(infoToObject); //ejecutamos la función saveInfoLocalStorage() sobre los valores recogidos
 }
@@ -391,11 +335,6 @@ function infoObjectGenerator(){
 // SELECCIONAR CON CLASE.
 //function to fill inputs
 
-
-
-
-
-
 function retrieveInfo(object){
   const inputArray = document.querySelectorAll('.inputInfo'); // Declara variable que selecciona el input
   for(let inputName of inputArray){ //Recorre los inputs
@@ -403,14 +342,9 @@ function retrieveInfo(object){
       inputName.value = object[inputName.name];
     }// Si hay, guarda el valor en inputName
     }
-  }
-function checkLocalStorage (){
-  if (localStorage.getItem('userInfo')!== null){
-      // retrievePalette();
-      // retrieveInfo();
-  }
 }
 
+retrieveInfo(infoToObject);
 nameInputElem.addEventListener('keyup',infoIntoLocalStorage);
 professionInputElem.addEventListener('keyup',infoIntoLocalStorage);
 /* imageInputElem.addEventListener('input',imageIntoLocalStorage); */
@@ -418,13 +352,6 @@ emailInputElem.addEventListener('keyup',infoIntoLocalStorage);
 phoneInputElem.addEventListener('keyup',infoIntoLocalStorage);
 linkedinInputElem.addEventListener('keyup',infoIntoLocalStorage);
 githubInputElem.addEventListener('keyup',infoIntoLocalStorage);
-
-paletteOne.addEventListener('change',checkInput );
-paletteTwo.addEventListener('change',checkInput );
-paletteThree.addEventListener('change',checkInput );
-
-
-checkLocalStorage ();
 'use strict';
 
 const fr = new FileReader();
