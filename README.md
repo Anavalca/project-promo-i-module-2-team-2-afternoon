@@ -30,15 +30,15 @@ un grupo de programadoras💻 basadas en Madrid, estudiando HTML5, CSS3 y JavaSc
 ## Demo
 👉 Puedes verla [aquí](https://www.youtube.com/watch?v=6SG2Mjpv8YE).
 ## Equipo
-| 🚀 | Maria Blanco | Dip in Leadership | [GitHub](https://github.com/mablancoalvarez) 
+🚀 | Maria Blanco | `'Dip in Leadership'` | [GitHub](https://github.com/mablancoalvarez) 
 
-| 🎧 | Ana Cortés | Gimmie a Challenge! | [GitHub](https://github.com/cortesana)
+💻 | Ana Cortés | `'Gimmie a Challenge!'` | [GitHub](https://github.com/cortesana)
 
-| ✅ | Ana Valdivia | Getting Things Done | [GitHub](https://github.com/Anavalca) 
+✅ | Ana Valdivia | `'Getting Things Done'` | [GitHub](https://github.com/Anavalca) 
 
-| ✔️ | Liliana Rascón | Meet the Charm | [GitHub](https://github.com/LiliRascon) 
+✔️ | Liliana Rascón | `'Meet the Charm'` | [GitHub](https://github.com/LiliRascon) 
 
-| 🐎  | Lucica Arba | Means to Creativity | [GitHub](https://github.com/arbalu5) 
+🐎  | Lucica Arba | `'Means to Creativity'` | [GitHub](https://github.com/arbalu5) 
 
 ## Objetivos
 
