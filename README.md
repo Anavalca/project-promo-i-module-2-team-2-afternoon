@@ -110,6 +110,13 @@ Control de versiones :bookmark:
  - [x] Manejo de datos con LocalStorage
  - [x] Permitir que el usuario pueda compartir su tarjeta de visita por Twitter
  - [ ] Presentación final
+ 
+## Contribuye
+1.  Haz un Fork ([https://github.com/yourname/yourproject/fork](https://github.com/yourname/yourproject/fork))
+2.  Crea una nueva rama (`git checkout -b feature/fooBar`)
+3.  Haz commit con los cambios (`git commit -am 'Add some fooBar'`)
+4.  Haz push en tu rama (`git push origin feature/fooBar`)
+5.  Crea un nuevo Pull Request
 
 
 ## Ecofriendly
