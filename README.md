@@ -28,3 +28,24 @@ Necesitarás instalar [Node.js](https://nodejs.org/) y [Gulp](https://gulpjs.com
 6.  Mejorar la comunicación entre los miembros del equipo
     
 7.  Mejorar vuestras habilidades de comunicación en público al exponer el proyecto en la sesión final
+
+## Especificaciones
+
+- Uso avanzado de formularios HTML
+
+- Maquetación usando CSS avanzado, como flex y grid
+
+- Uso de mediaqueries para que el diseño sea adaptable al dispositivo usando la estrategia mobile first
+
+- Gestión de eventos en el navegador (al hacer click, pasa x, etc.)
+
+- Acceso y envío de datos a un servidor
+
+- Almacenamiento en local usando LocalStorage
+
+- Uso de git para el control de versiones del proyecto
+
+- Publicación del resultado en Internet usando GitHub Pages
+
+## Metodología de trabajo
+
