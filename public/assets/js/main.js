@@ -319,6 +319,19 @@ const githubInputElem = document.querySelector('#github-input');
 let infoToObject = infoObjectGenerator();
 console.log(infoToObject);
 
+function retrievePalette() {
+  let saveInLocalStorage = saveInfoLocalStorage(infoToObject);
+  if(saveInLocalStorage === palette2.value) {
+    palette2.checked = true;
+  }
+  else if(saveInLocalStorage === palette3.value) {
+    palette3.checked = true;
+  }
+  else {
+    palette1.checked = true;
+  }
+}
+
 //function that responds to click
 function infoIntoLocalStorage(evt){
   infoToObject[evt.currentTarget.name] = evt.currentTarget.value; // MAL PARA IMAGEN //Usa el name del input y recoge el valor introducido
@@ -344,7 +357,7 @@ function infoObjectGenerator(){
 }
 // SELECCIONAR CON CLASE.
 //function to fill inputs
-function fillFormfromLocal(object){
+function retrieveInfo(object){
   const inputArray = document.querySelectorAll('.inputInfo'); // Declara variable que selecciona el input
   for(let inputName of inputArray){ //Recorre los inputs
     if(object[inputName.name] !== undefined){// Comprueba si hay info en campos con atributo name (con valor name, profession, phone, email) del objecto infoToObject
@@ -352,8 +365,13 @@ function fillFormfromLocal(object){
     }// Si hay, guarda el valor en inputName
     }
   }
+function checkLocalStorage (){
+  if (localStorage.getItem(userInfo)!== null){
+      retrievePalette();
+      retrieveInfo();
+  }
+}
 
-fillFormfromLocal(infoToObject);
 nameInputElem.addEventListener('keyup',infoIntoLocalStorage);
 professionInputElem.addEventListener('keyup',infoIntoLocalStorage);
 /* imageInputElem.addEventListener('input',imageIntoLocalStorage); */
