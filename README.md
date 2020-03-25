@@ -90,3 +90,8 @@ Control de versiones
 - Pull Request y revisión de código: para este proyecto hemos usado la funcionalidad de Pull Request que consiste en que un equipo crea la rama, ejecuta la tarea y la sube a la rama remota, pero no la fusiona todavía, antes crea un Pull Request. De esta forma un equipo o algún miembro del equipo se encarga de revisar el código y dar el visto bueno a la fusión.
 
 ## Recursos interesantes
+* [Adalab](https://adalab.es/)
+* [Modulo JavaScript](https://books.adalab.es/materiales-front-end-i/modulo-2.-programando-la-web/2_1_intro_a_la_programacion)
+* [w3schools](https://www.w3schools.com/js/)
+* [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [CodePen](https://codepen.io/)
