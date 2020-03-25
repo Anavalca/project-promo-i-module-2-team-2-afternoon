@@ -1,8 +1,9 @@
 ![Adalab](https://github.com/Adalab/project-promo-i-module-2-team-2-afternoon/src/assets/images/logo-adalab-80px.png)
 
 # Javasqueens
-	
+![Javasqueens](https://data.whicdn.com/images/232427054/original.gif)
 > Generador de tarjetas de contacto electrónicas. 🌍♻️
+
 	
 Hola! Somos Javasqueens, un grupo de programadoras basadas en Madrid, estudiando HTML5, CSS3 y JavaScript.
 En este repositorio podéis encontrar nuestro último proyecto del módulo de JavaScript de AdaLab.
