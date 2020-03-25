@@ -2,15 +2,13 @@
 //call elements
 const nameInputElem = document.querySelector('#name-input');
 const professionInputElem = document.querySelector('#job-input');
-const imageInputElem = document.querySelector('#image-input');
-/* const imageFile = document.querySelector('#img-selector'); */
-const addImageInputElem = document.querySelector('#addImage');
+/* const imageInputElem = document.querySelector('#img-selector'); */
 const emailInputElem = document.querySelector('#email-input');
 const phoneInputElem = document.querySelector('#phone-input');
 const linkedinInputElem = document.querySelector('#linkedin-input');
 const githubInputElem = document.querySelector('#github-input');
 /* const paletteElems = document.querySelectorAll('.check'); */
-const profileImageInput = document.querySelector('.js__profile-image');
+/* const profileImageInput = document.querySelector('.js__profile-image'); */
 
 //detectar el click de los elementos radio falta para quedarse con el value
 
@@ -55,10 +53,8 @@ function fillFormfromLocal(object){
 fillFormfromLocal(infoToObject);
 nameInputElem.addEventListener('keyup',infoIntoLocalStorage);
 professionInputElem.addEventListener('keyup',infoIntoLocalStorage);
-imageInputElem.addEventListener('keyup',infoIntoLocalStorage);
-addImageInputElem.addEventListener('keyup',infoIntoLocalStorage);
+/* imageInputElem.addEventListener('input',infoIntoLocalStorage);*/
 emailInputElem.addEventListener('keyup',infoIntoLocalStorage);
 phoneInputElem.addEventListener('keyup',infoIntoLocalStorage);
 linkedinInputElem.addEventListener('keyup',infoIntoLocalStorage);
 githubInputElem.addEventListener('keyup',infoIntoLocalStorage);
-/* imageFile.addEventListener('input',); */
