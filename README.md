@@ -1,5 +1,5 @@
 ![Adalab](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LZZ7_HREMZMUMXiWrCj%2F-LZZ7xHB1bnkIxUrw_Yx%2F-LZZ83Upae8RuHPxHpB8%2Fadalab_brand.png?generation=1551089555419087&alt=media)
-## Javasqueens    [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome#readme)
+## JavasQueens    [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome#readme)
 ## Your Digital Business Card Generator => Like a queen 🔱!
 
 ![Javasqueens](https://data.whicdn.com/images/232427054/original.gif)
