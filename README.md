@@ -11,11 +11,11 @@ En este repositorio podéis encontrar nuestro último proyecto del módulo de Ja
 
 Necesitarás instalar [Node.js](https://nodejs.org/) y [Gulp](https://gulpjs.com) para trabajar con este repositorio, luego:
 
-1. Descarga o clona el repositorio. Si decides clonarlo abre la termial de tu PC y clona el repositorio
+1. Descarga o clona el repositorio.
 ```sh
 $ git clone https://github.com/Adalab/project-promo-i-module-2-team-2-afternoon.git
 ```
-2. Luego abre el proyecto en tu editor de codigo (Visual Sudio Code, Atom, Brackets...) 
+2. Abre el proyecto en tu editor de codigo (Visual Sudio Code, Atom, Brackets...) 
 
 3. Instala las dependencias locales
 ```sh
