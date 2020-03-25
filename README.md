@@ -23,7 +23,7 @@ En este repositorio podéis encontrar nuestro último proyecto del módulo de Ja
 
 ## Objetivos
 
-1.  Aprender los conceptos básicos de programación (variables, estructuras de datos, condicionales, funciones, etc.)
+1.  Aprender los conceptos básicos de programación (variables, estructuras de datos, condicionales, funciones, etc.) :tada:
     
 2.  Comprender cómo manipular el DOM de una página y responder a eventos del usuario
     
@@ -45,7 +45,7 @@ Necesitarás instalar [Node.js](https://nodejs.org/) y [Gulp](https://gulpjs.com
 ```sh
 $ git clone https://github.com/Adalab/project-promo-i-module-2-team-2-afternoon.git
 ```
-2. Abre el proyecto en tu editor de codigo (Visual Sudio Code, Atom, Brackets...) 
+2. Abre el proyecto en tu editor de codigo (Visual Sudio Code, Atom, Brackets...) :rocket:
 
 3. Instala las dependencias locales
 ```sh
@@ -60,40 +60,40 @@ $ npm gulp
 
 - Uso avanzado de formularios HTML
 
-- Maquetación usando CSS avanzado, como flex y grid
+- Maquetación usando CSS avanzado, como flex y grid :sparkles:
 
 - Uso de mediaqueries para que el diseño sea adaptable al dispositivo usando la estrategia mobile first
 
 - Gestión de eventos en el navegador (al hacer click, pasa x, etc.)
 
-- Acceso y envío de datos a un servidor
+- Acceso y envío de datos a un servidor :sparkles:
 
 - Almacenamiento en local usando LocalStorage
 
 - Uso de git para el control de versiones del proyecto
 
-- Publicación del resultado en Internet usando GitHub Pages
+- Publicación del resultado en Internet usando GitHub Pages :sparkles:
 
 ## Metodología de trabajo
 ### Scrum
 - Para la realización de este proyecto trabajamos en 2 sprints de 7 sesiones cada uno
 
-- Dedicamos el primer día a la planificación del sprint y el resto a trabajar en el desarrollo del proyecto. 
+- Dedicamos el primer día a la planificación del sprint y el resto a trabajar en el desarrollo del proyecto. :ok_hand:
 
-- Para este proyecto trabajamos siguiento la metodología Scrum, que consta de formar equipos auto-organizados y multifuncionales. Auto-organizados hace referencia a que los equipos elegimos la mejor opción de llevar a cabo el trabajo y no somos dirigidos por personas externas. Al ser multifuncionales, contamos con las competencias necesarias para llevar a cabo el trabajo. Este modelo de equipo está diseñado para optimizar la flexibilidad, la creatividad y la productividad. El objetivo final es entregar productos de forma iterativa e incremental, maximizando el aprendizaje de cada iteración.
+- Para este proyecto trabajamos siguiento la metodología Scrum, que consta de formar equipos auto-organizados y multifuncionales. Auto-organizados hace referencia a que los equipos elegimos la mejor opción de llevar a cabo el trabajo y no somos dirigidos por personas externas. Al ser multifuncionales, contamos con las competencias necesarias para llevar a cabo el trabajo. Este modelo de equipo está diseñado para optimizar la flexibilidad, la creatividad y la productividad. El objetivo final es entregar productos de forma iterativa e incremental, maximizando el aprendizaje de cada iteración. :twisted_rightwards_arrows:
 
 - Para cada sprint elegimos una Scrum Master que tenía especial atención en que el equipo siguiera los principios Scrum, agilizar los impedimentos que encontrabamos, facilitar las reuniones y las Daily Meeting
 
 - Al final de cada sprint hicimos una demo para presentar los resultados conseguidos, y una retrospectiva (retro) para evaluar nuestro trabajo en equipo y mejorar en el siguiente sprint.
 
 ### GitHub
-Control de versiones
+Control de versiones :bookmark:
 - Ramas: A lo largo del proyecto hemos trabajado creando una rama permanente para cada scprint, y multiples ramas puntuales para crear o modificar algunas funcionalidades. 
 
 - Pull Request y revisión de código: para este proyecto hemos usado la funcionalidad de Pull Request que consiste en que un equipo crea la rama, ejecuta la tarea y la sube a la rama remota, pero no la fusiona todavía, antes crea un Pull Request. De esta forma un equipo o algún miembro del equipo se encarga de revisar el código y dar el visto bueno a la fusión.
 
 ## Ecofriendly
-- Sabemos que sólo tenemos un planeta,.. why not do digital?
+- Sabemos que sólo tenemos un planeta,.. why not do digital? 
 
 ## Recursos interesantes
 * [Adalab](https://adalab.es/)
@@ -101,3 +101,4 @@ Control de versiones
 * [w3schools](https://www.w3schools.com/js/)
 * [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [CodePen](https://codepen.io/)
+* [Git commit emojis](https://gist.github.com/parmentf/035de27d6ed1dce0b36a)
