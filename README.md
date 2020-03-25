@@ -23,8 +23,9 @@ un grupo de programadoras💻 basadas en Madrid, estudiando HTML5, CSS3 y JavaSc
 - [Metodología](#metodología-de-trabajo)
     - [Scrum](#scrum)
     - [GitHub](#github)
-- [Ecofriendly](#ecofriendly)
+- [Roadmap](#roadmap)
 - [Contribuye](#contribuye)
+- [Ecofriendly](#ecofriendly)
 - [Recursos](#recursos-interesantes)
 
 ## Demo
@@ -140,3 +141,4 @@ Control de versiones :bookmark:
 * [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [CodePen](https://codepen.io/)
 * [Git commit emojis](https://gist.github.com/parmentf/035de27d6ed1dce0b36a)
+
