@@ -101,8 +101,8 @@ Control de versiones :bookmark:
  - [x] Funcionalidad para cargar la foto
  - [x] Manejo de datos con LocalStorage
  - [x] Permitir que el usuario pueda compartir su tarjeta de visita por Twitter
- - [x] Presentació
- - [ ] Añadir funcionalidad para cargar la foton final
+ - [ ] Presentación final
+
 
 ## Ecofriendly
 - Sabemos que sólo tenemos un planeta,.. why not go digital? :green_heart:
