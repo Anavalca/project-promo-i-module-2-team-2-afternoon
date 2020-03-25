@@ -1,8 +1,10 @@
 ![Adalab](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LZZ7_HREMZMUMXiWrCj%2F-LZZ7xHB1bnkIxUrw_Yx%2F-LZZ83Upae8RuHPxHpB8%2Fadalab_brand.png?generation=1551089555419087&alt=media)
 
-# Javasqueens
+# Javasqueens 
+## Your Digital Business Card Generator => Like a queen 🔱!
+
 ![Javasqueens](https://data.whicdn.com/images/232427054/original.gif)
-> Generador de tarjetas de contacto electrónicas. 🌍♻️
+> Generador de tarjetas de visita digitales. 🌍♻️
 
 	
 Hola! Somos Javasqueens, un grupo de programadoras basadas en Madrid, estudiando HTML5, CSS3 y JavaScript.
@@ -16,6 +18,7 @@ En este repositorio podéis encontrar nuestro último proyecto del módulo de Ja
 - [Metodología](#metodología-de-trabajo)
     - [Scrum](#scrum)
     - [GitHub](#github)
+- [Ecofriendly](#ecofriendly)
 - [Recursos](#recursos-interesantes)
 
 ## Objetivos
@@ -88,6 +91,9 @@ Control de versiones
 - Ramas: A lo largo del proyecto hemos trabajado creando una rama permanente para cada scprint, y multiples ramas puntuales para crear o modificar algunas funcionalidades. 
 
 - Pull Request y revisión de código: para este proyecto hemos usado la funcionalidad de Pull Request que consiste en que un equipo crea la rama, ejecuta la tarea y la sube a la rama remota, pero no la fusiona todavía, antes crea un Pull Request. De esta forma un equipo o algún miembro del equipo se encarga de revisar el código y dar el visto bueno a la fusión.
+
+## Ecofriendly
+- Sabemos que sólo tenemos un planeta,.. why not do digital?
 
 ## Recursos interesantes
 * [Adalab](https://adalab.es/)
