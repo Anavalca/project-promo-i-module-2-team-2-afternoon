@@ -1,5 +1,7 @@
 ![Adalab](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LZZ7_HREMZMUMXiWrCj%2F-LZZ7xHB1bnkIxUrw_Yx%2F-LZZ83Upae8RuHPxHpB8%2Fadalab_brand.png?generation=1551089555419087&alt=media)
-
+[![Build Status](https://travis-ci.org/akashnimare/foco.svg?branch=master)](https://travis-ci.org/akashnimare/foco)
+[![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/akashnimare/foco?branch=master&svg=true)](https://ci.appveyor.com/project/akashnimare/foco/branch/master)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 # Javasqueens 
 ## Your Digital Business Card Generator => Like a queen 🔱!
 
@@ -22,6 +24,7 @@ un grupo de programadoras💻 basadas en Madrid, estudiando HTML5, CSS3 y JavaSc
     - [Scrum](#scrum)
     - [GitHub](#github)
 - [Ecofriendly](#ecofriendly)
+- [Contribuye](#contribuye)
 - [Recursos](#recursos-interesantes)
 
 ## Demo
