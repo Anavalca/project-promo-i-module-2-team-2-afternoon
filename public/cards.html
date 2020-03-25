@@ -18,22 +18,25 @@
             </header>
             <div class="cardWrapper">
                 <section class="preview">
-                    <div class="card">
+                    <div class="card_container">
                         <button id="reset" class="buttonReset"> <i class="far fa-trash-alt"></i> reset</button>
                         <div class="card" id="cardid">
                             <div class="headline">
                                  <h2 class="name" id="cardname">nombre apellido</h2> 
                                  <h3 class="role" id="cardrole">Front-end developer</h3> 
                             </div>
-                            <div id="inputImage" class="image"></div>
+                            <div id="inputImage" class="image">
+                                <div class="profile__image js__profile-image" style="background-image:url(../assets/images/queen.gif)"></div>
+                                <div class="profile__preview js__profile-preview"></div>
+                            </div>
                             <ul class="socialKit">
-                                <li class="list hidden" id="btn-phone"> <a class="btn" id="phone">                         <i class="fas fa-mobile-alt" id="icon"></i>                     </a> 
+                                <li class="list deactivate" id="btn-phone"> <a class="btn" id="phone">                         <i class="fas fa-mobile-alt" id="icon"></i>                     </a> 
                                 </li>
-                                <li class="list hidden" id="btn-email"> <a class="btn" id="email">                         <i class="far fa-envelope" id="icon"></i>                     </a> 
+                                <li class="list deactivate" id="btn-email"> <a class="btn" id="email">                         <i class="far fa-envelope" id="icon"></i>                     </a> 
                                 </li>
-                                <li class="list hidden" id="btn-linkedin"> <a class="btn" id="linkedin" target="_blank">                         <i class="fab fa-linkedin-in" id="icon"></i>                     </a> 
+                                <li class="list deactivate" id="btn-linkedin"> <a class="btn" id="linkedin" target="_blank">                         <i class="fab fa-linkedin-in" id="icon"></i>                     </a> 
                                 </li>
-                                <li class="list hidden" id="btn-github"> <a class="btn" id="github" target="_blank">                         <i class="fab fa-github-alt" id="icon"></i>                     </a> 
+                                <li class="list deactivate" id="btn-github"> <a class="btn" id="github" target="_blank">                         <i class="fab fa-github-alt" id="icon"></i>                     </a> 
                                 </li>
                             </ul>
                         </div>
@@ -53,7 +56,7 @@
                         <ul>
                             <li>
                                 <input class="check" id="colorOne" type="radio" value="colorsCard" name="colorCard"
-                                />
+                                palette="palette1" checked />
                                 <label class="colorPalette">
                                     <div class="palette containerColorPalette1"></div>
                                     <div class="palette containerColorPalette2"></div>
@@ -92,41 +95,53 @@
                         </div>
                     </div>
                     <div class="containerFillInBottom" id="form-container">
-                        <form action="">
+                        <form id="formContainer">
                             <div class="nameCard">
-                                <label class="name" for="name">Nombre completo</label>
-                                <input class="name-input" placeholder="Ej: Idelisa Bonnelly"
-                                type="text" name="name" id="name-input" required>
+                                <label class="name" for="name">Nombre completo<span class="inputRequired">*</span>
+
+                                </label>
+                                <input class="name-input" placeholder=" Ej: Idelisa Bonnelly" type="text"
+                                name="name" id="name-input" required>
+                                <p class="input-error-message hiddenInputMessage">Completa los campos obligatorios*</p>
                             </div>
                             <div class="professionCard">
-                                <label class="profession" for="profession">Puesto</label>
-                                <input class="profession-input" placeholder="Ej: Front-end Developer"
+                                <label class="profession" for="profession">Puesto<span class="inputRequired">*</span>
+
+                                </label>
+                                <input class="profession-input" placeholder=" Ej: Front-end Developer"
                                 type="text" name="profession" id="job-input" required>
+                                <p class="input-error-message hiddenInputMessage">Completa los campos obligatorios*</p>
                             </div>
-                            <div class="addImage"> <span class="textAddImage">Imagen de perfil</span> 
+                            <div class="addImage"> <span class="textAddImage" id="addImage">Imagen de perfil</span> 
                             </div>
-                            <div class="containerAdd">
-                                <button class="button buttonImage" type="button">Añadir Imagen</button>
-                                <div class="search"></div>
+                            <div class="containerAdd action">
+                                <button class="button buttonImage action__upload-btn js__profile-trigger"
+                                type="button" id="image-input">Añadir Imagen</button>
+                                <input type="file" name="" id="img-selector" class="action__hiddenField js__profile-upload-btn"
+                                hidden="hidden">
+                                <div class="search" id="js__profile-preview"></div>
                             </div>
                             <div class="emailCard">
-                                <label class="email" for="email">Email</label>
-                                <input class="email-input" placeholder="Ej: IdelisaBonnelly@gmail.com "
+                                <label class="email" for="email">Email<span class="inputRequired">*</span>
+
+                                </label>
+                                <input class="email-input" placeholder=" Ej: IdelisaBonnelly@gmail.com "
                                 type="email" name="email" id="email-input" required>
+                                <p class="input-error-message hiddenInputMessage">Completa los campos obligatorios*</p>
                             </div>
                             <div class="phoneCard">
                                 <label class="phone" for="phone">Teléfono</label>
-                                <input class="phone-input" placeholder="Ej: 670-777-444"
+                                <input class="phone-input" placeholder=" Ej: 670 777 444"
                                 type="tel" name="phone" id="phone-input">
                             </div>
                             <div class="linkedinCard">
                                 <label class="linkedin" for="linkedin">Linkedin</label>
-                                <input class="linkedin-input" placeholder="Ej: linkedin.com/in/Idelisa.Bonnelly"
+                                <input class="linkedin-input" placeholder=" Ej: linkedin.com/in/Idelisa.Bonnelly"
                                 type="text" name="linkedin" id="linkedin-input">
                             </div>
                             <div class="githubCard">
                                 <label class="github" for="github">Github</label>
-                                <input class="github-input" placeholder="Ej: @Idelisa-Bonnelly"
+                                <input class="github-input" placeholder=" Ej: Idelisa-Bonnelly"
                                 type="text" name="github" id="github-input">
                             </div>
                         </form>
@@ -143,8 +158,15 @@
                         </div>
                     </div>
                     <div class="containerShareBottom">
-                        <button class="button buttonShare" type="button"><i class="iconSend far fa-address-card"></i>  <span class="textButton">CREAR TARJETA</span> 
+                        <p id="error-message" class="hiddenMessage">Completa los campos obligatorios*</p>
+                        <button id="buttonValidation" class="button buttonShare"
+                        type="button" disabled><i class="iconSend far fa-address-card"></i><span class="textButton">CREAR TARJETA</span>
+
                         </button>
+                        <div class="card__share hidden" id="card-share">
+                            <p>La tarjeta ha sido creada:</p>
+                            <p id="card-link" class="card__link">card link</p> <a id="twitter-share" href="" target="_blank">                 <div class="btn-twitter"><i class="fab fa-twitter"></i> Compartir en twitter</div>             </a> 
+                        </div>
                     </div>
                     <div class="line-separator"></div>
                     </section>

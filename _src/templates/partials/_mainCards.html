@@ -1,5 +1,5 @@
 <section class="preview">
-    <div class="card">
+    <div class="card_container">
 
         <button id="reset" class="buttonReset"> <i class="far fa-trash-alt"></i> reset</button>
 
@@ -10,26 +10,28 @@
             </div>
 
             <div id="inputImage" class="image">
+                <div class="profile__image js__profile-image" style="background-image:url(../assets/images/queen.gif)"></div>
+                <div class="profile__preview js__profile-preview"></div>
             </div>
 
             <ul class="socialKit">
 
-                <li class="list hidden" id="btn-phone">
+                <li class="list deactivate" id="btn-phone">
                     <a class="btn" id="phone">
                         <i class="fas fa-mobile-alt" id="icon"></i>
                     </a>
                 </li>
-                <li class="list hidden" id="btn-email">
+                <li class="list deactivate" id="btn-email">
                     <a class="btn" id="email">
                         <i class="far fa-envelope" id="icon"></i>
                     </a>
                 </li>
-                <li class="list hidden" id="btn-linkedin">
+                <li class="list deactivate" id="btn-linkedin">
                     <a class="btn" id="linkedin" target="_blank">
                         <i class="fab fa-linkedin-in" id="icon"></i>
                     </a>
                 </li>
-                <li class="list hidden" id="btn-github">
+                <li class="list deactivate" id="btn-github">
                     <a class="btn" id="github" target="_blank">
                         <i class="fab fa-github-alt" id="icon"></i>
                     </a>
