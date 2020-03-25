@@ -7,11 +7,14 @@
 > 🌳🌿 Generador de tarjetas de visita digitales. 🌍♻️
 
 	
-Hola! Somos Javasqueens, un grupo de programadoras basadas en Madrid, estudiando HTML5, CSS3 y JavaScript.
-=> En este repositorio podéis encontrar nuestro último proyecto del módulo de JavaScript de AdaLab, dedicado a crear una web para generar tarjetas de visita virtuales.
+<h3 align="center">Hola! Somos <a href="" target="_blank">Javasqueens :)  </a>.</h3>
+
+un grupo de programadoras💻 basadas en Madrid, estudiando HTML5, CSS3 y JavaScript 🚀.
+=> En este repositorio podéis encontrar nuestro último proyecto del módulo de JavaScript de AdaLab, dedicado a crear una web para generar tarjetas de visita virtuales 🙌
 
 ## Tabla de contenidos
-
+- [Demo](#demo)
+- [Equipo](#equipo)
 - [Objetivos](#objetivos)
 - [Instalación](#instalación)
 - [Especificaciones](#especificaciones)
@@ -20,6 +23,11 @@ Hola! Somos Javasqueens, un grupo de programadoras basadas en Madrid, estudiando
     - [GitHub](#github)
 - [Ecofriendly](#ecofriendly)
 - [Recursos](#recursos-interesantes)
+
+## Demo
+👉 Puedes verla [aquí](https://www.youtube.com/watch?v=6SG2Mjpv8YE).
+## Equipo
+dfdsfdfd
 
 ## Objetivos
 
