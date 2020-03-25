@@ -47,5 +47,14 @@ Necesitarás instalar [Node.js](https://nodejs.org/) y [Gulp](https://gulpjs.com
 
 - Publicación del resultado en Internet usando GitHub Pages
 
-## Metodología de trabajo
+## Metodología de trabajo | Scrum
 
+- Para la realización de este proyecto trabajamos en 2 sprints de 7 sesiones cada uno
+
+- Dedicamos el primer día a la planificación del sprint y el resto a trabajar en el desarrollo del proyecto. 
+
+- Al final de cada sprint hicimos una demo para presentar los resultados conseguidos, y una retrospectiva (retro) para evaluar nuestro trabajo en equipo y mejorar en el siguiente sprint.
+
+- En todo momento trabajamos siguiento la metodología Scrum; Los equipos Scrum son auto-organizados y multifuncionales. Auto-organizados hace referencia a que los equipos elegimos la mejor opción de llevar a cabo el trabajo y no somos dirigidos por personas externas. Al ser multifuncionales, contamos con las competencias necesarias para llevar a cabo el trabajo sin depender de otras personas. Este modelo de equipo está diseñado para optimizar la flexibilidad, la creatividad y la productividad. El objetivo final es entregar productos de forma iterativa e incremental, maximizando el aprendizaje de cada iteración.
+
+- Para cada sprint elegimos una Scrum Master que tenía especial atención en que el equipo siguiera los principios Scrum, agilizar los impedimentos que encontrabamos, facilitar las reuniones y las Daily Meeting
