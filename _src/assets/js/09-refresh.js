@@ -1,5 +1,8 @@
 'use strict';
 //call elements
+// const paletteOne = document.querySelector('#colorOne');
+// const paletteTwo = document.querySelector('#colorTwo');
+// const paletteThree = document.querySelector('#color3');
 const nameInputElem = document.querySelector('#name-input');
 const professionInputElem = document.querySelector('#job-input');
 /* const imageInputElem = document.querySelector('#img-selector'); */
@@ -26,18 +29,48 @@ const githubInputElem = document.querySelector('#github-input');
 let infoToObject = infoObjectGenerator();
 console.log(infoToObject);
 
-function retrievePalette() {
-  let saveInLocalStorage = saveInfoLocalStorage(infoToObject);
-  if(saveInLocalStorage === palette2.value) {
-    palette2.checked = true;
-  }
-  else if(saveInLocalStorage === palette3.value) {
-    palette3.checked = true;
-  }
-  else {
-    palette1.checked = true;
-  }
+
+function checkInput (evt){
+
+  let dataCheck = evt.currentTarget.value ;
+  saveInfoLocalStorage(dataCheck);
 }
+
+
+
+
+
+// function retrievePalette() {
+//   let saveInLocalStorage = saveInfoLocalStorage(infoToObject);
+//   if(saveInLocalStorage === palette2.value) {
+//     palette2Value.checked = true;
+//   return palette2Value;
+//   }
+//   else if(saveInLocalStorage === palette3.value) {
+//     palette3Value.checked = true;
+//     return palette3Value;
+//   }
+//   else {
+//     palette1Value.checked = true;
+//     return palette1Value;
+    
+//   } 
+  
+// }
+
+// function storePalette(){
+//   if(palette2.checked){
+//     infoToObject.palette = palette2.value;
+//       console.log(infoToObject);
+//   } else if (palette3.checked){
+//       infoToObject.palette = palette3.value;
+//       console.log(infoToObject);
+//   }  else {
+//       infoToObject.palette = palette1.value;
+//       console.log(infoToObject);
+//   }
+//    saveInfoLocalStorage();
+// }
 
 //function that responds to click
 function infoIntoLocalStorage(evt){
@@ -64,6 +97,12 @@ function infoObjectGenerator(){
 }
 // SELECCIONAR CON CLASE.
 //function to fill inputs
+
+
+
+
+
+
 function retrieveInfo(object){
   const inputArray = document.querySelectorAll('.inputInfo'); // Declara variable que selecciona el input
   for(let inputName of inputArray){ //Recorre los inputs
@@ -74,8 +113,8 @@ function retrieveInfo(object){
   }
 function checkLocalStorage (){
   if (localStorage.getItem('userInfo')!== null){
-      retrievePalette();
-      retrieveInfo();
+      // retrievePalette();
+      // retrieveInfo();
   }
 }
 
@@ -86,3 +125,10 @@ emailInputElem.addEventListener('keyup',infoIntoLocalStorage);
 phoneInputElem.addEventListener('keyup',infoIntoLocalStorage);
 linkedinInputElem.addEventListener('keyup',infoIntoLocalStorage);
 githubInputElem.addEventListener('keyup',infoIntoLocalStorage);
+
+paletteOne.addEventListener('change',checkInput );
+paletteTwo.addEventListener('change',checkInput );
+paletteThree.addEventListener('change',checkInput );
+
+
+checkLocalStorage ();
