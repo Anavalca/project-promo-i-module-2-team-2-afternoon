@@ -4,7 +4,7 @@
 ## Your Digital Business Card Generator => Like a queen 🔱!
 
 ![Javasqueens](https://data.whicdn.com/images/232427054/original.gif)
-> Generador de tarjetas de visita digitales. 🌍♻️
+> 🌳🌿 Generador de tarjetas de visita digitales. 🌍♻️
 
 	
 Hola! Somos Javasqueens, un grupo de programadoras basadas en Madrid, estudiando HTML5, CSS3 y JavaScript.
