@@ -25,8 +25,7 @@ un grupo de programadoras💻 basadas en Madrid, estudiando HTML5, CSS3 y JavaSc
 - [Ecofriendly](#ecofriendly)
 - [Recursos](#recursos-interesantes)
 
-## Demo
-👉 Puedes verla [aquí](https://www.youtube.com/watch?v=6SG2Mjpv8YE).
+
 ## Equipo
 🚀 | Maria Blanco | `'Dip in Leadership'` | [GitHub](https://github.com/mablancoalvarez) 
 
