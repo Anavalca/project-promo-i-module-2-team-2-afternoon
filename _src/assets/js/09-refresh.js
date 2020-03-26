@@ -7,7 +7,7 @@ const emailInputElem = document.querySelector('#email-input');
 const phoneInputElem = document.querySelector('#phone-input');
 const linkedinInputElem = document.querySelector('#linkedin-input');
 const githubInputElem = document.querySelector('#github-input');
-/* const paletteElems = document.querySelectorAll('.check'); */
+const paletteInputElems = document.querySelectorAll('.check');
 
 
 //detectar el click de los elementos radio falta para quedarse con el value
